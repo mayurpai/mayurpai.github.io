@@ -1,168 +1,167 @@
-* {
-	background-color: rgb(29, 29, 29);
-	overflow: hidden;
-}
-
-.page {
-	padding-left: 125px;
-}
-
-a:hover {
-	color: white;
-	text-decoration: none;
-	cursor: pointer;
-}
-
-h1 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-size: 55px;
-	font-weight: 300;
-	color: white;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-#fp {
-	font-style: oblique;
-	font-size: medium;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	color: darkgray;
-	padding-left: 40px;
-}
-
-ul li {
-	font-weight: bold;
-	display: inline-block;
-	transition: 1s;
-	float: left;
-}
-
-ul li.m {
-	color: aqua;
-}
-
-ul li:hover {
-	color: aqua;
-	cursor: context-menu;
-	transform: skewY(180deg);
-}
-
-.contact {
-	font-style: italic;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	border: 1px solid aqua;
-	color: aqua;
-	box-sizing: border-box;
-	padding: 12px 10px 10px 10px;
-	width: 170px;
-	height: 50px;
-	margin-left: 170px;
-}
-
-.contact:hover {
-	font-style: italic;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	border: 1px solid aqua;
-	color: black;
-	background-color: aqua;
-	box-sizing: border-box;
-	padding: 12px 10px 10px 10px;
-	width: 170px;
-	height: 50px;
-	margin-left: 170px;
-}
-
-.html-tags {
-	font-style: italic;
-	font-family: cursive;
-	font-size: small;
-	color: lightslategrey;
-	padding-left: 100px;
-	padding-top: 50px;
-}
-
-.html_tags {
-	font-style: italic;
-	font-family: cursive;
-	font-size: small;
-	color: lightslategrey;
-	padding-left: 100px;
-	padding-top: 140px;
-}
-
-.html-tag {
-	font-style: italic;
-	font-family: cursive;
-	font-size: small;
-	color: lightslategrey;
-	padding-left: 80px;
-}
-
-.html-h1 {
-	font-style: italic;
-	font-family: cursive;
-	font-size: small;
-	color: lightslategrey;
-	padding-left: 150px;
-	padding-top: 140px;
-}
-
-.html_h1 {
-	font-style: italic;
-	font-family: cursive;
-	font-size: small;
-	color: lightslategrey;
-}
-
-.main,
-.html_h1 {
-	display: inline;
-}
-
-.sidebar {
-	height: 100%;
-	width: 60px;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #111;
-	overflow-x: hidden;
-}
-
-.sidebar a {
-	padding: 6px 8px 6px 16px;
-	text-decoration: none;
-	font-size: 20px;
-	color: #818181;
-	display: block;
-}
-
-.sidebar a :hover {
-	color: aqua;
-}
-
-i {
-	background: transparent;
-}
-
-#fb:hover {
-	color: #1877f2;
-}
-
-#git:hover {
-	color: #6e5494;
-}
-
-#twitter:hover {
-	color: #1da1f2;
-}
-
-#link:hover {
-	color: #007bb5;
-}
-
-#insta:hover {
-	color: #c32aa3;
-}
+            * {
+                background-color: rgb(29, 29, 29);
+                overflow: hidden;
+            }
+            
+            .page {
+                padding-left: 125px;
+            }
+            
+            a:hover {
+                color: white;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            
+            h1 {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-style: normal;
+                font-size: 55px;
+                font-weight: bolder;
+                color: white;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            
+            #fp {
+                font-style: normal;
+                font-size: medium;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: darkgray;
+                padding-left: 40px;
+            }
+            
+            ul li {
+                font-weight: bold;
+                transition: 1s;
+                float: left;
+            }
+            
+            ul li.m {
+                color: aqua;
+            }
+            
+            ul li:hover {
+                color: aqua;
+                cursor: context-menu;
+                transform: skewY(180deg);
+            }
+            
+            .contact {
+                font-style: italic;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                border: 1px solid aqua;
+                color: aqua;
+                box-sizing: border-box;
+                padding: 12px 10px 10px 10px;
+                width: 170px;
+                height: 50px;
+                margin-left: 170px;
+            }
+            
+            .contact:hover {
+                font-style: italic;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                border: 1px solid aqua;
+                color: black;
+                background-color: aqua;
+                box-sizing: border-box;
+                padding: 12px 10px 10px 10px;
+                width: 170px;
+                height: 50px;
+                margin-left: 170px;
+            }
+            
+            .html-tags {
+                font-style: italic;
+                font-family: cursive;
+                font-size: small;
+                color: lightslategrey;
+                padding-left: 100px;
+                padding-top: 50px;
+            }
+            
+            .html_tags {
+                font-style: italic;
+                font-family: cursive;
+                font-size: small;
+                color: lightslategrey;
+                padding-left: 100px;
+                padding-top: 140px;
+            }
+            
+            .html-tag {
+                font-style: italic;
+                font-family: cursive;
+                font-size: small;
+                color: lightslategrey;
+                padding-left: 80px;
+            }
+            
+            .html-h1 {
+                font-style: italic;
+                font-family: cursive;
+                font-size: small;
+                color: lightslategrey;
+                padding-left: 150px;
+                padding-top: 140px;
+            }
+            
+            .html_h1 {
+                font-style: italic;
+                font-family: cursive;
+                font-size: small;
+                color: lightslategrey;
+            }
+            
+            .main,
+            .html_h1 {
+                display: inline;
+            }
+            
+            .sidebar {
+                height: 100%;
+                width: 60px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+            }
+            
+            .sidebar a {
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #818181;
+                display: block;
+            }
+            
+            .sidebar a :hover {
+                color: aqua;
+            }
+            
+            i {
+                background: transparent;
+            }
+            
+            #fb:hover {
+                color: #1877f2;
+            }
+            
+            #git:hover {
+                color: #6e5494;
+            }
+            
+            #twitter:hover {
+                color: #1da1f2;
+            }
+            
+            #link:hover {
+                color: #007bb5;
+            }
+            
+            #insta:hover {
+                color: #c32aa3;
+            }
