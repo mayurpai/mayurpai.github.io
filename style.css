@@ -3,15 +3,7 @@
                 overflow: hidden;
             }
 
-            @-o-viewport {
-                zoom: 1;
-                width: 200%;
-            }
-            
-            @-ms-viewport {
-                width: 200%;
-                zoom: 1;
-            }
+           
             
             .page {
                 padding-left: 125px;
