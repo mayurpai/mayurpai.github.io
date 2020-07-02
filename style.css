@@ -146,6 +146,26 @@
                 background: transparent;
             }
             
+            #fb {
+                padding-left: 5px;
+            }
+            
+            #git {
+                padding-left: 3px;
+            }
+            
+            #twitter {
+                padding-left: 3px;
+            }
+            
+            #insta {
+                padding-left: 2px;
+            }
+            
+            #link {
+                padding-left: 3px;
+            }
+            
             #fb:hover {
                 color: #1877f2;
             }
