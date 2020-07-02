@@ -4,13 +4,13 @@
             }
 
             @-o-viewport {
-                zoom: 0.1;
-                width: 1200px;
+                zoom: 1;
+                width: 200%;
             }
             
             @-ms-viewport {
-                width: 1200px;
-                zoom: 0.1;
+                width: 200%;
+                zoom: 1;
             }
             
             .page {
