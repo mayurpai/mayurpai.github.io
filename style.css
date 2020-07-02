@@ -3,15 +3,8 @@
                 overflow: hidden;
                 max-height: 40px;
             }
-           
-           @media only screen and (max-height: 568px) {
-           body {
-                      height: 568px;
-           }
-           }
-           
-            
-            .page {
+ 
+           .page {
                 padding-left: 125px;
                 animation: move reverse 0.01s;
             }
