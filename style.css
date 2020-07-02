@@ -3,6 +3,16 @@
                 overflow: hidden;
             }
             
+            @-o-viewport {
+                zoom: 1;
+                width: extend-to-zoom;
+            }
+            
+            @-ms-viewport {
+                width: extend-to-zoom;
+                zoom: 1;
+            }
+            
             .page {
                 padding-left: 125px;
                 animation: move reverse 0.01s;
