@@ -1,6 +1,7 @@
             * {
                 background-color: rgb(29, 29, 29);
-                overflow: hidden;
+                overflow-y: hidden;
+                overflow-x: scroll;
                 max-width: 1400px;
                 max-height: 720px;
             }
