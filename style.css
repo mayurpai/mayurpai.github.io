@@ -4,13 +4,13 @@
             }
             
             @-o-viewport {
-                zoom: 1;
+                zoom: 0.1;
                 width: extend-to-zoom;
             }
             
             @-ms-viewport {
                 width: extend-to-zoom;
-                zoom: 1;
+                zoom: 0.1;
             }
             
             .page {
