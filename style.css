@@ -1,6 +1,8 @@
             * {
                 background-color: rgb(29, 29, 29);
                 overflow: hidden;
+                width: 1366px;
+                height: 720px;
             }
 
             @-o-viewport {
