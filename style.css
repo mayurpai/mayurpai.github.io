@@ -13,6 +13,13 @@ a:hover {
 	cursor: pointer;
 }
 
+.sidebar a img.m_dir {
+	margin-left: -12px;
+	height: 50px;
+	width: 50px;
+	background: transparent;
+}
+
 h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
@@ -37,8 +44,17 @@ ul li {
 	float: left;
 }
 
-ul li.m {
-	color: aqua;
+ul li img.m {
+	width: 40px;
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+.slant-m {
+	margin-top: -700px;
+	margin-left: 800px;
+	height: 600px;
+	width: 600px;
 }
 
 ul li:hover {
@@ -56,7 +72,7 @@ ul li:hover {
 	padding: 12px 10px 10px 10px;
 	width: 170px;
 	height: 50px;
-	margin-left: 170px;
+	margin-left: 165px;
 }
 
 .contact:hover {
