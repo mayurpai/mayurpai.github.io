@@ -1,344 +1,344 @@
-* {
-	background-color: rgb(29, 29, 29);
-	overflow: hidden;
-}
-
-.page {
-	padding-left: 125px;
-	animation: move reverse 0.01s;
-}
-
-a:hover {
-	color: white;
-	text-decoration: none;
-	cursor: pointer;
-}
-
-.form {
-	height: 235px;
-	width: 600px;
-	margin-left: 165px;
-}
-
-.email,
-.name {
-	display: inline-block;
-	width: 280px;
-}
-
-#name,
-#sub,
-#email,
-#message {
-	background-color: rgb(29, 29, 29);
-	color: aqua;
-}
-
-#name:focus {
-	border: 2px solid red;
-}
-
-#name:hover {
-	border: 1px solid aqua;
-}
-
-#email:focus {
-	border: 2px solid red;
-}
-
-#email:hover {
-	border: 1px solid aqua;
-}
-
-#message:focus {
-	border: 2px solid red;
-}
-
-#message:hover {
-	border: 1px solid aqua;
-}
-
-#sub:focus {
-	border: 2px solid red;
-}
-
-#sub:hover {
-	border: 1px solid aqua;
-}
-
-.email {
-	padding-left: 3px;
-}
-
-.sub {
-	width: 564px;
-	padding-bottom: 7px;
-}
-
-.message {
-	width: 564px;
-}
-
-.sidebar a img.m_dir {
-	margin-left: -12px;
-	height: 50px;
-	width: 50px;
-	background: transparent;
-}
-
-#map {
-	margin-top: -730px;
-	margin-left: 800px;
-	height: 790px;
-	width: 800px;
-	background-color: rgb(29, 29, 29);
-	fill: black;
-}
-
-#map,
-.sidebar {
-	float: left;
-}
-
-h1 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-size: 55px;
-	font-weight: bolder;
-	color: white;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-#fp {
-	font-style: normal;
-	font-size: medium;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	color: darkgray;
-	padding-left: 40px;
-	cursor: pointer;
-}
-
-ul li {
-	font-weight: bold;
-	float: left;
-}
-
-@keyframes move {
-	0% {
-		margin-left: 0%;
-		margin-top: 0%;
-		margin-bottom: 0%;
-		margin-right: 0%;
-		width: auto;
-	}
-	100% {
-		margin-left: 100%;
-		margin-top: 100%;
-		margin-bottom: 100%;
-		margin-right: 100%;
-		width: auto;
-	}
-}
-
-ul li:nth-child(1) {
-	animation: move reverse 0.7s;
-}
-
-ul li:nth-child(2) {
-	animation: move reverse 0.8s;
-}
-
-ul li:nth-child(3) {
-	animation: move reverse 0.9s;
-}
-
-ul li:nth-child(4) {
-	animation: move reverse 1.0s;
-}
-
-ul li:nth-child(5) {
-	animation: move reverse 1.1s;
-}
-
-ul li:nth-child(6) {
-	animation: move reverse 1.2s;
-}
-
-ul li:nth-child(7) {
-	animation: move reverse 1.3s;
-}
-
-ul li:nth-child(8) {
-	animation: move reverse 1.4s;
-}
-
-ul li:nth-child(9) {
-	animation: move reverse 1.5s;
-}
-
-ul li:nth-child(10) {
-	animation: move reverse 1.6s;
-}
-
-ul li:nth-child(11) {
-	animation: move reverse 1.7s;
-}
-
-ul li img.m {
-	width: 40px;
-	height: 40px;
-	margin-bottom: 10px;
-}
-
-ul li:hover {
-	color: aqua;
-	cursor: context-menu;
-	transform: skewY(180deg);
-}
-
-.contact {
-	font-style: oblique;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	border: 1px solid aqua;
-	color: aqua;
-	box-sizing: border-box;
-	padding: 5px 15px 15px 15px;
-	width: 100px;
-	height: 35px;
-	margin-left: 630px;
-	margin-top: 20px;
-}
-
-.contact:hover {
-	font-style: italic;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	border: 1px solid aqua;
-	color: black;
-	background-color: aqua;
-	box-sizing: border-box;
-	padding: 5px 15px 15px 15px;
-	width: 100px;
-	height: 35px;
-	margin-left: 630px;
-	margin-top: 20px;
-}
-
-.html-tags {
-	font-style: italic;
-	font-family: cursive;
-	font-size: small;
-	color: lightslategrey;
-	padding-left: 100px;
-	padding-top: 50px;
-	animation: move reverse 0.5s;
-	cursor: pointer;
-}
-
-.html_tags {
-	font-style: italic;
-	font-family: cursive;
-	font-size: small;
-	color: lightslategrey;
-	padding-left: 100px;
-	padding-top: 85px;
-	animation: move reverse 2.1s;
-	cursor: pointer;
-}
-
-.html-tag {
-	font-style: italic;
-	font-family: cursive;
-	font-size: small;
-	color: lightslategrey;
-	padding-left: 80px;
-	animation: move reverse 2.2s;
-	cursor: pointer;
-}
-
-.html-h1 {
-	font-style: italic;
-	font-family: cursive;
-	font-size: small;
-	color: lightslategrey;
-	padding-left: 150px;
-	padding-top: 40px;
-	animation: move reverse 0.6s;
-	cursor: pointer;
-}
-
-.html_h1 {
-	font-style: italic;
-	font-family: cursive;
-	font-size: small;
-	color: lightslategrey;
-	animation: move reverse 1.8s;
-	cursor: pointer;
-}
-
-.sidebar {
-	height: 100%;
-	width: 60px;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #111;
-	overflow-x: hidden;
-}
-
-.sidebar a {
-	padding: 6px 8px 6px 16px;
-	text-decoration: none;
-	font-size: 20px;
-	color: #818181;
-	display: block;
-}
-
-.sidebar a :hover {
-	color: aqua;
-}
-
-i {
-	background: transparent;
-}
-
-#fb {
-	padding-left: 5px;
-}
-
-#git {
-	padding-left: 3px;
-}
-
-#twitter {
-	padding-left: 3px;
-}
-
-#insta {
-	padding-left: 2px;
-}
-
-#link {
-	padding-left: 3px;
-}
-
-#fb:hover {
-	color: #1877f2;
-}
-
-#git:hover {
-	color: #6e5494;
-}
-
-#twitter:hover {
-	color: #1da1f2;
-}
-
-#link:hover {
-	color: #007bb5;
-}
-
-#insta:hover {
-	color: #c32aa3;
-}
+            * {
+                background-color: rgb(29, 29, 29);
+                overflow: hidden;
+            }
+            
+            .page {
+                padding-left: 125px;
+                animation: move reverse 0.01s;
+            }
+            
+            a:hover {
+                color: white;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            
+            .form {
+                height: 235px;
+                width: 600px;
+                margin-left: 165px;
+            }
+            
+            .email,
+            .name {
+                display: inline-block;
+                width: 280px;
+            }
+            
+            #name,
+            #sub,
+            #email,
+            #message {
+                background-color: rgb(29, 29, 29);
+                color: aqua;
+            }
+            
+            #name:focus {
+                border: 2px solid red;
+            }
+            
+            #name:hover {
+                border: 1px solid aqua;
+            }
+            
+            #email:focus {
+                border: 2px solid red;
+            }
+            
+            #email:hover {
+                border: 1px solid aqua;
+            }
+            
+            #message:focus {
+                border: 2px solid red;
+            }
+            
+            #message:hover {
+                border: 1px solid aqua;
+            }
+            
+            #sub:focus {
+                border: 2px solid red;
+            }
+            
+            #sub:hover {
+                border: 1px solid aqua;
+            }
+            
+            .email {
+                padding-left: 3px;
+            }
+            
+            .sub {
+                width: 564px;
+                padding-bottom: 7px;
+            }
+            
+            .message {
+                width: 564px;
+            }
+            
+            .sidebar a img.m_dir {
+                margin-left: -12px;
+                height: 50px;
+                width: 50px;
+                background: transparent;
+            }
+            
+            #map {
+                margin-top: -735px;
+                margin-left: 800px;
+                height: 790px;
+                width: 800px;
+                background-color: rgb(29, 29, 29);
+                fill: black;
+            }
+            
+            #map,
+            .sidebar {
+                float: left;
+            }
+            
+            h1 {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-style: normal;
+                font-size: 55px;
+                font-weight: bolder;
+                color: white;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            
+            #fp {
+                font-style: normal;
+                font-size: medium;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: darkgray;
+                padding-left: 40px;
+                cursor: pointer;
+            }
+            
+            ul li {
+                font-weight: bold;
+                float: left;
+            }
+            
+            @keyframes move {
+                0% {
+                    margin-left: 0%;
+                    margin-top: 0%;
+                    margin-bottom: 0%;
+                    margin-right: 0%;
+                    width: auto;
+                }
+                100% {
+                    margin-left: 100%;
+                    margin-top: 100%;
+                    margin-bottom: 100%;
+                    margin-right: 100%;
+                    width: auto;
+                }
+            }
+            
+            ul li:nth-child(1) {
+                animation: move reverse 0.7s;
+            }
+            
+            ul li:nth-child(2) {
+                animation: move reverse 0.8s;
+            }
+            
+            ul li:nth-child(3) {
+                animation: move reverse 0.9s;
+            }
+            
+            ul li:nth-child(4) {
+                animation: move reverse 1.0s;
+            }
+            
+            ul li:nth-child(5) {
+                animation: move reverse 1.1s;
+            }
+            
+            ul li:nth-child(6) {
+                animation: move reverse 1.2s;
+            }
+            
+            ul li:nth-child(7) {
+                animation: move reverse 1.3s;
+            }
+            
+            ul li:nth-child(8) {
+                animation: move reverse 1.4s;
+            }
+            
+            ul li:nth-child(9) {
+                animation: move reverse 1.5s;
+            }
+            
+            ul li:nth-child(10) {
+                animation: move reverse 1.6s;
+            }
+            
+            ul li:nth-child(11) {
+                animation: move reverse 1.7s;
+            }
+            
+            ul li img.m {
+                width: 40px;
+                height: 40px;
+                margin-bottom: 10px;
+            }
+            
+            ul li:hover {
+                color: aqua;
+                cursor: context-menu;
+                transform: skewY(180deg);
+            }
+            
+            .contact {
+                font-style: oblique;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                border: 1px solid aqua;
+                color: aqua;
+                box-sizing: border-box;
+                padding: 5px 15px 15px 15px;
+                width: 100px;
+                height: 35px;
+                margin-left: 630px;
+                margin-top: 20px;
+            }
+            
+            .contact:hover {
+                font-style: italic;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                border: 1px solid aqua;
+                color: black;
+                background-color: aqua;
+                box-sizing: border-box;
+                padding: 5px 15px 15px 15px;
+                width: 100px;
+                height: 35px;
+                margin-left: 630px;
+                margin-top: 20px;
+            }
+            
+            .html-tags {
+                font-style: italic;
+                font-family: cursive;
+                font-size: small;
+                color: lightslategrey;
+                padding-left: 100px;
+                padding-top: 50px;
+                animation: move reverse 0.5s;
+                cursor: pointer;
+            }
+            
+            .html_tags {
+                font-style: italic;
+                font-family: cursive;
+                font-size: small;
+                color: lightslategrey;
+                padding-left: 100px;
+                padding-top: 85px;
+                animation: move reverse 2.1s;
+                cursor: pointer;
+            }
+            
+            .html-tag {
+                font-style: italic;
+                font-family: cursive;
+                font-size: small;
+                color: lightslategrey;
+                padding-left: 80px;
+                animation: move reverse 2.2s;
+                cursor: pointer;
+            }
+            
+            .html-h1 {
+                font-style: italic;
+                font-family: cursive;
+                font-size: small;
+                color: lightslategrey;
+                padding-left: 150px;
+                padding-top: 40px;
+                animation: move reverse 0.6s;
+                cursor: pointer;
+            }
+            
+            .html_h1 {
+                font-style: italic;
+                font-family: cursive;
+                font-size: small;
+                color: lightslategrey;
+                animation: move reverse 1.8s;
+                cursor: pointer;
+            }
+            
+            .sidebar {
+                height: 100%;
+                width: 60px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+            }
+            
+            .sidebar a {
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #818181;
+                display: block;
+            }
+            
+            .sidebar a :hover {
+                color: aqua;
+            }
+            
+            i {
+                background: transparent;
+            }
+            
+            #fb {
+                padding-left: 5px;
+            }
+            
+            #git {
+                padding-left: 3px;
+            }
+            
+            #twitter {
+                padding-left: 3px;
+            }
+            
+            #insta {
+                padding-left: 2px;
+            }
+            
+            #link {
+                padding-left: 3px;
+            }
+            
+            #fb:hover {
+                color: #1877f2;
+            }
+            
+            #git:hover {
+                color: #6e5494;
+            }
+            
+            #twitter:hover {
+                color: #1da1f2;
+            }
+            
+            #link:hover {
+                color: #007bb5;
+            }
+            
+            #insta:hover {
+                color: #c32aa3;
+            }
