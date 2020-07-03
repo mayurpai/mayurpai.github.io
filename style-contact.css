@@ -31,6 +31,7 @@
             #email,
             #message {
                 background-color: rgb(29, 29, 29);
+                color: aqua;
             }
             
             #name:focus {
@@ -90,6 +91,8 @@
                 margin-left: 800px;
                 height: 790px;
                 width: 800px;
+                background-color: rgb(29, 29, 29);
+                fill: black;
             }
             
             #map,
