@@ -6,6 +6,7 @@
 
 ![Default Type Theme blog](images/Contact.png)
 <hr>
+
 # Contributing #
 Contributions are most welcome!
 
