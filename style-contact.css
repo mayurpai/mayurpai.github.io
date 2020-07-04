@@ -35,7 +35,7 @@
         }
         
         #name:focus {
-            border: 2px solid red;
+            border: 2px solid rgb(255, 0, 149);
         }
         
         #name:hover {
@@ -43,7 +43,7 @@
         }
         
         #email:focus {
-            border: 2px solid red;
+            border: 2px solid rgb(255, 0, 149);
         }
         
         #email:hover {
@@ -51,7 +51,7 @@
         }
         
         #message:focus {
-            border: 2px solid red;
+            border: 2px solid rgb(255, 0, 149);
         }
         
         #message:hover {
@@ -59,7 +59,7 @@
         }
         
         #sub:focus {
-            border: 2px solid red;
+            border: 2px solid rgb(255, 0, 149);
         }
         
         #sub:hover {
@@ -351,7 +351,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 1px solid red;
+            border: 1px solid rgb(255, 0, 149);
         }
         
         .loader-container img.m_dir {
