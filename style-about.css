@@ -99,54 +99,6 @@ ul li:nth-child(8) {
     animation: move reverse 1.4s;
 }
 
-ul li:nth-child(9) {
-    animation: move reverse 1.5s;
-}
-
-ul li:nth-child(10) {
-    animation: move reverse 1.6s;
-}
-
-ul li:nth-child(11) {
-    animation: move reverse 1.7s;
-}
-
-ul li:nth-child(12) {
-    animation: move reverse 1.8s;
-}
-
-ul li:nth-child(13) {
-    animation: move reverse 1.9s;
-}
-
-ul li:nth-child(14) {
-    animation: move reverse 2.0s;
-}
-
-ul li:nth-child(15) {
-    animation: move reverse 2.1s;
-}
-
-ul li:nth-child(16) {
-    animation: move reverse 2.2s;
-}
-
-ul li:nth-child(17) {
-    animation: move reverse 2.3s;
-}
-
-ul li:nth-child(18) {
-    animation: move reverse 2.4s;
-}
-
-ul li:nth-child(19) {
-    animation: move reverse 2.5s;
-}
-
-ul li:nth-child(20) {
-    animation: move reverse 2.6s;
-}
-
 ul li img.m {
     width: 40px;
     height: 40px;
@@ -203,7 +155,7 @@ ul li:hover {
     color: lightslategrey;
     padding-left: 100px;
     padding-top: 222px;
-    animation: move reverse 3.5s;
+    animation: move reverse 1.9s;
     cursor: pointer;
 }
 
@@ -213,7 +165,7 @@ ul li:hover {
     font-size: small;
     color: lightslategrey;
     padding-left: 80px;
-    animation: move reverse 3.1s;
+    animation: move reverse 1.8s;
     cursor: pointer;
 }
 
@@ -233,7 +185,7 @@ ul li:hover {
     font-family: cursive;
     font-size: small;
     color: lightslategrey;
-    animation: move reverse 2.7s;
+    animation: move reverse 1.5s;
     padding-left: 150px;
     padding-bottom: 25px;
     cursor: pointer;
