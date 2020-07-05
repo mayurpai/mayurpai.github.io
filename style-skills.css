@@ -8,8 +8,12 @@
     animation: move reverse 0.01s;
 }
 
+a {
+    color: aqua;
+}
+
 a:hover {
-    color: white;
+    color: rgb(255, 0, 149);
     text-decoration: none;
     cursor: pointer;
 }
@@ -35,8 +39,8 @@ h1 {
     font-style: normal;
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: darkgray;
-    padding-left: 40px;
+    color: white;
+    padding-left: 170px;
     cursor: pointer;
 }
 
@@ -198,8 +202,8 @@ ul li:hover {
     font-size: small;
     color: lightslategrey;
     padding-left: 100px;
-    padding-top: 85px;
-    animation: move reverse 2.0s;
+    padding-top: 222px;
+    animation: move reverse 3.5s;
     cursor: pointer;
 }
 
@@ -218,9 +222,9 @@ ul li:hover {
     font-family: cursive;
     font-size: small;
     color: lightslategrey;
-    padding-left: 150px;
-    padding-top: 40px;
-    animation: move reverse 0.6s;
+    padding-left: 127px;
+    padding-top: 140px;
+    animation: move reverse 0.2s;
     cursor: pointer;
 }
 
@@ -230,6 +234,8 @@ ul li:hover {
     font-size: small;
     color: lightslategrey;
     animation: move reverse 2.7s;
+    padding-left: 150px;
+    padding-bottom: 25px;
     cursor: pointer;
 }
 
