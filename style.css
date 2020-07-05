@@ -3,14 +3,6 @@
                 overflow: hidden;
             }
             
-            .responsive {
-                position: relative;
-                width: 100%;
-                min-height: 100vh;
-                background-size: cover;
-                align-items: center;
-            }
-            
             .page {
                 padding-left: 125px;
                 animation: move reverse 0.01s;
