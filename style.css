@@ -6,8 +6,6 @@
             .page {
                 padding-left: 125px;
                 animation: move reverse 0.01s;
-                height: 100%;
-                width: 100vh;
             }
             
             a:hover {
