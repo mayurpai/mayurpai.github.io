@@ -35,7 +35,7 @@
         }
         
         #name:focus {
-            border: 2px solid rgb(255, 0, 149);
+            border: 2px solid rgb(251, 12, 84);
         }
         
         #name:hover {
@@ -43,7 +43,7 @@
         }
         
         #email:focus {
-            border: 2px solid rgb(255, 0, 149);
+            border: 2px solid rgb(251, 12, 84);
         }
         
         #email:hover {
@@ -51,7 +51,7 @@
         }
         
         #message:focus {
-            border: 2px solid rgb(255, 0, 149);
+            border: 2px solid rgb(251, 12, 84);
         }
         
         #message:hover {
@@ -59,7 +59,7 @@
         }
         
         #sub:focus {
-            border: 2px solid rgb(255, 0, 149);
+            border: 2px solid rgb(251, 12, 84);
         }
         
         #sub:hover {
@@ -193,7 +193,7 @@
         }
         
         ul li:hover {
-            color: rgb(255, 0, 149);
+            color: rgb(251, 12, 84);
             cursor: context-menu;
         }
         
@@ -351,7 +351,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 1px solid rgb(255, 0, 149);
+            border: 1px solid rgb(251, 12, 84);
         }
         
         .loader-container img.m_dir {
@@ -372,7 +372,7 @@
             width: 50px;
             height: 50px;
             border: 5px solid;
-            color: rgb(255, 0, 149);
+            color: rgb(251, 12, 84);
             border-radius: 50%;
             margin-top: 100px;
             margin-left: -90px;
@@ -385,7 +385,7 @@
                 color: aqua;
             }
             50% {
-                color: rgb(255, 0, 149);
+                color: rgb(251, 12, 84);
             }
             75% {
                 color: aqua;
