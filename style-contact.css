@@ -122,6 +122,7 @@
         ul li {
             font-weight: bold;
             float: left;
+            color: aqua;
         }
         
         @keyframes move {
@@ -192,9 +193,8 @@
         }
         
         ul li:hover {
-            color: aqua;
+            color: rgb(255, 0, 149);
             cursor: context-menu;
-            transform: skewY(180deg);
         }
         
         .contact {
