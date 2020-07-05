@@ -8,75 +8,14 @@
     animation: move reverse 0.01s;
 }
 
-a:hover {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.form {
-    height: 235px;
-    width: 600px;
-    margin-left: 165px;
-}
-
-.email,
-.name {
-    display: inline-block;
-    width: 280px;
-}
-
-#name,
-#sub,
-#email,
-#message {
-    background-color: rgb(29, 29, 29);
+a {
     color: aqua;
 }
 
-#name:focus {
-    border: 2px solid red;
-}
-
-#name:hover {
-    border: 1px solid aqua;
-}
-
-#email:focus {
-    border: 2px solid red;
-}
-
-#email:hover {
-    border: 1px solid aqua;
-}
-
-#message:focus {
-    border: 2px solid red;
-}
-
-#message:hover {
-    border: 1px solid aqua;
-}
-
-#sub:focus {
-    border: 2px solid red;
-}
-
-#sub:hover {
-    border: 1px solid aqua;
-}
-
-.email {
-    padding-left: 3px;
-}
-
-.sub {
-    width: 564px;
-    padding-bottom: 7px;
-}
-
-.message {
-    width: 564px;
+a:hover {
+    color: rgb(255, 0, 149);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .sidebar a img.m_dir {
@@ -84,20 +23,6 @@ a:hover {
     height: 50px;
     width: 50px;
     background: transparent;
-}
-
-#map {
-    margin-top: -735px;
-    margin-left: 800px;
-    height: 790px;
-    width: 800px;
-    background-color: rgb(29, 29, 29);
-    fill: black;
-}
-
-#map,
-.sidebar {
-    float: left;
 }
 
 h1 {
@@ -114,14 +39,15 @@ h1 {
     font-style: normal;
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: darkgray;
-    padding-left: 40px;
+    color: white;
+    padding-left: 170px;
     cursor: pointer;
 }
 
 ul li {
     font-weight: bold;
     float: left;
+    color: aqua;
 }
 
 @keyframes move {
@@ -185,6 +111,42 @@ ul li:nth-child(11) {
     animation: move reverse 1.7s;
 }
 
+ul li:nth-child(12) {
+    animation: move reverse 1.8s;
+}
+
+ul li:nth-child(13) {
+    animation: move reverse 1.9s;
+}
+
+ul li:nth-child(14) {
+    animation: move reverse 2.0s;
+}
+
+ul li:nth-child(15) {
+    animation: move reverse 2.1s;
+}
+
+ul li:nth-child(16) {
+    animation: move reverse 2.2s;
+}
+
+ul li:nth-child(17) {
+    animation: move reverse 2.3s;
+}
+
+ul li:nth-child(18) {
+    animation: move reverse 2.4s;
+}
+
+ul li:nth-child(19) {
+    animation: move reverse 2.5s;
+}
+
+ul li:nth-child(20) {
+    animation: move reverse 2.6s;
+}
+
 ul li img.m {
     width: 40px;
     height: 40px;
@@ -192,9 +154,8 @@ ul li img.m {
 }
 
 ul li:hover {
-    color: aqua;
+    color: rgb(255, 0, 149);
     cursor: context-menu;
-    transform: skewY(180deg);
 }
 
 .contact {
@@ -241,8 +202,8 @@ ul li:hover {
     font-size: small;
     color: lightslategrey;
     padding-left: 100px;
-    padding-top: 85px;
-    animation: move reverse 2.1s;
+    padding-top: 222px;
+    animation: move reverse 3.5s;
     cursor: pointer;
 }
 
@@ -252,7 +213,7 @@ ul li:hover {
     font-size: small;
     color: lightslategrey;
     padding-left: 80px;
-    animation: move reverse 2.2s;
+    animation: move reverse 3.1s;
     cursor: pointer;
 }
 
@@ -261,9 +222,9 @@ ul li:hover {
     font-family: cursive;
     font-size: small;
     color: lightslategrey;
-    padding-left: 150px;
-    padding-top: 40px;
-    animation: move reverse 0.6s;
+    padding-left: 127px;
+    padding-top: 140px;
+    animation: move reverse 0.2s;
     cursor: pointer;
 }
 
@@ -272,7 +233,9 @@ ul li:hover {
     font-family: cursive;
     font-size: small;
     color: lightslategrey;
-    animation: move reverse 1.8s;
+    animation: move reverse 2.7s;
+    padding-left: 150px;
+    padding-bottom: 25px;
     cursor: pointer;
 }
 
