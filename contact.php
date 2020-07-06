@@ -32,9 +32,9 @@
 			<div class="sidebar">
 				<a href="https://mayurpai.github.io/"><img class="m_dir" src="images/re_host.png"></i></a><br><br><br><br><br>
 				<a href="https://mayurpai.github.io/" Title="Home"><i class="fa fa-fw fa-home" aria-hidden="true"></i></a><br>
-				<a href="about.html" Title="About"><i class="fa fa-fw fa-user" aria-hidden="true"></i></a><br>
-				<a href="skills.html" Title="Skills"><i class="fa fa-fw fa-wrench" aria-hidden="true"></i></a><br>
-				<a href="contact.html" Title="Contact"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i></a><br><br><br><br>
+				<a href="about.php" Title="About"><i class="fa fa-fw fa-user" aria-hidden="true"></i></a><br>
+				<a href="skills.php" Title="Skills"><i class="fa fa-fw fa-wrench" aria-hidden="true"></i></a><br>
+				<a href="contact.php" Title="Contact"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i></a><br><br><br><br>
 				<a href="https://www.facebook.com/profile.php?id=100010154376824" Title="Facebook" target=blank><i class="fa fa-facebook" id="fb" aria-hidden="true"></i></a>
 				<a href="https://twitter.com/Mayur_pai5" Title="Twitter" target=blank><i class="fa fa-twitter" id="twitter" aria-hidden="true"></i></a>
 				<a href="https://www.instagram.com/unmatched._.soul/" Title="Instagram" target=blank><i class="fa fa-instagram" id="insta" aria-hidden="true"></i></a>
