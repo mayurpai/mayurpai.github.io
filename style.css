@@ -3,7 +3,7 @@
                 overflow: hidden;
             }
             
-            @media only screen and (max-width: 400px) {
+            @media only screen and (max-width: 450px) {
                 .res {
                     width: 100vw;
                     height: 100%;
@@ -52,7 +52,7 @@
                 }
                 .html-tag {
                     font-size: x-small;
-                    padding-left: 40px;
+                    padding-left: 50px;
                     cursor: pointer;
                 }
                 .html-tags {
@@ -85,7 +85,7 @@
                 }
             }
             
-            @media only screen and (min-width: 400px) {
+            @media only screen and (min-width: 450px) {
                 .page {
                     padding-left: 125px;
                 }
