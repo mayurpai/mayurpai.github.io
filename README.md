@@ -4,9 +4,6 @@
 ![Default Type Theme blog](images/Home.png)
 <hr>
 
-![Default Type Theme blog](images/Contact.png)
-<hr>
-
 # Contributing #
 Contributions are most welcome!
 
