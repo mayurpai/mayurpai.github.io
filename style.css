@@ -33,7 +33,7 @@
                     font-size: small;
                 }
                 .contact {
-                    width: 130px;
+                    width: 140px;
                     height: 25px;
                     margin-left: 75px;
                     padding: 2px 6px 2px 4px;
@@ -52,7 +52,7 @@
                 }
                 .html-tag {
                     font-size: x-small;
-                    padding-left: 4 0px;
+                    padding-left: 40px;
                     cursor: pointer;
                 }
                 .html-tags {
