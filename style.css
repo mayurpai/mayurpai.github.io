@@ -40,10 +40,11 @@
                     font-size: smaller;
                 }
                 .contact:hover {
-                    width: 85px;
+                    width: 140px;
                     height: 25px;
-                    margin-left: 15px;
-                    padding: 12px 10px 10px 10px;
+                    margin-left: 75px;
+                    padding: 2px 5px 6px 8px;
+                    font-size: smaller;
                 }
                 .html_tags {
                     font-size: x-small;
