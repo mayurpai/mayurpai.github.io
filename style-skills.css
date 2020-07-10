@@ -3,8 +3,168 @@
     overflow: hidden;
 }
 
+@media only screen and (max-width: 450px) {
+    .res {
+        width: 100vw;
+        height: 100%;
+    }
+    .page {
+        padding-left: 35px;
+    }
+    .sidebar a img.m_dir {
+        margin-left: -1px;
+        height: 25px;
+        width: 25px;
+        margin-bottom: 11px;
+    }
+    h1 {
+        font-size: 33px;
+        margin-left: 5px;
+    }
+    #fp {
+        font-size: 9px;
+        padding-left: 80px
+    }
+    ul li {
+        font-weight: bold;
+        float: left;
+        color: aqua;
+    }
+    ul li img.m {
+        width: 25px;
+        height: 25px;
+        margin-bottom: 5px;
+    }
+    .contact {
+        padding: 5px 15px 15px 15px;
+        width: 100px;
+        height: 35px;
+        margin-left: 630px;
+        margin-top: 20px;
+    }
+    .contact:hover {
+        padding: 5px 15px 15px 15px;
+        width: 100px;
+        height: 35px;
+        margin-left: 630px;
+        margin-top: 20px;
+    }
+    .html-tags {
+        font-size: x-small;
+        padding-left: 60px;
+        padding-top: 50px;
+    }
+    .html_tags {
+        font-size: x-small;
+        padding-left: 60px;
+        padding-top: 283px;
+    }
+    .html-tag {
+        font-size: x-small;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+    .html-h1 {
+        font-size: x-small;
+        padding-left: 47px;
+        padding-top: 140px;
+    }
+    .html_h1 {
+        margin-left: 65px;
+        font-size: x-small;
+    }
+    .sidebar {
+        height: 100%;
+        width: 35px;
+    }
+    .sidebar a {
+        padding: 6px 6px 6px 7px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .page {
+        padding-left: 35px;
+    }
+    .sidebar a img.m_dir {
+        margin-left: -12px;
+        height: 50px;
+        width: 50px;
+    }
+    h1 {
+        font-size: 55px;
+        margin-left: 93px;
+    }
+    #fp {
+        font-size: medium;
+        padding-left: 170px;
+        cursor: pointer;
+    }
+    ul li {
+        font-weight: bold;
+        float: left;
+        color: aqua;
+    }
+    ul li img.m {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .contact {
+        padding: 5px 15px 15px 15px;
+        width: 100px;
+        height: 35px;
+        margin-left: 630px;
+        margin-top: 20px;
+    }
+    .contact:hover {
+        padding: 5px 15px 15px 15px;
+        width: 100px;
+        height: 35px;
+        margin-left: 630px;
+        margin-top: 20px;
+    }
+    .html-tags {
+        font-size: small;
+        padding-left: 100px;
+        padding-top: 50px;
+        cursor: pointer;
+    }
+    .html_tags {
+        font-size: small;
+        padding-left: 100px;
+        padding-top: 208px;
+        cursor: pointer;
+    }
+    .html-tag {
+        font-size: small;
+        padding-left: 80px;
+        cursor: pointer;
+    }
+    .html-h1 {
+        font-size: small;
+        padding-left: 127px;
+        padding-top: 140px;
+        cursor: pointer;
+    }
+    .html_h1 {
+        font-size: small;
+        padding-left: 150px;
+        padding-bottom: 25px;
+        cursor: pointer;
+    }
+    .sidebar {
+        height: 100%;
+        width: 60px;
+    }
+    .sidebar a {
+        padding: 6px 8px 6px 16px;
+        font-size: 20px;
+    }
+}
+
 .page {
-    padding-left: 125px;
     animation: move reverse 0.01s;
 }
 
@@ -19,16 +179,12 @@ a:hover {
 }
 
 .sidebar a img.m_dir {
-    margin-left: -12px;
-    height: 50px;
-    width: 50px;
     background: transparent;
 }
 
 h1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
-    font-size: 55px;
     font-weight: bolder;
     color: white;
     white-space: nowrap;
@@ -37,17 +193,19 @@ h1 {
 
 #fp {
     font-style: normal;
-    font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    padding-left: 170px;
-    cursor: pointer;
 }
 
 ul li {
     font-weight: bold;
     float: left;
     color: aqua;
+}
+
+ul li:hover {
+    color: rgb(251, 12, 84);
+    cursor: context-menu;
 }
 
 @keyframes move {
@@ -97,6 +255,12 @@ ul li:nth-child(7) {
 
 ul li:nth-child(8) {
     animation: move reverse 1.4s;
+    color: rgb(251, 12, 84);
+}
+
+ul li:nth-child(8):hover {
+    animation: move reverse 1.4s;
+    color: aqua;
 }
 
 ul li:nth-child(9) {
@@ -147,28 +311,12 @@ ul li:nth-child(20) {
     animation: move reverse 2.6s;
 }
 
-ul li img.m {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
-}
-
-ul li:hover {
-    color: rgb(251, 12, 84);
-    cursor: context-menu;
-}
-
 .contact {
     font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid aqua;
     color: aqua;
     box-sizing: border-box;
-    padding: 5px 15px 15px 15px;
-    width: 100px;
-    height: 35px;
-    margin-left: 630px;
-    margin-top: 20px;
 }
 
 .contact:hover {
@@ -178,70 +326,48 @@ ul li:hover {
     color: black;
     background-color: aqua;
     box-sizing: border-box;
-    padding: 5px 15px 15px 15px;
-    width: 100px;
-    height: 35px;
-    margin-left: 630px;
-    margin-top: 20px;
 }
 
 .html-tags {
     font-style: italic;
     font-family: cursive;
-    font-size: small;
     color: lightslategrey;
-    padding-left: 100px;
-    padding-top: 50px;
     animation: move reverse 0.5s;
-    cursor: pointer;
 }
 
 .html_tags {
     font-style: italic;
     font-family: cursive;
-    font-size: small;
     color: lightslategrey;
-    padding-left: 100px;
-    padding-top: 222px;
     animation: move reverse 3.1s;
-    cursor: pointer;
+    position: relative;
+    background: transparent;
 }
 
 .html-tag {
     font-style: italic;
     font-family: cursive;
-    font-size: small;
     color: lightslategrey;
-    padding-left: 80px;
     animation: move reverse 3.0s;
-    cursor: pointer;
+    position: relative;
+    background: transparent;
 }
 
 .html-h1 {
     font-style: italic;
     font-family: cursive;
-    font-size: small;
     color: lightslategrey;
-    padding-left: 127px;
-    padding-top: 140px;
     animation: move reverse 0.2s;
-    cursor: pointer;
 }
 
 .html_h1 {
     font-style: italic;
     font-family: cursive;
-    font-size: small;
     color: lightslategrey;
     animation: move reverse 2.7s;
-    padding-left: 150px;
-    padding-bottom: 25px;
-    cursor: pointer;
 }
 
 .sidebar {
-    height: 100%;
-    width: 60px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -251,9 +377,7 @@ ul li:hover {
 }
 
 .sidebar a {
-    padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 20px;
     color: #818181;
     display: block;
 }
