@@ -118,13 +118,13 @@
                 .contact:hover {
                     width: 170px;
                     height: 50px;
-                    margin-left: 170px;
+                    margin-left: 165px;
                     padding: 12px 10px 10px 10px;
                 }
                 .html_tags {
                     font-size: small;
                     padding-left: 100px;
-                    padding-top: 140px;
+                    padding-top: 150px;
                 }
                 .html-tag {
                     font-size: small;
@@ -394,6 +394,8 @@
                 font-family: cursive;
                 color: lightslategrey;
                 animation: move reverse 3.5s;
+                position: relative;
+                background: transparent;
             }
             
             .html-tag {
@@ -401,6 +403,8 @@
                 font-family: cursive;
                 color: lightslategrey;
                 animation: move reverse 3.6s;
+                position: relative;
+                background: transparent;
             }
             
             .html-h1 {
