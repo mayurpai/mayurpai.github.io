@@ -106,7 +106,7 @@
         .html_tags {
             font-size: small;
             padding-left: 100px;
-            padding-top: 54px;
+            padding-top: 64px;
             cursor: pointer;
         }
         .html-tag {
@@ -235,6 +235,8 @@
         font-family: cursive;
         color: lightslategrey;
         animation: move reverse 1.9s;
+        position: relative;
+        background: transparent;
     }
     
     .html-tag {
@@ -242,6 +244,8 @@
         font-family: cursive;
         color: lightslategrey;
         animation: move reverse 1.8s;
+        position: relative;
+        background: transparent;
     }
     
     .html-h1 {
