@@ -220,18 +220,6 @@
                 animation: move reverse 0.01s;
             }
             
-            .image .mail a:hover {
-                text-decoration: none;
-                cursor: pointer;
-                color: aqua;
-            }
-            
-            .image .mail a {
-                text-decoration: none;
-                color: aqua;
-                cursor: pointer;
-            }
-            
             a:hover {
                 color: white;
                 text-decoration: none;
