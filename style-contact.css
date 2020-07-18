@@ -220,6 +220,12 @@
                 animation: move reverse 0.01s;
             }
             
+            image a:hover {
+                text-decoration: none;
+                cursor: pointer;
+                color: aqua;
+            }
+            
             a:hover {
                 color: white;
                 text-decoration: none;
