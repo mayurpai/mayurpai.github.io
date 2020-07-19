@@ -3,6 +3,7 @@ function greet(name) {
 }
 
 function know() {
+    know = function() {};
     return greet(prompt("May I Know Your Name?"));
 }
 
