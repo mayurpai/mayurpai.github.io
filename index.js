@@ -1,5 +1,5 @@
 function greet(name) {
-    alert('Hey ' + name)
+    alert('Hey ' + name + ' It\'s Great To Have You Here!');
 }
 
 function know() {
