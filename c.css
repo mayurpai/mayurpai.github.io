@@ -144,10 +144,10 @@
         color: aqua;
     }
     .logo {
-        margin-top: -235px;
+        margin-top: -180px;
         margin-left: 465px;
-        height: 800px;
-        width: 800px;
+        height: 700px;
+        width: 700px;
     }
     .m_direct {
         height: 250px;
@@ -168,7 +168,6 @@
 
 .page {
     animation: move reverse 0.01s;
-    animation-delay: 2s;
 }
 
 .gallery {
@@ -258,38 +257,6 @@ ul li:nth-child(2) {
     animation: move reverse 0.8s;
 }
 
-ul li:nth-child(3) {
-    animation: move reverse 0.9s;
-}
-
-ul li:nth-child(4) {
-    animation: move reverse 1.0s;
-}
-
-ul li:nth-child(5) {
-    animation: move reverse 1.1s;
-}
-
-ul li:nth-child(6) {
-    animation: move reverse 1.2s;
-}
-
-ul li:nth-child(7) {
-    animation: move reverse 1.3s;
-}
-
-ul li:nth-child(8) {
-    animation: move reverse 1.4s;
-}
-
-ul li:nth-child(9) {
-    animation: move reverse 1.5s;
-}
-
-ul li:nth-child(10) {
-    animation: move reverse 1.6s;
-}
-
 ul li:hover {
     color: rgb(251, 12, 84);
     cursor: context-menu;
@@ -310,7 +277,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 2.0s;
+    animation: move reverse 1.1s;
     position: relative;
     background: transparent;
 }
@@ -319,7 +286,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 2.1s;
+    animation: move reverse 1.0s;
     position: relative;
     background: transparent;
 }
@@ -335,7 +302,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 1.7s;
+    animation: move reverse 0.9s;
 }
 
 .sidebar {
