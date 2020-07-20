@@ -33,7 +33,7 @@
     .html_tags {
         font-size: x-small;
         padding-left: 60px;
-        padding-top: 23px;
+        padding-top: 78px;
     }
     .html-tag {
         font-size: x-small;
@@ -61,33 +61,26 @@
         float: left;
         color: aqua;
     }
-    .certificate {
-        padding: 4px 10px 8px 10px;
-        width: 100px;
-        height: 25px;
-        margin-left: 80px;
-        margin-top: 25px;
-        font-size: x-small;
-    }
-    .certificate:hover {
-        padding: 4px 10px 8px 10px;
-        width: 100px;
-        height: 25px;
-        margin-top: 25px;
-        font-size: x-small;
-    }
-    .cert {
-        margin-top: 10px;
-    }
     .logo {
-        width: 15px;
-        height: 15px;
+        margin-top: -25px;
+        margin-left: 40px;
+        width: 350px;
+        height: 350px;
     }
     .m_direct {
         height: 150px;
         width: 150px;
         margin-top: 5px;
         margin-left: 35px;
+    }
+    .gallery {
+        margin-top: 10px;
+        margin-left: 65px;
+    }
+    .gallery img {
+        padding: 10px;
+        width: 150px;
+        height: 100px;
     }
 }
 
@@ -120,7 +113,7 @@
         font-size: small;
         padding-left: 100px;
         cursor: pointer;
-        margin-top: 3px;
+        margin-top: 63px;
     }
     .html-tag {
         font-size: small;
@@ -150,31 +143,26 @@
         float: left;
         color: aqua;
     }
-    .certificate {
-        padding: 12px 10px 8px 10px;
-        width: 200px;
-        height: 50px;
-        margin-left: 170px;
-        margin-top: 50px;
-    }
-    .certificate:hover {
-        padding: 12px 10px 8px 10px;
-        width: 200px;
-        height: 50px;
-        margin-top: 50px;
-    }
-    .cert {
-        margin-top: 15px;
-    }
     .logo {
-        width: 25px;
-        height: 25px;
+        margin-top: -235px;
+        margin-left: 465px;
+        height: 800px;
+        width: 800px;
     }
     .m_direct {
         height: 250px;
         width: 250px;
         margin-top: 5px;
         margin-left: 60px;
+    }
+    .gallery {
+        margin-top: 10px;
+        margin-left: 160px;
+    }
+    .gallery img {
+        padding: 10px;
+        width: 300px;
+        height: 200px;
     }
 }
 
@@ -183,19 +171,25 @@
 }
 
 .gallery {
-    margin-top: 10px;
-    margin-left: 160px;
+    position: relative;
+    z-index: 9999;
+    background: transparent;
 }
 
 .gallery img {
     transition: 1s;
-    padding: 10px;
-    width: 300px;
-    height: 200px;
 }
 
 .gallery img:hover {
     transform: scale(1.1);
+}
+
+.logo {
+    opacity: 0.5;
+    z-index: 1;
+    transform: rotateZ(-30deg);
+    position: absolute;
+    background: transparent;
 }
 
 @keyframes jump {
@@ -281,6 +275,18 @@ ul li:nth-child(7) {
     animation: move reverse 1.3s;
 }
 
+ul li:nth-child(8) {
+    animation: move reverse 1.4s;
+}
+
+ul li:nth-child(9) {
+    animation: move reverse 1.5s;
+}
+
+ul li:nth-child(10) {
+    animation: move reverse 1.6s;
+}
+
 ul li:hover {
     color: rgb(251, 12, 84);
     cursor: context-menu;
@@ -301,7 +307,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 2.5s;
+    animation: move reverse 1.7s;
     position: relative;
     background: transparent;
 }
@@ -310,7 +316,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 2.6s;
+    animation: move reverse 1.8s;
     position: relative;
     background: transparent;
 }
@@ -326,7 +332,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 2.1s;
+    animation: move reverse 1.4s;
 }
 
 .sidebar {
