@@ -91,7 +91,7 @@
     .html_tags {
         font-size: small;
         padding-left: 100px;
-        padding-top: 473px;
+        padding-top: 223px;
         cursor: pointer;
     }
     .html-tag {
@@ -126,12 +126,21 @@
         padding: 12px 10px 8px 10px;
         width: 200px;
         height: 50px;
-        margin-left: 200px;
+        margin-left: 170px;
+        margin-top: 50px;
     }
     .certificate:hover {
         padding: 12px 10px 8px 10px;
         width: 200px;
         height: 50px;
+        margin-top: 50px;
+    }
+    .cert {
+        margin-top: 50px;
+    }
+    .logo {
+        width: 25px;
+        height: 25px;
     }
 }
 
@@ -145,6 +154,7 @@
     border: 1px solid aqua;
     color: aqua;
     box-sizing: border-box;
+    float: left;
     display: flex;
     justify-content: center;
 }
@@ -159,8 +169,6 @@
 }
 
 .logo {
-    width: 25px;
-    height: 25px;
     justify-content: center;
     background: transparent;
 }
