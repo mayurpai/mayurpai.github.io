@@ -168,6 +168,7 @@
 
 .page {
     animation: move reverse 0.01s;
+    animation-delay: 2s;
 }
 
 .gallery {
