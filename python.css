@@ -308,7 +308,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 1.7s;
+    animation: move reverse 2.0s;
     position: relative;
     background: transparent;
 }
@@ -317,7 +317,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 1.8s;
+    animation: move reverse 2.1s;
     position: relative;
     background: transparent;
 }
@@ -333,7 +333,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 1.4s;
+    animation: move reverse 1.7s;
 }
 
 .sidebar {
