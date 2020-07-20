@@ -182,6 +182,13 @@
     animation: move reverse 0.01s;
 }
 
+#copy {
+    color: white;
+    background: transparent;
+    padding-top: 10px;
+    text-align: center;
+}
+
 .certificate {
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

@@ -360,6 +360,13 @@
                 width: 600px;
             }
             
+            #copy {
+                color: white;
+                background: transparent;
+                padding-top: 10px;
+                text-align: center;
+            }
+            
             ul li:hover {
                 color: aqua;
                 cursor: context-menu;
