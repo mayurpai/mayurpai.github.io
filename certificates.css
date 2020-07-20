@@ -162,6 +162,19 @@
         width: 200px;
         height: 50px;
         margin-top: 50px;
+        transition: 0.5s linear;
+        animation: jump alternate-reverse 0.5s;
+    }
+    @keyframes jump {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+        100% {
+            transform: translateY(0);
+        }
     }
     .cert {
         margin-top: 15px;

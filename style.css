@@ -380,6 +380,18 @@
                 box-sizing: border-box;
             }
             
+            @keyframes jump {
+                0% {
+                    transform: translateY(0);
+                }
+                50% {
+                    transform: translateY(-10px);
+                }
+                100% {
+                    transform: translateY(0);
+                }
+            }
+            
             .contact:hover {
                 font-style: italic;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -387,6 +399,8 @@
                 color: black;
                 background-color: aqua;
                 box-sizing: border-box;
+                transition: 0.5s linear;
+                animation: jump alternate-reverse 0.5s;
             }
             
             .html-tags {
