@@ -122,13 +122,13 @@
         float: left;
         color: aqua;
     }
-    .python {
+    .certificate {
         padding: 12px 10px 8px 10px;
         width: 200px;
         height: 50px;
         margin-left: 200px;
     }
-    .python:hover {
+    .certificate:hover {
         padding: 12px 10px 8px 10px;
         width: 200px;
         height: 50px;
@@ -139,7 +139,7 @@
     animation: move reverse 0.01s;
 }
 
-.python {
+.certificate {
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid aqua;
@@ -149,7 +149,7 @@
     justify-content: center;
 }
 
-.python:hover {
+.certificate:hover {
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid aqua;
