@@ -4,6 +4,6 @@ function greet(name) {
 
 function know() {
     know = function() {};
-    return greet(prompt("May I Know Your Name?"));
+    return greet(prompt("First up, what's your name?"));
 }
 know();
