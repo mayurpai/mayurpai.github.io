@@ -11,9 +11,6 @@
         .page {
             padding-left: 35px;
         }
-        .mp {
-            display: none;
-        }
         .sidebar a img.m_dir {
             margin-left: -1px;
             height: 25px;
@@ -46,7 +43,7 @@
         .html_tags {
             font-size: x-small;
             padding-left: 60px;
-            padding-top: 245px;
+            padding-top: 282px;
         }
         .html-tag {
             font-size: x-small;
@@ -68,6 +65,12 @@
         .sidebar a {
             padding: 6px 6px 6px 7px;
             font-size: 15px;
+        }
+        .mp {
+            margin-top: -350px;
+            margin-left: 75px;
+            width: 270px;
+            height: 200px;
         }
     }
     
@@ -133,6 +136,12 @@
         .sidebar a {
             padding: 6px 8px 6px 16px;
             font-size: 20px;
+        }
+        .mp {
+            margin-top: -650px;
+            margin-left: 1000px;
+            width: 440px;
+            height: 325px;
         }
     }
     
@@ -221,13 +230,6 @@
     ul li:hover {
         color: rgb(251, 12, 84);
         cursor: context-menu;
-    }
-    
-    .mp {
-        margin-top: -650px;
-        margin-left: 1000px;
-        width: 440px;
-        height: 325px;
     }
     
     .html-tags {
