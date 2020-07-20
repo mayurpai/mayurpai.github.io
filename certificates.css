@@ -83,6 +83,12 @@
         width: 15px;
         height: 15px;
     }
+    .m_direct {
+        height: 150px;
+        width: 150px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
 }
 
 @media only screen and (min-width: 450px) {
@@ -113,7 +119,6 @@
     .html_tags {
         font-size: small;
         padding-left: 100px;
-        padding-top: 223px;
         cursor: pointer;
     }
     .html-tag {
@@ -163,6 +168,11 @@
     .logo {
         width: 25px;
         height: 25px;
+    }
+    .m_direct {
+        height: 250px;
+        width: 250px;
+        margin-left: 100px;
     }
 }
 
@@ -302,6 +312,10 @@ ul li:hover {
     font-family: cursive;
     color: lightslategrey;
     animation: move reverse 0.5s;
+}
+
+.m_direct {
+    background: transparent;
 }
 
 .html_tags {
