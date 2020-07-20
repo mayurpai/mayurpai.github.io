@@ -220,18 +220,6 @@
                 animation: move reverse 0.01s;
             }
             
-            @keyframes jump {
-                0% {
-                    transform: translateY(0);
-                }
-                50% {
-                    transform: translateY(-10px);
-                }
-                100% {
-                    transform: translateY(0);
-                }
-            }
-            
             #copy {
                 color: white;
                 background: transparent;
@@ -277,8 +265,6 @@
                 color: rgb(29, 29, 29);
                 box-sizing: border-box;
                 background-color: aqua;
-                transition: 0.5s linear;
-                animation: jump alternate-reverse 0.5s;
             }
             
             .contact {
@@ -296,8 +282,6 @@
                 color: black;
                 background-color: aqua;
                 box-sizing: border-box;
-                transition: 0.5s linear;
-                animation: jump alternate-reverse 0.5s;
             }
             
             h1 {
