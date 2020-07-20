@@ -17,53 +17,8 @@
         width: 25px;
         margin-bottom: 11px;
     }
-    #map {
-        display: none;
-    }
-    .m_direct {
-        height: 150px;
-        width: 150px;
-        margin-left: 30px;
-        margin-bottom: 50px;
-    }
-    .mail {
-        padding: 2px 5px 6px 8px;
-        width: 175px;
-        height: 25px;
-        margin-left: 15px;
-        font-size: smaller;
-        margin-bottom: 10px;
-    }
-    .mail:hover {
-        padding: 2px 5px 6px 8px;
-        width: 175px;
-        height: 25px;
-        margin-left: 15px;
-        font-size: smaller;
-        margin-bottom: 10px;
-    }
-    .contact {
-        width: 175px;
-        height: 25px;
-        margin-left: 15px;
-        padding: 2px 5px 6px 8px;
-        font-size: smaller;
-        margin-bottom: 70px;
-    }
-    .contact:hover {
-        width: 175px;
-        height: 25px;
-        margin-left: 15px;
-        padding: 2px 5px 6px 8px;
-        font-size: smaller;
-        margin-bottom: 70px;
-    }
     h1 {
         font-size: 35px;
-    }
-    #fp {
-        padding-left: 40px;
-        font-size: 7.5px;
     }
     ul li img.m {
         width: 25px;
@@ -121,49 +76,10 @@
         height: 50px;
         width: 50px;
     }
-    .m_direct {
-        height: 250px;
-        width: 250px;
-        margin-left: 100px;
-    }
-    .mail {
-        padding: 12px 10px 8px 10px;
-        width: 200px;
-        height: 50px;
-    }
-    .mail:hover {
-        padding: 12px 10px 8px 10px;
-        width: 200px;
-        height: 50px;
-    }
-    .contact {
-        padding: 12px 10px 8px 10px;
-        width: 200px;
-        height: 50px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
-    .contact:hover {
-        padding: 12px 10px 8px 10px;
-        width: 200px;
-        height: 50px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
-    #map,
-    .sidebar {
-        float: left;
-    }
     h1 {
         font-size: 55px;
         font-weight: bolder;
         margin-left: 95px;
-    }
-    #fp {
-        font-size: medium;
-        padding-left: 40px;
-        margin-left: 95px;
-        cursor: pointer;
     }
     ul li img.m {
         width: 40px;
@@ -228,53 +144,6 @@ a:hover {
 
 .sidebar a img.m_dir {
     background: transparent;
-}
-
-#map {
-    margin-top: -735px;
-    margin-left: 800px;
-    height: 790px;
-    width: 800px;
-    background-color: rgb(29, 29, 29);
-    fill: black;
-}
-
-.m_direct {
-    background: transparent;
-}
-
-.mail {
-    font-style: oblique;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid aqua;
-    color: aqua;
-    box-sizing: border-box;
-}
-
-.mail:hover {
-    font-style: oblique;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid rgb(29, 29, 29);
-    color: rgb(29, 29, 29);
-    box-sizing: border-box;
-    background-color: aqua;
-}
-
-.contact {
-    font-style: oblique;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid aqua;
-    color: aqua;
-    box-sizing: border-box;
-}
-
-.contact:hover {
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid aqua;
-    color: black;
-    background-color: aqua;
-    box-sizing: border-box;
 }
 
 h1 {
@@ -349,8 +218,20 @@ ul li:nth-child(10) {
     animation: move reverse 1.6s;
 }
 
-ul li:nth-child(11) {
+ul li:nth-child(12) {
     animation: move reverse 1.7s;
+}
+
+ul li:nth-child(13) {
+    animation: move reverse 1.8s;
+}
+
+ul li:nth-child(14) {
+    animation: move reverse 1.9s;
+}
+
+ul li:nth-child(15) {
+    animation: move reverse 2.0s;
 }
 
 ul li:hover {
