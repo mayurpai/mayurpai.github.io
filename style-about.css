@@ -220,6 +220,11 @@
         cursor: context-menu;
     }
     
+    .fp,
+    .mp {
+        display: inline;
+    }
+    
     .html-tags {
         font-style: italic;
         font-family: cursive;
