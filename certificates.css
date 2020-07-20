@@ -122,14 +122,51 @@
         float: left;
         color: aqua;
     }
+    .python {
+        padding: 12px 10px 8px 10px;
+        width: 200px;
+        height: 50px;
+        margin-left: 200px;
+    }
+    .python:hover {
+        padding: 12px 10px 8px 10px;
+        width: 200px;
+        height: 50px;
+    }
 }
 
 .page {
     animation: move reverse 0.01s;
 }
 
+.python {
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid aqua;
+    color: aqua;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.python:hover {
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid aqua;
+    color: black;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    background: transparent;
+}
+
 a:hover {
-    color: white;
+    color: rgb(251, 12, 84);
     text-decoration: none;
     cursor: pointer;
 }
@@ -145,12 +182,6 @@ h1 {
     color: white;
     white-space: nowrap;
     overflow: hidden;
-}
-
-#fp {
-    font-style: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: darkgray;
 }
 
 @keyframes move {
