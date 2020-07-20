@@ -61,6 +61,28 @@
         float: left;
         color: aqua;
     }
+    .certificate {
+        padding: 4px 10px 8px 10px;
+        width: 100px;
+        height: 25px;
+        margin-left: 80px;
+        margin-top: 25px;
+        font-size: x-small;
+    }
+    .certificate:hover {
+        padding: 4px 10px 8px 10px;
+        width: 100px;
+        height: 25px;
+        margin-top: 25px;
+        font-size: x-small;
+    }
+    .cert {
+        margin-top: 25px;
+    }
+    .logo {
+        width: 15px;
+        height: 15px;
+    }
 }
 
 @media only screen and (min-width: 450px) {
@@ -166,6 +188,11 @@
     color: black;
     background-color: aqua;
     box-sizing: border-box;
+}
+
+.cert {
+    display: flexbox;
+    justify-content: center;
 }
 
 .logo {
