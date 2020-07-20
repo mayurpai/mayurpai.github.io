@@ -276,19 +276,19 @@ ul li:nth-child(10) {
     animation: move reverse 1.6s;
 }
 
-ul li:nth-child(12) {
+ul li:nth-child(11) {
     animation: move reverse 1.7s;
 }
 
-ul li:nth-child(13) {
+ul li:nth-child(12) {
     animation: move reverse 1.8s;
 }
 
-ul li:nth-child(14) {
+ul li:nth-child(13) {
     animation: move reverse 1.9s;
 }
 
-ul li:nth-child(15) {
+ul li:nth-child(14) {
     animation: move reverse 2.0s;
 }
 
@@ -308,7 +308,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 2.1s;
+    animation: move reverse 2.5s;
     position: relative;
     background: transparent;
 }
@@ -317,7 +317,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 2.2s;
+    animation: move reverse 2.6s;
     position: relative;
     background: transparent;
 }
@@ -333,7 +333,7 @@ ul li:hover {
     font-style: italic;
     font-family: cursive;
     color: lightslategrey;
-    animation: move reverse 1.8s;
+    animation: move reverse 2.1s;
 }
 
 .sidebar {
