@@ -56,10 +56,6 @@
         padding: 6px 6px 6px 7px;
         font-size: 15px;
     }
-    .im,
-    .image {
-        display: inline-block;
-    }
     ul li {
         font-weight: bold;
         float: left;
@@ -95,7 +91,7 @@
     .html_tags {
         font-size: small;
         padding-left: 100px;
-        padding-top: 119px;
+        padding-top: 473px;
         cursor: pointer;
     }
     .html-tag {
@@ -120,10 +116,6 @@
     .sidebar a {
         padding: 6px 8px 6px 16px;
         font-size: 20px;
-    }
-    .im,
-    .image {
-        display: inline-block;
     }
     ul li {
         font-weight: bold;
