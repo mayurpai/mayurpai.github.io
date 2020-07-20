@@ -11,6 +11,9 @@
         .page {
             padding-left: 35px;
         }
+        .mp {
+            display: none;
+        }
         .sidebar a img.m_dir {
             margin-left: -1px;
             height: 25px;
@@ -220,9 +223,11 @@
         cursor: context-menu;
     }
     
-    .fp,
     .mp {
-        display: inline;
+        margin-top: -700px;
+        margin-left: 1000px;
+        height: 500px;
+        width: 500px;
     }
     
     .html-tags {
