@@ -154,8 +154,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid aqua;
     color: black;
-    box-sizing: border-box;
     background-color: aqua;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -166,7 +166,7 @@
 }
 
 a:hover {
-    color: rgb(251, 12, 84);
+    color: rgb(29, 29, 29);
     text-decoration: none;
     cursor: pointer;
 }
