@@ -1,7 +1,7 @@
 * {
     background-color: rgb(29, 29, 29);
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: hidden;
+    position: relative;
 }
 
 @media only screen and (max-width: 450px) {
@@ -67,12 +67,6 @@
         margin-left: 40px;
         width: 350px;
         height: 350px;
-    }
-    .m_direct {
-        height: 150px;
-        width: 150px;
-        margin-top: 5px;
-        margin-left: 35px;
     }
     .gallery {
         margin-top: 10px;
@@ -149,12 +143,6 @@
         margin-left: 465px;
         height: 800px;
         width: 800px;
-    }
-    .m_direct {
-        height: 250px;
-        width: 250px;
-        margin-top: 5px;
-        margin-left: 60px;
     }
     .gallery {
         margin-top: 10px;
