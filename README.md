@@ -2,8 +2,6 @@
 # Mayur Pai | Portfolio #
 
 ![Default Type Theme blog](images/Home.png)
-<hr>
 
-# Contributing #
-Contributions are most welcome!
+
 
