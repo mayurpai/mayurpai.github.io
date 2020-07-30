@@ -166,6 +166,53 @@
     animation: move linear 0.01s;
 }
 
+.logo {
+    margin-top: -520px;
+    margin-left: 870px;
+    background: transparent;
+    position: absolute;
+}
+
+.skills:first-child {
+    height: 100px;
+    width: 100px;
+    margin-right: 30px;
+    background: transparent;
+    position: relative;
+}
+
+.skills:nth-child(2) {
+    height: 100px;
+    margin-right: 30px;
+    width: 100px;
+    background: transparent;
+    position: relative;
+}
+
+.skills:nth-child(3) {
+    height: 100px;
+    margin-right: 30px;
+    width: 100px;
+    background: transparent;
+    position: relative;
+}
+
+.skills:nth-child(4) {
+    height: 100px;
+    width: 100px;
+    margin-right: 30px;
+    background: transparent;
+    position: relative;
+}
+
+.skills:nth-child(5) {
+    height: 100px;
+    width: 100px;
+    margin-right: 30px;
+    background: transparent;
+    position: relative;
+}
+
 #copy {
     color: white;
     position: fixed;
