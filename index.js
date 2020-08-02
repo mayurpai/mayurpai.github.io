@@ -1,4 +1,7 @@
 function greet(name) {
+    if (name == null)
+        alert('Hey, it\'s great to have you here!');
+    else
         alert('Hey ' + name + ', it\'s great to have you here!');
 }
 

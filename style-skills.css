@@ -24,7 +24,7 @@
     #fp {
         font-size: 9px;
         padding-left: 80px;
-        z-index: 99;
+        z-index: 1;
         position: absolute;
         background: transparent;
     }
