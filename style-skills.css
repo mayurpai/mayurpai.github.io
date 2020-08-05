@@ -1,5 +1,4 @@
 * {
-    background-color: rgb(29, 29, 29);
     overflow: hidden;
 }
 
@@ -153,6 +152,10 @@
 }
 
 @media only screen and (min-width: 450px) {
+    .res {
+        width: 100vw;
+        height: 100vh;
+    }
     .page {
         padding-left: 35px;
     }
@@ -296,6 +299,11 @@
         margin-right: 30px;
         margin-top: 500px;
     }
+}
+
+.res {
+    background-color: rgb(29, 29, 29);
+    background-size: 1600px 800px;
 }
 
 .page {
@@ -682,5 +690,53 @@ i {
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+button {
+    flex: 1 1 auto;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    transition: 0.5s;
+    color: whitesmoke;
+    border-radius: 40px;
+    width: 150px;
+    margin-left: 170px;
+    margin-bottom: 7px;
+    height: 40px;
+    padding: 8px;
+    background-image: linear-gradient(to right, aqua 0%, rgb(251, 12, 84) 100%);
+}
+
+button:hover {
+    background-position: right center;
+    transform: scale(1.03);
+    transition: linear 0.25s;
+}
+
+#one p:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: ease-in-out 1s;
+    color: #111;
+}
+
+#one {
+    cursor: pointer;
+    animation: loads alternate-reverse 0.5s 0.1s infinite;
+}
+
+@keyframes loads {
+    0% {
+        opacity: 1;
+        color: aqua;
+        background-color: transparent;
+    }
+    100% {
+        opacity: 1;
+        color: rgb(251, 12, 84);
+        background-color: rgb(251, 12, 84);
     }
 }
