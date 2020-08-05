@@ -6,7 +6,8 @@
     .res {
         width: 100vw;
         height: 100vh;
-        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     .page {
         padding-left: 35px;
@@ -325,7 +326,6 @@
 .res {
     background-color: rgb(29, 29, 29);
     background-size: 1600px 1600px;
-    overflow: hidden;
 }
 
 .page {
