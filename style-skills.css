@@ -754,6 +754,7 @@ button:hover {
     background-position: right center;
     transform: scale(1.03);
     transition: linear 0.25s;
+    animation:moves alternate 0.1s infinite;
 }
 
 #one p:hover {
@@ -778,5 +779,17 @@ button:hover {
         opacity: 1;
         color: rgb(251, 12, 84);
         background-color: rgb(251, 12, 84);
+    }
+}
+
+@keyframes moves {
+    0% {
+        background-image: linear-gradient(to right, springgreen 0%, greenyellow 100%);
+        transition: linear 1s;
+        transform: scale(1);
+    }
+    100% {
+        background-image: linear-gradient(to left, greenyellow 0%, springgreen 100%);
+        transform: scale(1.2);
     }
 }
