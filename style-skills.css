@@ -30,7 +30,7 @@
     #links {
         position: absolute;
         z-index: 1;
-        top: 350px;
+        top: 365px;
         left: 0px;
         font-size: 9px;
         padding-left: 80px;
@@ -754,7 +754,7 @@ button:hover {
     background-position: right center;
     transform: scale(1.03);
     transition: linear 0.25s;
-    animation:moves alternate 0.1s infinite;
+    animation: moves alternate 0.1s infinite;
 }
 
 #one p:hover {
