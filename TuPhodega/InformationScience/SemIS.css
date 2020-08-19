@@ -294,19 +294,16 @@
                                 left: 36.5%;
                                 font-size: 7px;
                                 bottom: 135px;
-                                z-index: 20;
                             }
                             #ade {
                                 left: 2.5%;
                                 font-size: 6px;
                                 bottom: 135px;
-                                z-index: 20;
                             }
                             #dsa {
                                 right: 2.5%;
                                 font-size: 6px;
                                 bottom: 135px;
-                                z-index: 20;
                             }
                         }
                         
@@ -451,20 +448,16 @@
                                 left: 34.2%;
                                 font-size: 6px;
                                 bottom: 35px;
-                                z-index: 20;
                             }
                             #ade {
                                 left: 2.5%;
                                 font-size: 5px;
                                 bottom: 35px;
-                                z-index: 20;
-                                
                             }
                             #dsa {
                                 right: 2.5%;
                                 font-size: 5px;
                                 bottom: 35px;
-                                z-index: 20;
                             }
                         }
                         
