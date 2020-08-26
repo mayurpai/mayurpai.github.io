@@ -20,7 +20,7 @@ html {
     .mp {
         position: absolute;
         top: 10rem;
-        left: 100rem;
+        right: 10rem;
         width: 44rem;
         height: 50rem;
     }
@@ -41,9 +41,9 @@ html {
         left: 12.0rem;
     }
     .mp {
-        position: absolute;
+        position: fixed;
         top: 10rem;
-        left: 100rem;
+        right: 10rem;
         width: 44rem;
         height: 50rem;
     }
@@ -64,9 +64,9 @@ html {
         left: 10.0rem;
     }
     .mp {
-        position: absolute;
+        position: fixed;
         top: 10rem;
-        left: 100rem;
+        right: 10rem;
         width: 44rem;
         height: 50rem;
     }
@@ -297,7 +297,7 @@ h1 {
     position: relative;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: darkgray;
+    color: white;
     pointer-events: none;
 }
 

@@ -47,7 +47,7 @@
     
     @media(max-width: 1200px) {
         html {
-            font-size: 32%;
+            font-size: 50%;
         }
         .html-body_h1 {
             top: 10.5rem;
@@ -65,7 +65,7 @@
     
     @media(max-width: 768px) {
         html {
-            font-size: 35%;
+            font-size: 40%;
         }
         .html-body_h1 {
             top: 10.5rem;
@@ -83,7 +83,7 @@
     
     @media(max-width: 450px) {
         html {
-            font-size: 29.5%;
+            font-size: 32%;
         }
         .html-body_h1 {
             top: 10.5rem;
@@ -101,7 +101,7 @@
     
     @media(max-width: 390px) {
         html {
-            font-size: 26.5%;
+            font-size: 28%;
         }
         .html-body_h1 {
             top: 10.5rem;
@@ -249,7 +249,7 @@
     #fp {
         font-style: normal;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: darkgray;
+        color: white;
         pointer-events: none;
         font-size: 1.5rem;
     }
