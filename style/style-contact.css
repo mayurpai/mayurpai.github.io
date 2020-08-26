@@ -1,222 +1,170 @@
             * {
-                background-color: rgb(29, 29, 29);
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
                 overflow: hidden;
             }
             
-            @media only screen and (max-width: 450px) {
-                .res {
-                    width: 100vw;
-                    height: 100%;
-                }
-                .page {
-                    padding-left: 35px;
-                }
-                .sidebar a img.m_dir {
-                    margin-left: -1px;
-                    height: 25px;
-                    width: 25px;
-                    margin-bottom: 11px;
-                }
-                #map {
-                    display: none;
-                }
-                .m_direct {
-                    height: 150px;
-                    width: 150px;
-                    margin-left: 30px;
-                    margin-bottom: 50px;
-                }
-                .mail {
-                    padding: 2px 5px 6px 8px;
-                    width: 175px;
-                    height: 25px;
-                    margin-left: 15px;
-                    font-size: smaller;
-                    margin-bottom: 10px;
-                }
-                .mail:hover {
-                    padding: 2px 5px 6px 8px;
-                    width: 175px;
-                    height: 25px;
-                    margin-left: 15px;
-                    font-size: smaller;
-                    margin-bottom: 10px;
-                }
-                .contact {
-                    width: 175px;
-                    height: 25px;
-                    margin-left: 15px;
-                    padding: 2px 5px 6px 8px;
-                    font-size: smaller;
-                    margin-bottom: 70px;
-                }
-                .contact:hover {
-                    width: 175px;
-                    height: 25px;
-                    margin-left: 15px;
-                    padding: 2px 5px 6px 8px;
-                    font-size: smaller;
-                    margin-bottom: 70px;
-                }
-                h1 {
-                    font-size: 35px;
-                }
-                #fp {
-                    padding-left: 40px;
-                    font-size: 7.5px;
-                }
-                ul li img.m {
-                    width: 25px;
-                    height: 25px;
-                    margin-bottom: 5px;
-                }
-                .html-tags {
-                    font-size: x-small;
-                    padding-left: 60px;
-                    padding-top: 50px;
-                }
-                .html_tags {
-                    font-size: x-small;
-                    padding-left: 60px;
-                    padding-top: 133px;
-                }
-                .html-tag {
-                    font-size: x-small;
-                    padding-left: 40px;
-                    cursor: pointer;
-                }
-                .html-h1 {
-                    font-size: x-small;
-                    padding-left: 58px;
-                    padding-top: 140px;
-                }
-                .html_h1 {
-                    font-size: x-small;
-                }
-                .sidebar {
-                    height: 100%;
-                    width: 35px;
-                }
-                .sidebar a {
-                    padding: 6px 6px 6px 7px;
-                    font-size: 15px;
-                }
-                .im,
-                .image {
-                    display: inline-block;
-                }
-                ul li {
-                    font-weight: bold;
-                    float: left;
-                    color: aqua;
+            html {
+                font-size: 62.5%;
+            }
+            
+            @media(max-width: 2560px) {
+                html {
+                    font-size: 65%;
                 }
             }
             
-            @media only screen and (min-width: 450px) {
-                .page {
-                    padding-left: 35px;
-                }
-                .sidebar a img.m_dir {
-                    margin-left: -12px;
-                    height: 50px;
-                    width: 50px;
-                }
-                .m_direct {
-                    height: 250px;
-                    width: 250px;
-                    margin-left: 100px;
-                }
-                .mail {
-                    padding: 12px 10px 8px 10px;
-                    width: 200px;
-                    height: 50px;
-                }
-                .mail:hover {
-                    padding: 12px 10px 8px 10px;
-                    width: 200px;
-                    height: 50px;
-                }
-                .contact {
-                    padding: 12px 10px 8px 10px;
-                    width: 200px;
-                    height: 50px;
-                    margin-top: 20px;
-                    margin-bottom: 30px;
-                }
-                .contact:hover {
-                    padding: 12px 10px 8px 10px;
-                    width: 200px;
-                    height: 50px;
-                    margin-top: 20px;
-                    margin-bottom: 30px;
-                }
-                #map,
-                .sidebar {
-                    float: left;
-                }
-                h1 {
-                    font-size: 55px;
-                    font-weight: bolder;
-                    margin-left: 95px;
-                }
-                #fp {
-                    font-size: medium;
-                    padding-left: 40px;
-                    margin-left: 95px;
-                    cursor: pointer;
-                }
-                ul li img.m {
-                    width: 40px;
-                    height: 40px;
-                    margin-bottom: 10px;
-                }
-                .html-tags {
-                    font-size: small;
-                    padding-left: 100px;
-                    padding-top: 50px;
-                    cursor: pointer;
-                }
-                .html_tags {
-                    font-size: small;
-                    padding-left: 100px;
-                    padding-top: 119px;
-                    cursor: pointer;
-                }
-                .html-tag {
-                    font-size: small;
-                    padding-left: 80px;
-                    cursor: pointer;
-                }
-                .html-h1 {
-                    font-size: small;
-                    padding-left: 150px;
-                    padding-top: 40px;
-                    cursor: pointer;
-                }
-                .html_h1 {
-                    font-size: small;
-                    cursor: pointer;
-                }
-                .sidebar {
-                    height: 100%;
-                    width: 60px;
-                }
-                .sidebar a {
-                    padding: 6px 8px 6px 16px;
-                    font-size: 20px;
-                }
-                .im,
-                .image {
-                    display: inline-block;
-                }
-                ul li {
-                    font-weight: bold;
-                    float: left;
-                    color: aqua;
+            @media(max-width: 1600px) {
+                html {
+                    font-size: 65%;
                 }
             }
             
+            @media(max-width: 1200px) {
+                html {
+                    font-size: 32%;
+                }
+            }
             
+            @media(max-width: 768px) {
+                html {
+                    font-size: 35%;
+                }
+            }
+            
+            @media(max-width: 450px) {
+                html {
+                    font-size: 29.5%;
+                }
+            }
+            
+            @media(max-width: 390px) {
+                html {
+                    font-size: 26.5%;
+                }
+            }
+            
+            @media(max-width: 320px) {
+                html {
+                    font-size: 23%;
+                }
+            }
+            
+            .container {
+                position: relative;
+                min-height: 100vh;
+                min-width: 100vw;
+                background: rgb(29, 29, 29);
+                justify-content: center;
+            }
+            
+            .sidebar {
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+                height: 100vh;
+                width: 5rem;
+                text-align: center;
+                place-items: center;
+            }
+            
+            .sidebar1 {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                place-items: center;
+            }
+            
+            .sidebar2 {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                place-items: center;
+                position: absolute;
+                bottom: 5rem;
+            }
+            
+            .sidebar a img.m_dir {
+                position: relative;
+                width: 4.5rem;
+                height: 4.5rem;
+                margin-bottom: 10rem;
+            }
+            
+            .sidebar1 a i {
+                text-decoration: none;
+                color: #818181;
+                display: block;
+                padding: .5rem;
+                font-size: 2.0rem;
+                margin-top: 2rem;
+            }
+            
+            .sidebar2 a i {
+                text-decoration: none;
+                color: #818181;
+                display: block;
+                padding: 0.5rem;
+                font-size: 1.75rem;
+            }
+            
+            .sidebar a :hover {
+                color: aqua;
+            }
+            
+            .sidebar a img.m_dir {
+                background: transparent;
+            }
+            
+            i {
+                background: transparent;
+            }
+            
+            .page {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100vh;
+                place-items: center;
+                left: 15rem;
+                top: 15rem;
+            }
+            
+            .page,
+            .html_h1 {
+                display: inline;
+            }
+            
+            a:hover {
+                text-decoration: none;
+                cursor: pointer;
+            }
+            
+            h1 {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-style: normal;
+                font-weight: bolder;
+                color: aqua;
+                white-space: nowrap;
+                overflow: hidden;
+                font-size: 6.0rem;
+                pointer-events: none;
+            }
+            
+            #fp {
+                font-style: normal;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: darkgray;
+                pointer-events: none;
+                font-size: 1.5rem;
+            }
             
             #copy {
                 color: white;
@@ -228,238 +176,100 @@
                 overflow-x: hidden;
                 text-align: center;
                 position: relative;
-            }
-            
-            a:hover {
-                color: white;
-                text-decoration: none;
-                cursor: pointer;
-            }
-            
-            .sidebar a img.m_dir {
-                background: transparent;
-            }
-            
-            #map {
-                margin-top: -735px;
-                margin-left: 800px;
-                height: 790px;
-                width: 800px;
-                background-color: rgb(29, 29, 29);
-                fill: black;
-            }
-            
-            .m_direct {
-                background: transparent;
+                pointer-events: none;
+                font-size: 1.25rem;
             }
             
             .mail {
-                font-style: oblique;
+                position: absolute;
+                font-style: italic;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                border: 1px solid aqua;
+                border: .1rem solid aqua;
                 color: aqua;
                 box-sizing: border-box;
-                
-            }
-            
-            .mail:hover {
-                font-style: oblique;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                border: 1px solid rgb(29, 29, 29);
-                color: rgb(29, 29, 29);
-                box-sizing: border-box;
-                background-color: aqua;
+                width: 21.0rem;
+                height: 5.0rem;
+                text-align: center;
+                font-size: 1.6rem;
+                padding: 1.4rem;
+                top: 40rem;
+                left: 40rem;
+                transition: 0.5s linear;
             }
             
             .contact {
-                font-style: oblique;
+                position: absolute;
+                font-style: italic;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                border: 1px solid aqua;
+                border: .1rem solid aqua;
                 color: aqua;
                 box-sizing: border-box;
-                
+                width: 21.0rem;
+                height: 5.0rem;
+                text-align: center;
+                font-size: 1.6rem;
+                padding: 1.4rem;
+                top: 48rem;
+                left: 40rem;
+                transition: 0.5s linear;
             }
             
-            .contact:hover {
-                font-style: italic;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                border: 1px solid aqua;
-                color: black;
+            .contact:hover,
+            .mail:hover {
+                color: rgb(29, 29, 29);
                 background-color: aqua;
-                box-sizing: border-box;
-            }
-            
-            h1 {
-                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-                font-style: normal;
+                color: rgb(29, 29, 29);
                 font-weight: bolder;
-                color: white;
-                white-space: nowrap;
-                overflow: hidden;
             }
             
-            #fp {
-                font-style: normal;
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                color: darkgray;
-            }
-            
-            @keyframes move {
-                0% {
-                    opacity: 0;
-                    color: rgb(29, 29, 29);
-                    width: auto;
-                }
-                100% {
-                    opacity: 1;
-                    color: rgb(251, 12, 84);
-                    width: auto;
-                }
-            }
-            
-            ul li:nth-child(1) {
-                
-                background: transparent;
-            }
-            
-            ul li:nth-child(2) {
-                
-                background: transparent;
-            }
-            
-            ul li:nth-child(3) {
-                
-                background: transparent;
-            }
-            
-            ul li:nth-child(4) {
-                
-                background: transparent;
-            }
-            
-            ul li:nth-child(5) {
-                
-                background: transparent;
-            }
-            
-            ul li:nth-child(6) {
-                
-                background: transparent;
-            }
-            
-            ul li:nth-child(7) {
-                
-                background: transparent;
-            }
-            
-            ul li:nth-child(8) {
-                
-                background: transparent;
-            }
-            
-            ul li:nth-child(9) {
-                
-                background: transparent;
-            }
-            
-            ul li:nth-child(10) {
-                
-                background: transparent;
-            }
-            
-            ul li:nth-child(11) {
-                
-                background: transparent;
-            }
-            
-            ul li:hover {
-                color: rgb(251, 12, 84);
-                cursor: context-menu;
-            }
-            
-            .html-tags {
+            .html-body-h1 {
                 font-style: italic;
                 font-family: cursive;
                 color: lightslategrey;
-                background: transparent;
-                
-            }
-            
-            .html_tags {
-                font-style: italic;
-                font-family: cursive;
-                color: lightslategrey;
-                
                 position: relative;
                 background: transparent;
+                pointer-events: none;
+                top: 5.5rem;
+                left: 7.0rem;
+                font-size: 1.25rem;
             }
             
-            .html-tag {
+            .html-body_h1 {
                 font-style: italic;
                 font-family: cursive;
                 color: lightslategrey;
-                
                 position: relative;
                 background: transparent;
+                pointer-events: none;
+                top: 12.5rem;
+                left: 12.0rem;
+                font-size: 1.25rem;
             }
             
-            .html-h1 {
+            .html-body-html {
                 font-style: italic;
                 font-family: cursive;
                 color: lightslategrey;
-                
+                position: absolute;
                 background: transparent;
+                pointer-events: none;
+                bottom: 5.5rem;
+                left: 5.5rem;
+                font-size: 1.25rem;
+            }
+            
+            .html-body-html span:nth-child(1) {
+                margin-left: 2.5rem;
             }
             
             .html_h1 {
                 font-style: italic;
                 font-family: cursive;
-                background: transparent;
                 color: lightslategrey;
-                
-            }
-            
-            .sidebar {
-                position: fixed;
-                z-index: 1;
-                top: 0;
-                left: 0;
-                background-color: #111;
-                overflow-x: hidden;
-            }
-            
-            .sidebar a {
-                text-decoration: none;
-                color: #818181;
-                display: block;
-            }
-            
-            .sidebar a :hover {
-                color: aqua;
-            }
-            
-            i {
+                position: relative;
                 background: transparent;
-            }
-            
-            #fb {
-                padding-left: 5px;
-            }
-            
-            #git {
-                padding-left: 3px;
-            }
-            
-            #twitter {
-                padding-left: 3px;
-            }
-            
-            #insta {
-                padding-left: 2px;
-            }
-            
-            #link {
-                padding-left: 3px;
+                pointer-events: none;
+                font-size: 1.25rem;
             }
             
             #fb:hover {
@@ -482,6 +292,36 @@
                 color: #c32aa3;
             }
             
+            #map {
+                position: absolute;
+                height: 78.0rem;
+                width: 75.0rem;
+                background-color: rgb(29, 29, 29);
+                fill: black;
+                top: 0;
+                right: 0;
+            }
+            
+            .m_direct {
+                position: absolute;
+                height: 25rem;
+                width: 25rem;
+                left: 10rem;
+                top: 30rem;
+                background: transparent;
+            }
+            
+            .M {
+                width: 4.5rem;
+                height: 4.5rem;
+                margin-bottom: 1.0rem;
+            }
+            
+            .im,
+            .image {
+                display: inline-block;
+            }
+            
             .loader-container {
                 width: 100%;
                 height: 100vh;
@@ -493,27 +333,27 @@
             }
             
             .loader-container img.m_dir {
-                height: 50px;
-                width: 50px;
+                height: 5.0rem;
+                width: 5.0rem;
                 background: transparent;
-                margin-bottom: 130px;
+                margin-bottom: 13.0rem;
             }
             
             .think {
-                margin-bottom: 10px;
-                margin-left: -90px;
+                margin-bottom: 1.0rem;
+                margin-left: -9.0rem;
                 color: aqua;
                 background: transparent;
             }
             
             .loader {
-                width: 50px;
-                height: 50px;
-                border: 5px solid;
+                width: 5.0rem;
+                height: 5.0rem;
+                border: .5rem solid;
                 color: rgb(251, 12, 84);
                 border-radius: 50%;
-                margin-top: 100px;
-                margin-left: -90px;
+                margin-top: 10.0rem;
+                margin-left: -9.0rem;
                 border-top-color: transparent;
                 animation: loader 1.25s linear infinite;
             }
