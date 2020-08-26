@@ -1,698 +1,324 @@
-    * {
-        background-color: rgb(29, 29, 29);
-        overflow: hidden;
-    }
-    
-    html {
-        font-size: 62.5%;
-    }
-    
-    @media(max-width: 2560px) {
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        
         html {
-            font-size: 65%;
+            font-size: 62.5%;
         }
-        .slant-m {
-            height: 60.0rem;
-            width: 60.0rem;
+        
+        @media(max-width: 2560px) {
+            html {
+                font-size: 65%;
+            }
         }
-        #copy {
-            font-size: 1.4rem;
+        
+        @media(max-width: 1600px) {
+            html {
+                font-size: 65%;
+            }
         }
-        .sidebar a {
-            font-size: 2rem;
+        
+        @media(max-width: 1200px) {
+            html {
+                font-size: 32%;
+            }
         }
+        
+        @media(max-width: 768px) {
+            html {
+                font-size: 35%;
+            }
+        }
+        
+        @media(max-width: 450px) {
+            html {
+                font-size: 29.5%;
+            }
+            .slant-m {
+                display: none;
+            }
+        }
+        
+        @media(max-width: 390px) {
+            html {
+                font-size: 26.5%;
+            }
+            .slant-m {
+                display: none;
+            }
+        }
+        
+        @media(max-width: 320px) {
+            html {
+                font-size: 23%;
+            }
+            .slant-m {
+                display: none;
+            }
+        }
+        
+        .container {
+            position: relative;
+            min-height: 100vh;
+            min-width: 100vw;
+            background: rgb(29, 29, 29);
+            justify-content: center;
+        }
+        
         .sidebar {
-            width: 6rem;
-        }
-        .sidebar a img.m_dir {
-            height: 5rem;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            height: 100vh;
             width: 5rem;
+            text-align: center;
+            place-items: center;
         }
-        .html-tags {
-            font-size: 1.3rem;
-            padding-left: 10.0rem;
-            padding-top: 5.0rem;
+        
+        .sidebar1 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            place-items: center;
         }
-        .html_tags {
-            font-size: 1.3rem;
-            padding-left: 10.0rem;
-            padding-top: 15.0rem;
+        
+        .sidebar2 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            place-items: center;
+            position: absolute;
+            bottom: 5rem;
         }
-        .html-tag {
-            font-size: 1.3rem;
-            padding-left: 8.0rem;
-        }
-        .html-h1 {
-            font-size: 1.3rem;
-            padding-left: 15.0rem;
-            padding-top: 14.0rem;
-        }
-        .html_h1 {
-            font-size: 1.3rem;
-        }
-        #fb {
-            padding-left: 0.5rem;
-        }
-        #git {
-            padding-left: 0.3rem;
-        }
-        #twitter {
-            padding-left: 0.2rem;
-        }
-        #insta {
-            padding-left: 0.3rem;
-        }
-        #link {
-            padding-left: 0.3rem;
-        }
-        .m_direct {
-            margin-top: -97.0rem;
-            margin-left: -100.0rem;
-        }
-        #fp {
-            font-size: 1.5rem;
-            padding-left: 4.0rem;
-        }
-        .contact {
-            margin-left: 16.5rem;
-        }
-    }
-    
-    @media(max-width: 1600px) {
-        html {
-            font-size: 65%;
-        }
-        .slant-m {
-            height: 60.0rem;
-            width: 60.0rem;
-        }
-        #copy {
-            font-size: 1.4rem;
-        }
-        .sidebar a {
-            font-size: 2rem;
-        }
-        .sidebar {
-            width: 6rem;
-        }
+        
         .sidebar a img.m_dir {
-            height: 5rem;
-            width: 5rem;
-        }
-        .html-tags {
-            font-size: 1.3rem;
-            padding-left: 10.0rem;
-            padding-top: 5.0rem;
-        }
-        .html_tags {
-            font-size: 1.3rem;
-            padding-left: 10.0rem;
-            padding-top: 15.0rem;
-        }
-        .html-tag {
-            font-size: 1.3rem;
-            padding-left: 8.0rem;
-        }
-        .html-h1 {
-            font-size: 1.3rem;
-            padding-left: 15.0rem;
-            padding-top: 14.0rem;
-        }
-        .html_h1 {
-            font-size: 1.3rem;
-        }
-        #fb {
-            padding-left: 0.5rem;
-        }
-        #git {
-            padding-left: 0.3rem;
-        }
-        #twitter {
-            padding-left: 0.2rem;
-        }
-        #insta {
-            padding-left: 0.3rem;
-        }
-        #link {
-            padding-left: 0.3rem;
-        }
-        .m_direct {
-            margin-top: -100.0rem;
-            margin-left: 40.0rem;
-        }
-        #fp {
-            font-size: 1.5rem;
-            padding-left: 4.0rem;
-        }
-        .contact {
-            margin-left: 16.5rem;
-        }
-    }
-    
-    @media(max-width: 1200px) {
-        html {
-            font-size: 32%;
-        }
-        #copy {
-            font-size: 2.4rem;
-        }
-        .slant-m {
-            height: 50.0rem;
-            width: 50.0rem;
-        }
-        .sidebar a {
-            font-size: 5rem;
-        }
-        .sidebar {
-            width: 10rem;
-        }
-        .sidebar a img.m_dir {
-            height: 9rem;
-            width: 9rem;
-        }
-        .html-tags {
-            font-size: 2.5rem;
-            padding-left: 14.0rem;
-            padding-top: 5.0rem;
-        }
-        .html_tags {
-            font-size: 2.5rem;
-            padding-left: 14.0rem;
-            padding-top: 15.0rem;
-        }
-        .html-tag {
-            font-size: 2.5rem;
-            padding-left: 11.0rem;
-        }
-        .html-h1 {
-            font-size: 2.5rem;
-            padding-left: 20.0rem;
-            padding-top: 14.0rem;
-        }
-        .html_h1 {
-            font-size: 2.5rem;
-        }
-        #fb {
-            padding-left: 1.5rem;
-        }
-        #git {
-            padding-left: 1.2rem;
-        }
-        #twitter {
-            padding-left: 1.1rem;
-        }
-        #insta {
-            padding-left: 1.2rem;
-        }
-        #link {
-            padding-left: 1.2rem;
-        }
-        .m_direct {
-            margin-top: -108.0rem;
-            margin-left: -85.0rem;
-        }
-        #fp {
-            font-size: 2.75rem;
-            padding-left: 7.0rem;
-        }
-        .contact {
-            margin-left: 19.5rem;
-        }
-    }
-    
-    @media(max-width: 768px) {
-        html {
-            font-size: 35%;
-        }
-        #copy {
-            font-size: 2.4rem;
-        }
-        .slant-m {
-            display: none;
-        }
-        .sidebar a {
-            font-size: 5rem;
-        }
-        .sidebar {
-            width: 10rem;
-        }
-        .sidebar a img.m_dir {
-            height: 9rem;
-            width: 9rem;
-        }
-        .html-tags {
-            font-size: 2.5rem;
-            padding-left: 14.0rem;
-            padding-top: 5.0rem;
-        }
-        .html_tags {
-            font-size: 2.5rem;
-            padding-left: 14.0rem;
-            padding-top: 15.0rem;
-        }
-        .html-tag {
-            font-size: 2.5rem;
-            padding-left: 11.0rem;
-        }
-        .html-h1 {
-            font-size: 2.5rem;
-            padding-left: 20.0rem;
-            padding-top: 14.0rem;
-        }
-        .html_h1 {
-            font-size: 2.5rem;
-        }
-        #fb {
-            padding-left: 1.5rem;
-        }
-        #git {
-            padding-left: 1.2rem;
-        }
-        #twitter {
-            padding-left: 1.1rem;
-        }
-        #insta {
-            padding-left: 1.2rem;
-        }
-        #link {
-            padding-left: 1.2rem;
-        }
-        .m_direct {
-            margin-top: -108.0rem;
-            margin-left: 45.0rem;
-        }
-        #fp {
-            font-size: 2.75rem;
-            padding-left: 7.0rem;
-        }
-        .contact {
-            margin-left: 19.5rem;
-        }
-    }
-    
-    @media(max-width: 450px) {
-        html {
-            font-size: 29.5%;
-        }
-        #copy {
-            font-size: 2.4rem;
-        }
-        .slant-m {
-            display: none;
-        }
-        .sidebar a {
-            font-size: 5rem;
-        }
-        .sidebar {
-            width: 10rem;
-        }
-        .sidebar a img.m_dir {
-            height: 9rem;
-            width: 9rem;
-        }
-        .html-tags {
-            font-size: 2.5rem;
-            padding-left: 14.0rem;
-            padding-top: 5.0rem;
-        }
-        .html_tags {
-            font-size: 2.5rem;
-            padding-left: 14.0rem;
-            padding-top: 15.0rem;
-        }
-        .html-tag {
-            font-size: 2.5rem;
-            padding-left: 11.0rem;
-        }
-        .html-h1 {
-            font-size: 2.5rem;
-            padding-left: 20.0rem;
-            padding-top: 14.0rem;
-        }
-        .html_h1 {
-            font-size: 2.5rem;
-        }
-        #fb {
-            padding-left: 1.5rem;
-        }
-        #git {
-            padding-left: 1.2rem;
-        }
-        #twitter {
-            padding-left: 1.1rem;
-        }
-        #insta {
-            padding-left: 1.2rem;
-        }
-        #link {
-            padding-left: 1.2rem;
-        }
-        .m_direct {
-            margin-top: -106.0rem;
-            margin-left: 46.0rem;
-        }
-        #fp {
-            font-size: 2.5rem;
-            padding-left: 8.5rem;
-        }
-        .contact {
-            margin-left: 21.0rem;
-        }
-    }
-    
-    @media(max-width: 390px) {
-        html {
-            font-size: 26.5%;
-        }
-        #copy {
-            font-size: 2.4rem;
-        }
-        .slant-m {
-            display: none;
-        }
-        .sidebar a {
-            font-size: 5rem;
-        }
-        .sidebar {
-            width: 10rem;
-        }
-        .sidebar a img.m_dir {
-            height: 9rem;
-            width: 9rem;
-        }
-        .html-tags {
-            font-size: 2.5rem;
-            padding-left: 14.0rem;
-            padding-top: 5.0rem;
-        }
-        .html_tags {
-            font-size: 2.5rem;
-            padding-left: 14.0rem;
-            padding-top: 15.0rem;
-        }
-        .html-tag {
-            font-size: 2.5rem;
-            padding-left: 11.0rem;
-        }
-        .html-h1 {
-            font-size: 2.5rem;
-            padding-left: 20.0rem;
-            padding-top: 14.0rem;
-        }
-        .html_h1 {
-            font-size: 2.5rem;
-        }
-        #fb {
-            padding-left: 1.5rem;
-        }
-        #git {
-            padding-left: 1.2rem;
-        }
-        #twitter {
-            padding-left: 1.1rem;
-        }
-        #insta {
-            padding-left: 1.2rem;
-        }
-        #link {
-            padding-left: 1.2rem;
-        }
-        .m_direct {
-            margin-top: -105.0rem;
-            margin-left: 46.0rem;
-        }
-        #fp {
-            font-size: 2.25rem;
-            padding-left: 9.5rem;
-        }
-        .contact {
-            margin-left: 22.0rem;
-        }
-    }
-    
-    @media(max-width: 320px) {
-        html {
-            font-size: 23%;
-        }
-        #copy {
-            font-size: 2.4rem;
-        }
-        .slant-m {
-            display: none;
-        }
-        .sidebar a {
-            font-size: 5rem;
-        }
-        .sidebar {
-            width: 10rem;
-        }
-        .sidebar a img.m_dir {
-            height: 9rem;
-            width: 9rem;
-        }
-        .html-tags {
-            font-size: 2.5rem;
-            padding-left: 14.0rem;
-            padding-top: 5.0rem;
-        }
-        .html_tags {
-            font-size: 2.5rem;
-            padding-left: 14.0rem;
-            padding-top: 15.0rem;
-        }
-        .html-tag {
-            font-size: 2.5rem;
-            padding-left: 11.0rem;
-        }
-        .html-h1 {
-            font-size: 2.5rem;
-            padding-left: 20.0rem;
-            padding-top: 14.0rem;
-        }
-        .html_h1 {
-            font-size: 2.5rem;
-        }
-        #fb {
-            padding-left: 1.5rem;
-        }
-        #git {
-            padding-left: 1.2rem;
-        }
-        #twitter {
-            padding-left: 1.1rem;
-        }
-        #insta {
-            padding-left: 1.2rem;
-        }
-        #link {
-            padding-left: 1.2rem;
-        }
-        .m_direct {
-            margin-top: -105.0rem;
-            margin-left: 48.0rem;
-        }
-        #fp {
+            position: relative;
+            width: 4.5rem;
+            height: 4.5rem;
+            margin-bottom: 10rem;
+        }
+        
+        .sidebar1 a i {
+            text-decoration: none;
+            color: #818181;
+            display: block;
+            padding: .5rem;
             font-size: 2.0rem;
-            padding-left: 11.0rem;
+            margin-top: 2rem;
         }
+        
+        .sidebar2 a i {
+            text-decoration: none;
+            color: #818181;
+            display: block;
+            padding: 0.5rem;
+            font-size: 1.75rem;
+        }
+        
+        .sidebar1 a:nth-child(6) {
+            margin-left: -.6rem;
+        }
+        
+        .sidebar a :hover {
+            color: aqua;
+        }
+        
+        .sidebar a img.m_dir {
+            background: transparent;
+        }
+        
+        i {
+            background: transparent;
+        }
+        
+        .page {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100vh;
+            place-items: center;
+            left: 10rem;
+        }
+        
+        .page,
+        .html_h1 {
+            display: inline;
+        }
+        
+        .M {
+            width: 4.5rem;
+            height: 4.5rem;
+            margin-bottom: 1.0rem;
+        }
+        
+        .namaste {
+            position: relative;
+            background: transparent;
+            transform: rotate(-15deg);
+            height: 25.0rem;
+            width: 25.0rem;
+            left: 36rem;
+            top: 15rem;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        h1 {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-weight: bolder;
+            color: white;
+            white-space: nowrap;
+            overflow: hidden;
+            font-size: 6.0rem;
+            pointer-events: none;
+        }
+        
+        #fp {
+            font-style: normal;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: darkgray;
+            pointer-events: none;
+            font-size: 1.5rem;
+        }
+        
+        .slant-m {
+            position: absolute;
+            justify-content: center;
+            place-items: center;
+            height: 58rem;
+            top: 10rem;
+            left: 80rem;
+        }
+        
+        #copy {
+            color: white;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            text-align: center;
+            position: relative;
+            pointer-events: none;
+            font-size: 1.25rem;
+        }
+        
         .contact {
-            margin-left: 23.5rem;
+            position: relative;
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: .1rem solid aqua;
+            color: aqua;
+            box-sizing: border-box;
+            width: 17.0rem;
+            height: 5.0rem;
+            text-align: center;
+            font-size: 1.7rem;
+            left: 10rem;
+            padding: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: .4rem;
         }
-    }
-    
-    .res {
-        width: 100vw;
-        height: 100%;
-    }
-    
-    .page {
-        padding-left: 12.5rem;
-    }
-    
-    ul li img.m {
-        width: 4.0rem;
-        height: 4.0rem;
-        margin-bottom: 1.0rem;
-    }
-    
-    .m_direct {
-        background: transparent;
-        transform: rotate(-15deg);
-        height: 25.0rem;
-        width: 25.0rem;
-    }
-    
-    a:hover {
-        color: white;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    
-    .sidebar a img.m_dir {
-        background: transparent;
-    }
-    
-    h1 {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-style: normal;
-        font-weight: bolder;
-        color: white;
-        white-space: nowrap;
-        overflow: hidden;
-        font-size: 5.5rem;
-    }
-    
-    #fp {
-        font-style: normal;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: darkgray;
-        pointer-events: none;
-    }
-    
-    ul li {
-        font-weight: bold;
-        float: left;
-    }
-    
-    .slant-m {
-        margin-top: -70.0rem;
-        margin-left: 80.0rem;
-    }
-    
-    #copy {
-        color: white;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        text-align: center;
-        position: relative;
-        pointer-events: none;
-    }
-    
-    ul li:hover {
-        color: aqua;
-        cursor: context-menu;
-    }
-    
-    .contact {
-        font-style: italic;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        border: .1rem solid aqua;
-        color: aqua;
-        box-sizing: border-box;
-        width: 17.0rem;
-        height: 5.0rem;
-        padding: 1.4rem 1.0rem 1.0rem 1.0rem;
-        font-size: 1.6rem;
-    }
-    
-    .contact:hover {
-        font-style: italic;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        border: .1rem solid aqua;
-        color: black;
-        background-color: aqua;
-        box-sizing: border-box;
-        transition: 0.5s linear;
-        width: 17.0rem;
-        height: 5.0rem;
-        margin-left: 16.5rem;
-        padding: 1.4rem 1.0rem 1.0rem 1.0rem;
-        font-size: 1.6rem;
-    }
-    
-    .html-tags {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        pointer-events: none;
-    }
-    
-    .html_tags {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        position: relative;
-        background: transparent;
-        pointer-events: none;
-    }
-    
-    .html-tag {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        position: relative;
-        background: transparent;
-        pointer-events: none;
-    }
-    
-    .html-h1 {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        pointer-events: none;
-    }
-    
-    .html_h1 {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        pointer-events: none;
-    }
-    
-    .main,
-    .html_h1 {
-        display: inline;
-    }
-    
-    .sidebar {
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        height: 100%;
-    }
-    
-    .sidebar a img.m_dir {
-        margin-left: -1.2rem;
-    }
-    
-    .sidebar a {
-        text-decoration: none;
-        color: #818181;
-        display: block;
-        padding: .6rem .8rem .6rem 1.6rem;
-    }
-    
-    .sidebar a :hover {
-        color: aqua;
-    }
-    
-    i {
-        background: transparent;
-    }
-    
-    #fb:hover {
-        color: #1877f2;
-    }
-    
-    #git:hover {
-        color: #6e5494;
-    }
-    
-    #twitter:hover {
-        color: #1da1f2;
-    }
-    
-    #link:hover {
-        color: #007bb5;
-    }
-    
-    #insta:hover {
-        color: #c32aa3;
-    }
+        
+        .contact:hover {
+            position: relative;
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: .1rem solid aqua;
+            color: rgb(29, 29, 29);
+            background-color: aqua;
+            box-sizing: border-box;
+            width: 17.0rem;
+            height: 5.0rem;
+            text-align: center;
+            font-size: 1.7rem;
+            left: 10rem;
+            padding: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: .4rem;
+            transition: 0.5s linear;
+        }
+        
+        .html-body-h1 {
+            font-style: italic;
+            font-family: cursive;
+            color: lightslategrey;
+            position: relative;
+            background: transparent;
+            pointer-events: none;
+            top: 5.5rem;
+            left: 7.0rem;
+            font-size: 1.25rem;
+        }
+        
+        .html-body_h1 {
+            font-style: italic;
+            font-family: cursive;
+            color: lightslategrey;
+            position: relative;
+            background: transparent;
+            pointer-events: none;
+            top: 25.5rem;
+            left: 8.0rem;
+            font-size: 1.25rem;
+        }
+        
+        .html-body-html {
+            font-style: italic;
+            font-family: cursive;
+            color: lightslategrey;
+            position: absolute;
+            background: transparent;
+            pointer-events: none;
+            bottom: 5.5rem;
+            left: 5.5rem;
+            font-size: 1.25rem;
+        }
+        
+        .html-body-html span:nth-child(1) {
+            margin-left: 2.5rem;
+        }
+        
+        .html_h1 {
+            font-style: italic;
+            font-family: cursive;
+            color: lightslategrey;
+            position: relative;
+            background: transparent;
+            pointer-events: none;
+            font-size: 1.25rem;
+        }
+        
+        #fb:hover {
+            color: #3b5999;
+        }
+        
+        #git:hover {
+            color: #6e5494;
+        }
+        
+        #twitter:hover {
+            color: #55acee;
+        }
+        
+        #link:hover {
+            color: #0077B5;
+        }
+        
+        #insta:hover {
+            color: #e4405f;
+        }

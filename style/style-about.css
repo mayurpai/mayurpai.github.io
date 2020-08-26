@@ -1,405 +1,393 @@
-    * {
-        background-color: rgb(29, 29, 29);
-        overflow: hidden;
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media(max-width: 2560px) {
+    html {
+        font-size: 65%;
     }
-    
-    @media only screen and (max-width: 450px) {
-        .res {
-            width: 100vw;
-            height: 100%;
-        }
-        .page {
-            padding-left: 35px;
-        }
-        .sidebar a img.m_dir {
-            margin-left: -1px;
-            height: 25px;
-            width: 25px;
-            margin-bottom: 11px;
-        }
-        h1 {
-            font-size: 35px;
-            margin-left: 5px;
-        }
-        #fp {
-            font-size: 6px;
-            padding-left: 80px
-        }
-        ul li {
-            font-weight: bold;
-            float: left;
-            color: aqua;
-        }
-        ul li img.m {
-            width: 25px;
-            height: 25px;
-            margin-bottom: 5px;
-        }
-        .html-tags {
-            font-size: x-small;
-            padding-left: 60px;
-            padding-top: 50px;
-        }
-        .html_tags {
-            font-size: x-small;
-            padding-left: 60px;
-            padding-top: 282px;
-        }
-        .html-tag {
-            font-size: x-small;
-            padding-left: 40px;
-            cursor: pointer;
-        }
-        .html-h1 {
-            font-size: x-small;
-            padding-left: 65px;
-            padding-top: 140px;
-        }
-        .html_h1 {
-            font-size: x-small;
-        }
-        .sidebar {
-            height: 100%;
-            width: 35px;
-        }
-        .sidebar a {
-            padding: 6px 6px 6px 7px;
-            font-size: 15px;
-        }
-        .mp {
-            margin-top: -350px;
-            margin-left: 75px;
-            width: 270px;
-            height: 200px;
-        }
+    .html-body_h1 {
+        top: 12.5rem;
+        left: 12.0rem;
     }
-    
-    @media only screen and (min-width: 450px) {
-        .page {
-            padding-left: 35px;
-        }
-        .sidebar a img.m_dir {
-            margin-left: -12px;
-            height: 50px;
-            width: 50px;
-        }
-        h1 {
-            font-size: 55px;
-            margin-left: 93px;
-        }
-        #fp {
-            font-size: medium;
-            padding-left: 170px;
-            cursor: pointer;
-        }
-        ul li {
-            font-weight: bold;
-            float: left;
-            color: aqua;
-        }
-        ul li img.m {
-            width: 40px;
-            height: 40px;
-            margin-bottom: 10px;
-        }
-        .html-tags {
-            font-size: small;
-            padding-left: 100px;
-            padding-top: 50px;
-            cursor: pointer;
-        }
-        .html_tags {
-            font-size: small;
-            padding-left: 100px;
-            padding-top: 117px;
-            cursor: pointer;
-        }
-        .html-tag {
-            font-size: small;
-            padding-left: 80px;
-            cursor: pointer;
-        }
-        .html-h1 {
-            font-size: small;
-            padding-left: 150px;
-            padding-top: 140px;
-            cursor: pointer;
-        }
-        .html_h1 {
-            font-size: small;
-            cursor: pointer;
-        }
-        .sidebar {
-            height: 100%;
-            width: 60px;
-        }
-        .sidebar a {
-            padding: 6px 8px 6px 16px;
-            font-size: 20px;
-        }
-        .mp {
-            margin-top: -650px;
-            margin-left: 1000px;
-            width: 440px;
-            height: 325px;
-        }
+    .mp {
+        position: absolute;
+        top: 10rem;
+        right: 10rem;
+        width: 44rem;
+        height: 50rem;
     }
-    
-    .page {
-        
-    }
-    
-    #copy {
-        color: white;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        text-align: center;
-        position: relative;
-    }
-    
-    a {
-        color: aqua;
-    }
-    
-    a:hover {
-        color: rgb(251, 12, 84);
-        text-decoration: none;
-        cursor: pointer;
-    }
-    
-    .sidebar a img.m_dir {
-        background: transparent;
-    }
-    
-    h1 {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-style: normal;
-        font-weight: bolder;
-        color: white;
-        white-space: nowrap;
-        overflow: hidden;
-    }
-    
     #fp {
-        font-style: normal;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: white;
+        font-size: 1.5rem;
+        top: 20rem;
+        left: 12rem;
+        width: 37%;
     }
-    
-    @keyframes move {
-        0% {
-            opacity: 0;
-            color: rgb(29, 29, 29);
-            width: auto;
-        }
-        100% {
-            opacity: 1;
-            color: rgb(251, 12, 84);
-            width: auto;
-        }
+}
+
+@media(max-width: 1600px) {
+    html {
+        font-size: 65%;
     }
-    
-    ul li:nth-child(1) {
-        
-        background: transparent;
+    .html-body_h1 {
+        top: 12.5rem;
+        left: 12.0rem;
     }
-    
-    ul li:nth-child(2) {
-        
-        background: transparent;
-    }
-    
-    ul li:nth-child(3) {
-        
-        background: transparent;
-    }
-    
-    ul li:nth-child(4) {
-        
-        background: transparent;
-    }
-    
-    ul li:nth-child(5) {
-        
-        background: transparent;
-    }
-    
-    ul li:nth-child(6) {
-        
-        background: transparent;
-    }
-    
-    ul li:nth-child(7) {
-        
-        background: transparent;
-    }
-    
-    ul li:nth-child(8) {
-        
-        background: transparent;
-    }
-    
-    ul li:hover {
-        color: rgb(251, 12, 84);
-        cursor: context-menu;
-    }
-    
-    .html-tags {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        
-        background: transparent;
-    }
-    
-    .html_tags {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        
-        position: relative;
-        background: transparent;
-    }
-    
-    .html-tag {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        
-        position: relative;
-        background: transparent;
-    }
-    
-    .html-h1 {
-        font-style: italic;
-        font-family: cursive;
-        background: transparent;
-        color: lightslategrey;
-        
-    }
-    
-    .html_h1 {
-        font-style: italic;
-        background: transparent;
-        font-family: cursive;
-        color: lightslategrey;
-        
-    }
-    
-    .sidebar {
+    .mp {
         position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
+        top: 10rem;
+        right: 10rem;
+        width: 44rem;
+        height: 50rem;
     }
-    
-    .sidebar a {
-        text-decoration: none;
-        color: #818181;
-        display: block;
+    #fp {
+        font-size: 1.5rem;
+        top: 20rem;
+        left: 12rem;
+        width: 37%;
     }
-    
-    .sidebar a :hover {
-        color: aqua;
+}
+
+@media(max-width: 1200px) {
+    html {
+        font-size: 32%;
     }
-    
-    i {
-        background: transparent;
+    .html-body_h1 {
+        top: 10.5rem;
+        left: 10.0rem;
     }
-    
-    #fb {
-        padding-left: 5px;
-    }
-    
-    #git {
-        padding-left: 3px;
-    }
-    
-    #twitter {
-        padding-left: 3px;
-    }
-    
-    #insta {
-        padding-left: 2px;
-    }
-    
-    #link {
-        padding-left: 3px;
-    }
-    
-    #fb:hover {
-        color: #1877f2;
-    }
-    
-    #git:hover {
-        color: #6e5494;
-    }
-    
-    #twitter:hover {
-        color: #1da1f2;
-    }
-    
-    #link:hover {
-        color: #007bb5;
-    }
-    
-    #insta:hover {
-        color: #c32aa3;
-    }
-    
-    .loader-container {
-        width: 100%;
-        height: 100vh;
-        background-color: #111;
+    .mp {
         position: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        top: 10rem;
+        right: 10rem;
+        width: 44rem;
+        height: 50rem;
     }
-    
-    .loader-container img.m_dir {
-        height: 50px;
-        width: 50px;
-        background: transparent;
-        margin-bottom: 130px;
+    #fp {
+        font-size: 1.5rem;
+        top: 20rem;
+        left: 12rem;
+        width: 37%;
     }
-    
-    .think {
-        margin-bottom: 10px;
-        margin-left: -90px;
-        color: aqua;
-        background: transparent;
+}
+
+@media(max-width: 768px) {
+    html {
+        font-size: 35%;
     }
-    
-    .loader {
-        width: 50px;
-        height: 50px;
-        border: 5px solid;
-        color: rgb(251, 12, 84);
-        border-radius: 50%;
-        margin-top: 100px;
-        margin-left: -90px;
-        border-top-color: transparent;
-        animation: loader 1.25s linear infinite;
+    .html-body_h1 {
+        top: 10.5rem;
+        left: 10.0rem;
     }
-    
-    @keyframes loader {
-        25% {
-            color: aqua;
-        }
-        50% {
-            color: rgb(251, 12, 84);
-        }
-        75% {
-            color: aqua;
-        }
-        to {
-            transform: rotate(360deg);
-        }
+    .mp {
+        position: fixed;
+        top: 25rem;
+        left: 15rem;
+        width: 44rem;
+        height: 50rem;
     }
+    #fp {
+        top: 75rem;
+        left: 12rem;
+        width: 50%;
+    }
+}
+
+@media(max-width: 450px) {
+    html {
+        font-size: 29.5%;
+    }
+    .html-body_h1 {
+        top: 10.5rem;
+        left: 10.0rem;
+    }
+    .mp {
+        position: fixed;
+        top: 25rem;
+        left: 15rem;
+        width: 44rem;
+        height: 50rem;
+    }
+    #fp {
+        top: 75rem;
+        left: 12rem;
+        width: 45%;
+    }
+}
+
+@media(max-width: 390px) {
+    html {
+        font-size: 26.5%;
+    }
+    .html-body_h1 {
+        top: 10.5rem;
+        left: 10.0rem;
+    }
+    .mp {
+        position: fixed;
+        top: 25rem;
+        left: 15rem;
+        width: 44rem;
+        height: 50rem;
+    }
+    #fp {
+        top: 75rem;
+        left: 12rem;
+        width: 45%;
+    }
+}
+
+@media(max-width: 320px) {
+    html {
+        font-size: 21%;
+    }
+    .html-body_h1 {
+        top: 10.5rem;
+        left: 8.0rem;
+    }
+    .mp {
+        position: fixed;
+        top: 25rem;
+        left: 15rem;
+        width: 44rem;
+        height: 50rem;
+    }
+    #fp {
+        top: 75rem;
+        left: 12rem;
+        width: 45%;
+    }
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: rgb(29, 29, 29);
+    justify-content: center;
+}
+
+.sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 5rem;
+    text-align: center;
+    place-items: center;
+}
+
+.sidebar1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-items: center;
+}
+
+.sidebar2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-items: center;
+    position: absolute;
+    bottom: 5rem;
+}
+
+.sidebar a img.m_dir {
+    position: relative;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-bottom: 10rem;
+}
+
+.sidebar1 a i {
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    padding: .5rem;
+    font-size: 2.0rem;
+    margin-top: 2rem;
+}
+
+.sidebar2 a i {
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.75rem;
+}
+
+.sidebar1 a:nth-child(6) {
+    margin-left: -.6rem;
+}
+
+.sidebar a :hover {
+    color: aqua;
+}
+
+.sidebar a img.m_dir {
+    background: transparent;
+}
+
+i {
+    background: transparent;
+}
+
+.page {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vh;
+    place-items: center;
+    left: 15rem;
+    top: 15rem;
+}
+
+.page,
+.html_h1 {
+    display: inline;
+}
+
+.M {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-bottom: 1.0rem;
+}
+
+.namaste {
+    position: relative;
+    background: transparent;
+    transform: rotate(-15deg);
+    height: 25.0rem;
+    width: 25.0rem;
+    left: 36rem;
+    top: 15rem;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    color: aqua;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 6.0rem;
+    pointer-events: none;
+}
+
+#fp {
+    position: relative;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    pointer-events: none;
+}
+
+.slant-m {
+    position: absolute;
+    justify-content: center;
+    place-items: center;
+    height: 58rem;
+    top: 10rem;
+    left: 80rem;
+}
+
+#copy {
+    color: white;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    text-align: center;
+    position: relative;
+    pointer-events: none;
+    font-size: 1.25rem;
+}
+
+.html-body-h1 {
+    font-style: italic;
+    font-family: cursive;
+    color: lightslategrey;
+    position: relative;
+    background: transparent;
+    pointer-events: none;
+    top: 5.5rem;
+    left: 7.0rem;
+    font-size: 1.25rem;
+}
+
+.html-body_h1 {
+    font-style: italic;
+    font-family: cursive;
+    color: lightslategrey;
+    position: relative;
+    background: transparent;
+    pointer-events: none;
+    font-size: 1.25rem;
+}
+
+.html-body-html {
+    font-style: italic;
+    font-family: cursive;
+    color: lightslategrey;
+    position: absolute;
+    background: transparent;
+    pointer-events: none;
+    bottom: 5.5rem;
+    left: 5.5rem;
+    font-size: 1.25rem;
+}
+
+.html-body-html span:nth-child(1) {
+    margin-left: 2.5rem;
+}
+
+.html_h1 {
+    font-style: italic;
+    font-family: cursive;
+    color: lightslategrey;
+    position: relative;
+    background: transparent;
+    pointer-events: none;
+    font-size: 1.25rem;
+}
+
+#fb:hover {
+    color: #3b5999;
+}
+
+#git:hover {
+    color: #6e5494;
+}
+
+#twitter:hover {
+    color: #55acee;
+}
+
+#link:hover {
+    color: #0077B5;
+}
+
+#insta:hover {
+    color: #e4405f;
+}
