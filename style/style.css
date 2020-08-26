@@ -1,285 +1,313 @@
-    * {
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-        overflow: hidden;
-    }
-    
-    html {
-        font-size: 62.5%;
-    }
-    
-    @media(max-width: 2560px) {
-        html {
-            font-size: 65%;
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            overflow: hidden;
         }
-    }
-    
-    @media(max-width: 1600px) {
+        
         html {
-            font-size: 65%;
+            font-size: 62.5%;
         }
-    }
-    
-    @media(max-width: 1200px) {
-        html {
-            font-size: 32%;
+        
+        @media(max-width: 2560px) {
+            html {
+                font-size: 65%;
+            }
         }
-    }
-    
-    @media(max-width: 768px) {
-        html {
-            font-size: 35%;
+        
+        @media(max-width: 1600px) {
+            html {
+                font-size: 65%;
+            }
         }
-    }
-    
-    @media(max-width: 450px) {
-        html {
-            font-size: 29.5%;
+        
+        @media(max-width: 1200px) {
+            html {
+                font-size: 32%;
+            }
         }
-    }
-    
-    @media(max-width: 390px) {
-        html {
-            font-size: 26.5%;
+        
+        @media(max-width: 768px) {
+            html {
+                font-size: 35%;
+            }
         }
-    }
-    
-    @media(max-width: 320px) {
-        html {
-            font-size: 23%;
+        
+        @media(max-width: 450px) {
+            html {
+                font-size: 29.5%;
+            }
+            .slant-m {
+                display: none;
+            }
         }
-    }
-    
-    .container {
-        position: relative;
-        min-height: 100vh;
-        min-width: 100vw;
-        background: rgb(29, 29, 29);
-        justify-content: center;
-    }
-    
-    .sidebar {
-        position: fixed;
-        display: flex;
-        flex-direction: column;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        height: 100vh;
-        width: 5rem;
-        text-align: center;
-        place-items: center;
-    }
-    
-    .sidebar1 {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        place-items: center;
-    }
-    
-    .sidebar2 {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        place-items: center;
-        position: absolute;
-        bottom: 1rem;
-    }
-    
-    .sidebar a img.m_dir {
-        position: relative;
-        width: 4rem;
-        height: 4rem;
-        margin-bottom: 10rem;
-    }
-    
-    .sidebar1 a i {
-        text-decoration: none;
-        color: #818181;
-        display: block;
-        padding: .5rem;
-        font-size: 2.5rem;
-        margin-top: 2rem;
-    }
-    
-    .sidebar2 a i {
-        text-decoration: none;
-        color: #818181;
-        display: block;
-        padding: 0.5rem;
-        font-size: 1.75rem;
-    }
-    
-    .sidebar a :hover {
-        color: aqua;
-    }
-    
-    .sidebar a img.m_dir {
-        background: transparent;
-    }
-    
-    i {
-        background: transparent;
-    }
-    
-    .page {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100vh;
-        place-items: center;
-        left: 10rem;
-    }
-    
-    .page,
-    .html_h1 {
-        display: inline;
-    }
-    
-    .html_h1 {
-        font-size: 1rem;
-    }
-    
-    .M {
-        width: 4.0rem;
-        height: 4.0rem;
-        margin-bottom: 1.0rem;
-    }
-    
-    .namaste {
-        position: relative;
-        background: transparent;
-        transform: rotate(-15deg);
-        height: 25.0rem;
-        width: 25.0rem;
-        left: 36rem;
-        top: 15rem;
-    }
-    
-    a:hover {
-        text-decoration: none;
-        cursor: pointer;
-    }
-    
-    h1 {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-style: normal;
-        font-weight: bolder;
-        color: white;
-        white-space: nowrap;
-        overflow: hidden;
-        font-size: 6.0rem;
-    }
-    
-    #fp {
-        font-style: normal;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: darkgray;
-        pointer-events: none;
-        font-size: 1.5rem;
-    }
-    
-    .slant-m {
-        position: absolute;
-        justify-content: center;
-        place-items: center;
-        height: 50rem;
-        top: 10rem;
-        left: 80rem;
-    }
-    
-    #copy {
-        color: white;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        text-align: center;
-        position: relative;
-        pointer-events: none;
-        font-size: 1.25rem;
-    }
-    
-    .contact {
-        position: relative;
-        font-style: italic;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        border: .1rem solid aqua;
-        color: aqua;
-        box-sizing: border-box;
-        width: 17.0rem;
-        height: 5.0rem;
-        text-align: center;
-        font-size: 2.0rem;
-        left: 10rem;
-        padding: 1rem;
-    }
-    
-    .contact:hover {
-        font-style: italic;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        border: .1rem solid aqua;
-        color: black;
-        background-color: aqua;
-        box-sizing: border-box;
-        transition: 0.5s linear;
-        width: 17.0rem;
-        height: 5.0rem;
-        margin-left: 16.5rem;
-        padding: 1.4rem 1.0rem 1.0rem 1.0rem;
-        font-size: 1.6rem;
-    }
-    
-    .html-body-h1 {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        position: relative;
-        background: transparent;
-        pointer-events: none;
-    }
-    
-    .html-body-html {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        position: relative;
-        background: transparent;
-        pointer-events: none;
-    }
-    
-    .html_h1 {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        position: relative;
-        background: transparent;
-        pointer-events: none;
-    }
-    
-    #fb:hover {
-        color: #1877f2;
-    }
-    
-    #git:hover {
-        color: #6e5494;
-    }
-    
-    #twitter:hover {
-        color: #1da1f2;
-    }
-    
-    #link:hover {
-        color: #007bb5;
-    }
-    
-    #insta:hover {
-        color: #c32aa3;
-    }
+        
+        @media(max-width: 390px) {
+            html {
+                font-size: 26.5%;
+            }
+            .slant-m {
+                display: none;
+            }
+        }
+        
+        @media(max-width: 320px) {
+            html {
+                font-size: 23%;
+            }
+            .slant-m {
+                display: none;
+            }
+        }
+        
+        .container {
+            position: relative;
+            min-height: 100vh;
+            min-width: 100vw;
+            background: rgb(29, 29, 29);
+            justify-content: center;
+        }
+        
+        .sidebar {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            height: 100vh;
+            width: 5rem;
+            text-align: center;
+            place-items: center;
+        }
+        
+        .sidebar1 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            place-items: center;
+        }
+        
+        .sidebar2 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            place-items: center;
+            position: absolute;
+            bottom: 5rem;
+        }
+        
+        .sidebar a img.m_dir {
+            position: relative;
+            width: 4rem;
+            height: 4rem;
+            margin-bottom: 10rem;
+        }
+        
+        .sidebar1 a i {
+            text-decoration: none;
+            color: #818181;
+            display: block;
+            padding: .5rem;
+            font-size: 2.5rem;
+            margin-top: 2rem;
+        }
+        
+        .sidebar2 a i {
+            text-decoration: none;
+            color: #818181;
+            display: block;
+            padding: 0.5rem;
+            font-size: 1.75rem;
+        }
+        
+        .sidebar a :hover {
+            color: aqua;
+        }
+        
+        .sidebar a img.m_dir {
+            background: transparent;
+        }
+        
+        i {
+            background: transparent;
+        }
+        
+        .page {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100vh;
+            place-items: center;
+            left: 10rem;
+        }
+        
+        .page,
+        .html_h1 {
+            display: inline;
+        }
+        
+        .M {
+            width: 4.0rem;
+            height: 4.0rem;
+            margin-bottom: 1.0rem;
+        }
+        
+        .namaste {
+            position: relative;
+            background: transparent;
+            transform: rotate(-15deg);
+            height: 25.0rem;
+            width: 25.0rem;
+            left: 36rem;
+            top: 15rem;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        h1 {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-weight: bolder;
+            color: white;
+            white-space: nowrap;
+            overflow: hidden;
+            font-size: 6.0rem;
+        }
+        
+        #fp {
+            font-style: normal;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: darkgray;
+            pointer-events: none;
+            font-size: 1.5rem;
+        }
+        
+        .slant-m {
+            position: absolute;
+            justify-content: center;
+            place-items: center;
+            height: 50rem;
+            top: 10rem;
+            left: 80rem;
+        }
+        
+        #copy {
+            color: white;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            text-align: center;
+            position: relative;
+            pointer-events: none;
+            font-size: 1.25rem;
+        }
+        
+        .contact {
+            position: relative;
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: .1rem solid aqua;
+            color: aqua;
+            box-sizing: border-box;
+            width: 17.0rem;
+            height: 5.0rem;
+            text-align: center;
+            font-size: 2.0rem;
+            left: 10rem;
+            padding: 1rem;
+        }
+        
+        .contact:hover {
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: .1rem solid aqua;
+            color: black;
+            background-color: aqua;
+            box-sizing: border-box;
+            transition: 0.5s linear;
+            width: 17.0rem;
+            height: 5.0rem;
+            margin-left: 16.5rem;
+            padding: 1.4rem 1.0rem 1.0rem 1.0rem;
+            font-size: 1.6rem;
+        }
+        
+        .html-body-h1 {
+            font-style: italic;
+            font-family: cursive;
+            color: lightslategrey;
+            position: relative;
+            background: transparent;
+            pointer-events: none;
+            top: 5.5rem;
+            left: 7.0rem;
+            font-size: 1.5rem;
+        }
+        
+        .html-body_h1 {
+            font-style: italic;
+            font-family: cursive;
+            color: lightslategrey;
+            position: relative;
+            background: transparent;
+            pointer-events: none;
+            top: 25.5rem;
+            left: 8.0rem;
+            font-size: 1.5rem;
+        }
+        
+        .html-body-html {
+            font-style: italic;
+            font-family: cursive;
+            color: lightslategrey;
+            position: absolute;
+            background: transparent;
+            pointer-events: none;
+            bottom: 5.5rem;
+            left: 5.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .html-body-html span:nth-child(1) {
+            margin-left: 2.5rem;
+        }
+        
+        .html_h1 {
+            font-style: italic;
+            font-family: cursive;
+            color: lightslategrey;
+            position: relative;
+            background: transparent;
+            pointer-events: none;
+            font-size: 1.5rem;
+        }
+        
+        #fb:hover {
+            color: #1877f2;
+        }
+        
+        #git:hover {
+            color: #6e5494;
+        }
+        
+        #twitter:hover {
+            color: #1da1f2;
+        }
+        
+        #link:hover {
+            color: #007bb5;
+        }
+        
+        #insta:hover {
+            color: #c32aa3;
+        }
