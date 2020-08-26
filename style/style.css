@@ -284,7 +284,7 @@
             position: absolute;
             background: transparent;
             pointer-events: none;
-            bottom: 10.5rem;
+            top: 65rem;
             left: 5.5rem;
             font-size: 1.25rem;
         }
