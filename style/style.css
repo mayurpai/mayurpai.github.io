@@ -1,6 +1,6 @@
     * {
-        margin: 0;
-        padding: 0;
+        margin: 0%;
+        padding: 0%;
         box-sizing: border-box;
         overflow: hidden;
     }
@@ -53,10 +53,9 @@
     
     .container {
         position: relative;
-        width: 100vw;
         height: 100vh;
+        width: 100vw;
         background: rgb(29, 29, 29);
-        display: flex;
         justify-content: center;
     }
     
@@ -119,14 +118,20 @@
         color: aqua;
     }
     
+    .sidebar a img.m_dir {
+        background: transparent;
+    }
+    
     i {
         background: transparent;
     }
     
     .page {
-        position: absolute;
-        display: block;
+        position: relative;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        width: 100vh;
     }
     
     .M {
@@ -147,10 +152,6 @@
         cursor: pointer;
     }
     
-    .sidebar a img.m_dir {
-        background: transparent;
-    }
-    
     h1 {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: normal;
@@ -169,8 +170,10 @@
     }
     
     .slant-m {
-        margin-top: -70.0rem;
-        margin-left: 80.0rem;
+        position: absolute;
+        background: transparent;
+        width: 30rem;
+        height: 30rem;
     }
     
     #copy {
@@ -184,11 +187,7 @@
         text-align: center;
         position: relative;
         pointer-events: none;
-    }
-    
-    ul li:hover {
-        color: aqua;
-        cursor: context-menu;
+        font-size: 1.25rem;
     }
     
     .contact {
@@ -218,7 +217,25 @@
         font-size: 1.6rem;
     }
     
-    .html_tags {
+    .html-body-h1 {
+        font-style: italic;
+        font-family: cursive;
+        color: lightslategrey;
+        position: relative;
+        background: transparent;
+        pointer-events: none;
+    }
+    
+    .html-body-html {
+        font-style: italic;
+        font-family: cursive;
+        color: lightslategrey;
+        position: relative;
+        background: transparent;
+        pointer-events: none;
+    }
+    
+    .html_h1 {
         font-style: italic;
         font-family: cursive;
         color: lightslategrey;
