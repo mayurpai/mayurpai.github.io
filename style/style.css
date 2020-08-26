@@ -95,8 +95,8 @@
             flex-direction: column;
             text-align: center;
             place-items: center;
-            position: absolute;
-            bottom: 5rem;
+            position: relative;
+            padding-top: 15rem;
         }
         
         .sidebar a img.m_dir {
