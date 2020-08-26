@@ -95,8 +95,8 @@
             flex-direction: column;
             text-align: center;
             place-items: center;
-            position: relative;
-            padding-top: 15rem;
+            position: absolute;
+            bottom: 15rem;
         }
         
         .sidebar a img.m_dir {
@@ -227,11 +227,11 @@
             width: 17.0rem;
             height: 5.0rem;
             text-align: center;
-            font-size: 1.7rem;
+            font-size: 1.4rem;
             left: 10rem;
             padding: 1.4rem;
             text-transform: uppercase;
-            letter-spacing: .4rem;
+            letter-spacing: .2rem;
         }
         
         .contact:hover {
@@ -284,7 +284,7 @@
             position: absolute;
             background: transparent;
             pointer-events: none;
-            bottom: 5.5rem;
+            bottom: 15.5rem;
             left: 5.5rem;
             font-size: 1.25rem;
         }

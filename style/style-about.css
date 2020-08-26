@@ -201,8 +201,8 @@ html {
     flex-direction: column;
     text-align: center;
     place-items: center;
-    position: relative;
-    padding-top: 15rem;
+    position: absolute;
+    bottom: 15rem;
 }
 
 .sidebar a img.m_dir {
@@ -353,7 +353,7 @@ h1 {
     position: absolute;
     background: transparent;
     pointer-events: none;
-    bottom: 5.5rem;
+    bottom: 15.5rem;
     left: 5.5rem;
     font-size: 1.25rem;
 }
