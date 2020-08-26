@@ -17,6 +17,14 @@
                     top: 12.5rem;
                     left: 12.0rem;
                 }
+                .mail {
+                    font-size: 1.6rem;
+                    padding: 1.4rem;
+                }
+                .contact {
+                    font-size: 1.6rem;
+                    padding: 1.4rem;
+                }
             }
             
             @media(max-width: 1600px) {
@@ -27,6 +35,14 @@
                     top: 12.5rem;
                     left: 12.0rem;
                 }
+                .mail {
+                    font-size: 1.6rem;
+                    padding: 1.4rem;
+                }
+                .contact {
+                    font-size: 1.6rem;
+                    padding: 1.4rem;
+                }
             }
             
             @media(max-width: 1200px) {
@@ -34,8 +50,16 @@
                     font-size: 32%;
                 }
                 .html-body_h1 {
-                    top: 12.5rem;
-                    left: 12.0rem;
+                    top: 10.5rem;
+                    left: 10.0rem;
+                }
+                .mail {
+                    font-size: 1.6rem;
+                    padding: 1.4rem;
+                }
+                .contact {
+                    font-size: 1.6rem;
+                    padding: 1.4rem;
                 }
             }
             
@@ -44,8 +68,16 @@
                     font-size: 35%;
                 }
                 .html-body_h1 {
-                    top: 12.5rem;
-                    left: 12.0rem;
+                    top: 10.5rem;
+                    left: 10.0rem;
+                }
+                .mail {
+                    font-size: 1.6rem;
+                    padding: 1.4rem;
+                }
+                .contact {
+                    font-size: 1.6rem;
+                    padding: 1.4rem;
                 }
             }
             
@@ -54,8 +86,16 @@
                     font-size: 29.5%;
                 }
                 .html-body_h1 {
-                    top: 12.5rem;
-                    left: 12.0rem;
+                    top: 10.5rem;
+                    left: 10.0rem;
+                }
+                .mail {
+                    font-size: 1.6rem;
+                    padding: 1.4rem;
+                }
+                .contact {
+                    font-size: 1.6rem;
+                    padding: 1.4rem;
                 }
             }
             
@@ -64,8 +104,16 @@
                     font-size: 26.5%;
                 }
                 .html-body_h1 {
-                    top: 12.5rem;
-                    left: 12.0rem;
+                    top: 10.5rem;
+                    left: 10.0rem;
+                }
+                .mail {
+                    font-size: 1.6rem;
+                    padding: 1.2rem;
+                }
+                .contact {
+                    font-size: 1.6rem;
+                    padding: 1.6rem;
                 }
             }
             
@@ -76,6 +124,14 @@
                 .html-body_h1 {
                     top: 10.5rem;
                     left: 8.0rem;
+                }
+                .mail {
+                    font-size: 1.6rem;
+                    padding: 1.2rem;
+                }
+                .contact {
+                    font-size: 1.6rem;
+                    padding: 1.4rem;
                 }
             }
             
@@ -218,8 +274,6 @@
                 width: 21.0rem;
                 height: 5.0rem;
                 text-align: center;
-                font-size: 1.6rem;
-                padding: 1.4rem;
                 top: 40rem;
                 left: 40rem;
                 transition: 0.5s linear;
@@ -236,8 +290,6 @@
                 width: 21.0rem;
                 height: 5.0rem;
                 text-align: center;
-                font-size: 1.6rem;
-                padding: 1.4rem;
                 top: 48rem;
                 left: 40rem;
                 transition: 0.5s linear;
