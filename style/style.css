@@ -101,8 +101,8 @@
         
         .sidebar a img.m_dir {
             position: relative;
-            width: 4rem;
-            height: 4rem;
+            width: 4.5rem;
+            height: 4.5rem;
             margin-bottom: 10rem;
         }
         
@@ -111,7 +111,7 @@
             color: #818181;
             display: block;
             padding: .5rem;
-            font-size: 2.5rem;
+            font-size: 2.0rem;
             margin-top: 2rem;
         }
         
@@ -151,8 +151,8 @@
         }
         
         .M {
-            width: 4.0rem;
-            height: 4.0rem;
+            width: 4.5rem;
+            height: 4.5rem;
             margin-bottom: 1.0rem;
         }
         
@@ -179,6 +179,7 @@
             white-space: nowrap;
             overflow: hidden;
             font-size: 6.0rem;
+            pointer-events: none;
         }
         
         #fp {
@@ -193,7 +194,7 @@
             position: absolute;
             justify-content: center;
             place-items: center;
-            height: 50rem;
+            height: 58rem;
             top: 10rem;
             left: 80rem;
         }
@@ -222,24 +223,30 @@
             width: 17.0rem;
             height: 5.0rem;
             text-align: center;
-            font-size: 2.0rem;
+            font-size: 1.7rem;
             left: 10rem;
-            padding: 1rem;
+            padding: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: .4rem;
         }
         
         .contact:hover {
+            position: relative;
             font-style: italic;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             border: .1rem solid aqua;
-            color: black;
+            color: rgb(29, 29, 29);
             background-color: aqua;
             box-sizing: border-box;
-            transition: 0.5s linear;
             width: 17.0rem;
             height: 5.0rem;
-            margin-left: 16.5rem;
-            padding: 1.4rem 1.0rem 1.0rem 1.0rem;
-            font-size: 1.6rem;
+            text-align: center;
+            font-size: 1.7rem;
+            left: 10rem;
+            padding: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: .4rem;
+            transition: 0.5s linear;
         }
         
         .html-body-h1 {
@@ -251,7 +258,7 @@
             pointer-events: none;
             top: 5.5rem;
             left: 7.0rem;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
         }
         
         .html-body_h1 {
@@ -263,7 +270,7 @@
             pointer-events: none;
             top: 25.5rem;
             left: 8.0rem;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
         }
         
         .html-body-html {
@@ -275,7 +282,7 @@
             pointer-events: none;
             bottom: 5.5rem;
             left: 5.5rem;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
         }
         
         .html-body-html span:nth-child(1) {
@@ -289,7 +296,7 @@
             position: relative;
             background: transparent;
             pointer-events: none;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
         }
         
         #fb:hover {
