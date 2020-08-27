@@ -2,7 +2,6 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 html {
@@ -17,19 +16,6 @@ html {
         top: 12.5rem;
         left: 12.0rem;
     }
-    .mp {
-        position: absolute;
-        top: 10rem;
-        right: 10rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-        top: 20rem;
-        left: 12rem;
-        width: 37%;
-    }
 }
 
 @media(max-width: 1600px) {
@@ -39,19 +25,6 @@ html {
     .html-body_h1 {
         top: 12.5rem;
         left: 12.0rem;
-    }
-    .mp {
-        position: fixed;
-        top: 10rem;
-        right: 10rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-        top: 20rem;
-        left: 12rem;
-        width: 37%;
     }
 }
 
@@ -63,19 +36,6 @@ html {
         top: 10.5rem;
         left: 10.0rem;
     }
-    .mp {
-        position: fixed;
-        top: 10rem;
-        right: 10rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-        top: 20rem;
-        left: 12rem;
-        width: 37%;
-    }
 }
 
 @media(max-width: 768px) {
@@ -85,18 +45,6 @@ html {
     .html-body_h1 {
         top: 10.5rem;
         left: 10.0rem;
-    }
-    .mp {
-        position: fixed;
-        top: 25rem;
-        left: 15rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        top: 75rem;
-        left: 12rem;
-        width: 50%;
     }
 }
 
@@ -108,18 +56,6 @@ html {
         top: 10.5rem;
         left: 10.0rem;
     }
-    .mp {
-        position: fixed;
-        top: 25rem;
-        left: 15rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        top: 75rem;
-        left: 12rem;
-        width: 45%;
-    }
 }
 
 @media(max-width: 390px) {
@@ -129,18 +65,6 @@ html {
     .html-body_h1 {
         top: 10.5rem;
         left: 10.0rem;
-    }
-    .mp {
-        position: fixed;
-        top: 25rem;
-        left: 15rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        top: 75rem;
-        left: 12rem;
-        width: 45%;
     }
 }
 
@@ -152,18 +76,6 @@ html {
         top: 10.5rem;
         left: 8.0rem;
     }
-    .mp {
-        position: fixed;
-        top: 25rem;
-        left: 15rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        top: 75rem;
-        left: 12rem;
-        width: 45%;
-    }
 }
 
 .container {
@@ -172,6 +84,7 @@ html {
     min-width: 100vw;
     background: rgb(29, 29, 29);
     justify-content: center;
+    overflow: hidden;
 }
 
 .sidebar {
@@ -267,16 +180,6 @@ i {
     margin-bottom: 1.0rem;
 }
 
-.namaste {
-    position: relative;
-    background: transparent;
-    transform: rotate(-15deg);
-    height: 25.0rem;
-    width: 25.0rem;
-    left: 36rem;
-    top: 15rem;
-}
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -291,23 +194,6 @@ h1 {
     overflow: hidden;
     font-size: 6.0rem;
     pointer-events: none;
-}
-
-#fp {
-    position: relative;
-    font-style: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    pointer-events: none;
-}
-
-.slant-m {
-    position: absolute;
-    justify-content: center;
-    place-items: center;
-    height: 58rem;
-    top: 10rem;
-    left: 80rem;
 }
 
 #copy {
