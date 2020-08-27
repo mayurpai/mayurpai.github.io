@@ -2,7 +2,6 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 html {
@@ -17,19 +16,6 @@ html {
         top: 12.5rem;
         left: 12.0rem;
     }
-    .mp {
-        position: absolute;
-        top: 10rem;
-        right: 10rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-        top: 20rem;
-        left: 12rem;
-        width: 37%;
-    }
 }
 
 @media(max-width: 1600px) {
@@ -39,19 +25,6 @@ html {
     .html-body_h1 {
         top: 12.5rem;
         left: 12.0rem;
-    }
-    .mp {
-        position: fixed;
-        top: 10rem;
-        right: 10rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-        top: 20rem;
-        left: 12rem;
-        width: 37%;
     }
 }
 
@@ -63,19 +36,6 @@ html {
         top: 10.5rem;
         left: 10.0rem;
     }
-    .mp {
-        position: fixed;
-        top: 10rem;
-        right: 10rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-        top: 20rem;
-        left: 12rem;
-        width: 37%;
-    }
 }
 
 @media(max-width: 768px) {
@@ -86,17 +46,8 @@ html {
         top: 10.5rem;
         left: 10.0rem;
     }
-    .mp {
-        position: fixed;
-        top: 25rem;
-        left: 15rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        top: 75rem;
-        left: 12rem;
-        width: 50%;
+    .projects {
+        flex-wrap: wrap;
     }
 }
 
@@ -108,17 +59,8 @@ html {
         top: 10.5rem;
         left: 10.0rem;
     }
-    .mp {
-        position: fixed;
-        top: 25rem;
-        left: 15rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        top: 75rem;
-        left: 12rem;
-        width: 45%;
+    .projects {
+        flex-wrap: wrap;
     }
 }
 
@@ -130,17 +72,8 @@ html {
         top: 10.5rem;
         left: 10.0rem;
     }
-    .mp {
-        position: fixed;
-        top: 25rem;
-        left: 15rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        top: 75rem;
-        left: 12rem;
-        width: 45%;
+    .projects {
+        flex-wrap: wrap;
     }
 }
 
@@ -152,17 +85,8 @@ html {
         top: 10.5rem;
         left: 8.0rem;
     }
-    .mp {
-        position: fixed;
-        top: 25rem;
-        left: 15rem;
-        width: 44rem;
-        height: 50rem;
-    }
-    #fp {
-        top: 75rem;
-        left: 12rem;
-        width: 45%;
+    .projects {
+        flex-wrap: wrap;
     }
 }
 
@@ -172,6 +96,120 @@ html {
     min-width: 100vw;
     background: rgb(29, 29, 29);
     justify-content: center;
+    overflow: hidden;
+}
+
+.projects {
+    position: absolute;
+    display: flex;
+    max-width: 120rem;
+    margin: 4rem 0;
+    top: 19rem;
+    left: 12rem;
+}
+
+.container .card {
+    position: relative;
+    min-width: 26rem;
+    height: 30rem;
+    box-shadow: inset .5rem .5rem .5rem rgba(0, 0, 0, 0.2), inset -.5rem -.5rem 1.5rem rgba(255, 255, 255, 0.1), .5rem .5rem 1.5rem rgba(0, 0, 0, 0.3), -.5rem -.5rem 1.5rem rgba(255, 255, 255, 0.1);
+    border-radius: 1.5rem;
+    margin: 3rem;
+    background-color: transparent;
+}
+
+.container .card .box {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    background: #2a2b2f;
+    border: .2rem solid #1e1f23;
+    border-radius: 1.5rem;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.container .card .box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+}
+
+.container .card .box:hover {
+    transform: translateY(-5rem);
+    box-shadow: 0 4rem 7rem rgba(0, 0, 0, 0.5);
+}
+
+.container .card .box .content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.container .card .box .content h2 {
+    position: absolute;
+    top: -1rem;
+    right: 3rem;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.05);
+    font-family: 'Sigmar One', cursive;
+}
+
+.container .card .box .content h3 {
+    font-size: 1.8em;
+    color: aqua;
+    transition: 0.5s;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .card .box .content p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .card .box .content a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: .8rem 2rem;
+    background-color: #000;
+    margin-bottom: .5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto Condensed', sans-serif;
+    justify-content: center;
+}
+
+.container .card:nth-child(1) .box .content a {
+    background: rgb(249, 13, 84);
+}
+
+.container .card:nth-child(2) .box .content a {
+    background: rgb(249, 13, 84);
+}
+
+.container .card:nth-child(3) .box .content a {
+    background: rgb(249, 13, 84);
+}
+
+.container .card:nth-child(4) .box .content a {
+    background: rgb(249, 13, 84);
 }
 
 .sidebar {
@@ -267,16 +305,6 @@ i {
     margin-bottom: 1.0rem;
 }
 
-.namaste {
-    position: relative;
-    background: transparent;
-    transform: rotate(-15deg);
-    height: 25.0rem;
-    width: 25.0rem;
-    left: 36rem;
-    top: 15rem;
-}
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -291,23 +319,6 @@ h1 {
     overflow: hidden;
     font-size: 6.0rem;
     pointer-events: none;
-}
-
-#fp {
-    position: relative;
-    font-style: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    pointer-events: none;
-}
-
-.slant-m {
-    position: absolute;
-    justify-content: center;
-    place-items: center;
-    height: 58rem;
-    top: 10rem;
-    left: 80rem;
 }
 
 #copy {
@@ -390,4 +401,8 @@ h1 {
 
 #insta:hover {
     color: #e4405f;
+}
+
+color: #e4405f;
+
 }
