@@ -245,11 +245,11 @@
             width: 17.0rem;
             height: 5.0rem;
             text-align: center;
-            font-size: 1.7rem;
+            font-size: 1.4rem;
             left: 10rem;
             padding: 1.4rem;
             text-transform: uppercase;
-            letter-spacing: .4rem;
+            letter-spacing: .2rem;
             transition: 0.5s linear;
         }
         
