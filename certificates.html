@@ -10,6 +10,10 @@
     <link rel="icon" href="images/m_icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="script.js">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </head>
 
 <body>
@@ -46,8 +50,33 @@
                 <div class="html_h1">&lt;/h1&gt;</div>
             </h1>
         </div>
-        <div class="slider"></div>
-        <div class="html-body-html">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="Certificates/Coursera 4MGEYSTSXX7W.jpg">
+                </div>
+            </div>
+        </div>
+        <script src="/swiper.min.js "></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 30,
+                    stretch: 0,
+                    depth: 500,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+        </script>
+        <div class="html-body-html ">
             <span>&lt;/body&gt; </span>
             <br/>
             <span>&lt;/html&gt; </span>
