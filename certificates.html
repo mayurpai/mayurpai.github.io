@@ -8,13 +8,28 @@
     <link rel="stylesheet" href="style/certificates.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/m_icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="script.js">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="/swiper.min.css">
+    <link rel="stylesheet" href="../package/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
+<style>
+    .swiper-container {
+        position: absolute;
+        width: 80%;
+        top: 25rem;
+        left: 15rem;
+    }
+    
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 45rem;
+        height: 33rem;
+    }
+</style>
 
 <body>
     <div class="container">
@@ -52,12 +67,43 @@
         </div>
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="Certificates/Coursera 4MGEYSTSXX7W.jpg">
-                </div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ 2G6M7CJ72A23.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ 4MGEYSTSXX7W.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ 5S2HR9U4KMMN.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ 8KY5V6SJ7K94.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ CQY8Y46ZQWVJ.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ DEUUWCX8Y7YZ.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ GFJ664AG5ZMG.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ JH5JT9F4R3F9.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ KTASNEA2A8HD.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ LHGDKHDKEKTB.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ M5YT4KE3MVSY.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ N8BBYXCEAWU2.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ U8T4UMPSQG84.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ X4Z4CUY28VVB.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ XTN9KWN24ZRY.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ ZG64LM3P35LZ.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Coursera\ ZHRDP5QM5ZP9.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Cognit_cloud.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Cognit_ar-vr.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Certificate_Mayur\ Pai\ B\ H.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/HTML\ Fundamentals.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Java\ Tutorial.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/C++\ Tutorial.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/C\ Tutorial.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Iot_cord.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Iot_part.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Mayur\ Pai\ LW\ Certificate_\ Python.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/NPTEL\ C++.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/NPTEL_C-PROGRAMMING.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/Problem\ Solving\ \(Basic\).jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/UC-LVRK8QG3.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/C++\ Tutorial.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Certificates/IIT\ Delhi-\ Rendezvous\ Campus\ Ambassador.jpg)"></div>
             </div>
+            <div class=" swiper-pagination "></div>
         </div>
-        <script src="/swiper.min.js "></script>
+        <script src="../package/swiper-bundle.min.js "></script>
         <script>
             var swiper = new Swiper('.swiper-container', {
                 effect: 'coverflow',
@@ -65,14 +111,16 @@
                 centeredSlides: true,
                 slidesPerView: 'auto',
                 coverflowEffect: {
-                    rotate: 30,
+                    rotate: 20,
                     stretch: 0,
-                    depth: 500,
+                    depth: 800,
                     modifier: 1,
                     slideShadows: true,
                 },
-                pagination: {
-                    el: '.swiper-pagination',
+                loop: true,
+                autoplay: {
+                    delay: 1000,
+                    disableOnInteraction: false,
                 },
             });
         </script>
@@ -82,6 +130,7 @@
             <span>&lt;/html&gt; </span>
         </div>
     </div>
+
 </body>
 
 </html>
