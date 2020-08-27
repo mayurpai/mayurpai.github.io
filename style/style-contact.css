@@ -408,6 +408,7 @@
         left: 10rem;
         top: 30rem;
         background: transparent;
+        z-index: 2;
     }
     
     .M {
