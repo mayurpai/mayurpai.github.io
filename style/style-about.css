@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 html {
@@ -171,7 +172,6 @@ html {
     min-width: 100vw;
     background: rgb(29, 29, 29);
     justify-content: center;
-    overflow: hidden;
 }
 
 .sidebar {
@@ -267,16 +267,6 @@ i {
     margin-bottom: 1.0rem;
 }
 
-.namaste {
-    position: relative;
-    background: transparent;
-    transform: rotate(-15deg);
-    height: 25.0rem;
-    width: 25.0rem;
-    left: 36rem;
-    top: 15rem;
-}
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -299,15 +289,6 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     pointer-events: none;
-}
-
-.slant-m {
-    position: absolute;
-    justify-content: center;
-    place-items: center;
-    height: 58rem;
-    top: 10rem;
-    left: 80rem;
 }
 
 #copy {
