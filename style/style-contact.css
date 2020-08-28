@@ -2,7 +2,6 @@
         margin: 0%;
         padding: 0%;
         box-sizing: border-box;
-        overflow: hidden;
     }
     
     html {
@@ -156,6 +155,7 @@
         min-width: 100vw;
         background: rgb(29, 29, 29);
         justify-content: center;
+        overflow: hidden;
     }
     
     .sidebar {
