@@ -46,7 +46,7 @@
     
     @media(max-width: 1200px) {
         html {
-            font-size: 50%;
+            font-size: 32%;
         }
         .html-body_h1 {
             top: 10.5rem;
@@ -64,7 +64,7 @@
     
     @media(max-width: 768px) {
         html {
-            font-size: 40%;
+            font-size: 35%;
         }
         .html-body_h1 {
             top: 10.5rem;
@@ -82,7 +82,7 @@
     
     @media(max-width: 450px) {
         html {
-            font-size: 32%;
+            font-size: 29.5%;
         }
         .html-body_h1 {
             top: 10.5rem;
@@ -100,7 +100,7 @@
     
     @media(max-width: 390px) {
         html {
-            font-size: 28%;
+            font-size: 26.5%;
         }
         .html-body_h1 {
             top: 10.5rem;
@@ -118,7 +118,7 @@
     
     @media(max-width: 320px) {
         html {
-            font-size: 23%;
+            font-size: 21%;
         }
         .html-body_h1 {
             top: 10.5rem;
@@ -165,10 +165,6 @@
         place-items: center;
     }
     
-    .sidebar1 a:nth-child(6) {
-        margin-left: -.6rem;
-    }
-    
     .sidebar2 {
         display: flex;
         flex-direction: column;
@@ -200,6 +196,10 @@
         display: block;
         padding: 0.5rem;
         font-size: 1.75rem;
+    }
+    
+    .sidebar1 a:nth-child(6) {
+        margin-left: -.6rem;
     }
     
     .sidebar a :hover {
