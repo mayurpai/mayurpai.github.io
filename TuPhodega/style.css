@@ -212,10 +212,10 @@ li {
 
 .cs {
     position: absolute;
-    height: 100rem;
+    height: 50rem;
     width: 100rem;
     display: flex;
-    top: -15rem;
+    top: 10rem;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
@@ -223,10 +223,10 @@ li {
 
 .ec {
     position: absolute;
-    height: 100rem;
+    height: 50rem;
     width: 100rem;
     display: flex;
-    top: 65rem;
+    top: 90rem;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
@@ -234,10 +234,10 @@ li {
 
 .me {
     position: absolute;
-    height: 100rem;
+    height: 50rem;
     width: 100rem;
     display: flex;
-    top: 25rem;
+    top: 50rem;
     justify-content: center;
     text-align: center;
     align-items: center;
