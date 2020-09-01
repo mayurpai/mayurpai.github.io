@@ -118,6 +118,10 @@ html {
     background-size: cover;
 }
 
+.tuphodega {
+    z-index: 99;
+}
+
 .sem {
     position: absolute;
     height: 150rem;
