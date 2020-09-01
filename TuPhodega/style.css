@@ -168,7 +168,7 @@ li {
 .electro img:hover,
 .civil img:hover {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1);
     transition: ease-in-out 1s;
 }
 
@@ -210,32 +210,67 @@ li {
     border: .2rem solid orange;
 }
 
-.infoScience {
+.cs {
     position: absolute;
+    height: 100rem;
+    width: 100rem;
+    display: flex;
+    top: -15rem;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.ec {
+    position: absolute;
+    height: 100rem;
+    width: 100rem;
+    display: flex;
+    top: 65rem;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.me {
+    position: absolute;
+    height: 100rem;
+    width: 100rem;
+    display: flex;
+    top: 25rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.infoScience {
+    position: relative;
     justify-content: center;
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
     animation: load alternate-reverse 0.1s infinite;
-    top: 18rem;
-    margin-left: 40rem;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .compScience {
-    position: absolute;
+    position: relative;
     justify-content: center;
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
     animation: load alternate-reverse 0.1s infinite;
-    top: 18rem;
-    margin-right: 40rem;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mechanical {
@@ -245,40 +280,42 @@ li {
     background-color: orangered;
     border: .1rem solid orange;
     animation: load alternate-reverse 0.1s infinite;
-    top: 57rem;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .civil {
-    position: absolute;
+    position: relative;
     justify-content: center;
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
     animation: load alternate-reverse 0.1s infinite;
-    top: 57rem;
-    margin-right: 40rem;
-    margin-top: 40rem;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .electro {
-    position: absolute;
+    position: relative;
     justify-content: center;
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
     animation: load alternate-reverse 0.1s infinite;
-    top: 57rem;
-    margin-left: 40rem;
-    margin-top: 40rem;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .infoScience h1,
