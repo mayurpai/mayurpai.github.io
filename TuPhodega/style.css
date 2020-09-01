@@ -118,6 +118,19 @@ html {
     background-size: cover;
 }
 
+.sem {
+    position: absolute;
+    height: 150rem;
+    width: 100%;
+    border-radius: 5.0rem;
+    background-size: cover;
+    background: transparent;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 @keyframes load {
     0% {
         opacity: 1;
