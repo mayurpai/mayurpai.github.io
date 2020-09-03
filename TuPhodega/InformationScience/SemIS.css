@@ -288,7 +288,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
-    animation: load alternate-reverse 0.1s infinite;
+    animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
@@ -302,7 +302,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
-    animation: load alternate-reverse 0.1s infinite;
+    animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
@@ -316,7 +316,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
-    animation: load alternate-reverse 0.1s infinite;
+    animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
@@ -330,7 +330,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
-    animation: load alternate-reverse 0.1s infinite;
+    animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
@@ -344,7 +344,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
-    animation: load alternate-reverse 0.1s infinite;
+    animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
@@ -358,7 +358,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
-    animation: load alternate-reverse 0.1s infinite;
+    animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
@@ -543,20 +543,6 @@ i {
     margin-right: 1rem;
     font-size: 3rem;
     right: 1rem;
-}
-
-::-webkit-scrollbar {
-    width: .8rem;
-}
-
- ::-webkit-scrollbar-thumb {
-    animation: load alternate-reverse 0.1s infinite;
-    background: linear-gradient(orange, orangered);
-}
-
- ::-webkit-scrollbar-thumb:hover {
-    animation: load alternate-reverse 0.1s infinite;
-    background: linear-gradient(orangered, orange);
 }
 
 #fb:hover {
