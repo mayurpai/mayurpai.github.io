@@ -210,6 +210,17 @@ li {
     border: .2rem solid orange;
 }
 
+.cpy {
+    position: absolute;
+    top: 146rem;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family: serif;
+    pointer-events: none;
+}
+
 .cs {
     position: absolute;
     height: 50rem;
