@@ -227,7 +227,7 @@
             var x = ((Grade1 * 4) + (Grade2 * 4) + (Grade3 * 3) + (Grade4 * 3) + (Grade5 * 3) + (Grade6 * 1) + (Grade7 * 1) + (Grade8 * 1)) / 20;
             document.getElementById("sgpa").value = x.toFixed(2);
             var y = (x - 0.75) * 10;
-            document.getElementById("perc").value = y + " %";
+            document.getElementById("perc").value = y.toFixed(2) + " %";
         }
     </script>
 </body>
