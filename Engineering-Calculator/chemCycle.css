@@ -325,14 +325,11 @@ html {
     }
 }
 
-@media(max-height: 510px) and (max-width: 400px) {
+@media(max-height: 610px) {
     .result {
         display: none !important;
     }
     .cal {
-        display: none !important;
-    }
-    footer {
         display: none !important;
     }
 }
@@ -642,7 +639,7 @@ input {
 
 .sem {
     display: flex;
-    padding: .5rem;
+    padding: .1rem;
 }
 
 label {

@@ -332,9 +332,6 @@ html {
     .cal {
         display: none !important;
     }
-    footer {
-        display: none !important;
-    }
 }
 
 .container {
@@ -642,7 +639,7 @@ input {
 
 .sem {
     display: flex;
-    padding: .5rem;
+    padding: .1rem;
 }
 
 label {
