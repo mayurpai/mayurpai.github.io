@@ -193,15 +193,15 @@
             var Subject7 = document.getElementById('7').value;
             if (Subject7 >= 90) {
                 Grade7 = 10;
-            } else if (Subject7 >= 80 && Subject7 < 90) {
+            } else if (Subject2 >= 80 && Subject7 < 90) {
                 Grade7 = 9;
-            } else if (Subject7 >= 70 && Subject7 < 80) {
+            } else if (Subject2 >= 70 && Subject7 < 80) {
                 Grade7 = 8;
-            } else if (Subject7 >= 60 && Subject7 < 70) {
+            } else if (Subject2 >= 60 && Subject7 < 70) {
                 Grade7 = 7;
-            } else if (Subject7 >= 45 && Subject7 < 60) {
+            } else if (Subject2 >= 45 && Subject7 < 60) {
                 Grade7 = 6;
-            } else if (Subject7 >= 40 && Subject7 < 45) {
+            } else if (Subject2 >= 40 && Subject7 < 45) {
                 Grade7 = 4;
             } else {
                 Grade7 = 0;
@@ -224,9 +224,9 @@
                 Grade8 = 0;
             }
             var x = ((Grade1 * 4) + (Grade2 * 4) + (Grade3 * 3) + (Grade4 * 3) + (Grade5 * 3) + (Grade6 * 1) + (Grade7 * 1) + (Grade8 * 1)) / 20;
-            document.getElementById("sgpa").value = x.toFixed(2);
+            document.getElementById("sgpa").value = x;
             var y = (x - 0.75) * 10;
-            document.getElementById("perc").value = y.toFixed(2) + " %";
+            document.getElementById("perc").value = y + " %";
         }
     </script>
 </body>
