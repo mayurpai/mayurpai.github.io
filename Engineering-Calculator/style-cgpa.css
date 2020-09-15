@@ -93,6 +93,9 @@
         .semester {
             top: 18rem;
         }
+        .note p {
+            font-size: 1.5rem;
+        }
     }
     
     @media(max-width: 1200px) {
@@ -131,6 +134,9 @@
         }
         .semester {
             top: 18rem;
+        }
+        .note p {
+            font-size: 1.5rem;
         }
     }
     
@@ -182,6 +188,9 @@
         .semester {
             top: 36rem;
         }
+        .note p {
+            font-size: 2.5rem;
+        }
     }
     
     @media(max-width: 450px) {
@@ -228,6 +237,9 @@
             font-size: 3.0rem;
             height: max-content;
             width: 25rem;
+        }
+        .note p {
+            font-size: 2.25rem;
         }
     }
     
@@ -276,6 +288,9 @@
             height: max-content;
             width: 25rem;
         }
+        .note p {
+            font-size: 2.5rem;
+        }
     }
     
     @media(max-width: 320px) {
@@ -323,14 +338,20 @@
             height: max-content;
             width: 25rem;
         }
+        .note p {
+            font-size: 2.5rem;
+        }
     }
     
     @media(max-height: 610px) {
         .result {
-            opacity: 0;
+            display: none !important;
         }
         .cal {
-            opacity: 0;
+            display: none !important;
+        }
+        .note {
+            display: none !important;
         }
     }
     
@@ -694,6 +715,5 @@
     
     .note p {
         font-family: 'Poppins', sans-serif;
-        font-size: 1.25rem;
         color: wheat;
     }
