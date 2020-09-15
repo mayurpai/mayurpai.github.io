@@ -325,12 +325,15 @@
         }
     }
     
-    @media(max-height: 610px) {
+    @media(max-height: 510px) and (max-width: 400px) {
         .result {
-            opacity: 0;
+            display: none !important;
         }
         .cal {
-            opacity: 0;
+            display: none !important;
+        }
+        footer {
+            display: none !important;
         }
     }
     
