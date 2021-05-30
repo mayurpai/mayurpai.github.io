@@ -214,6 +214,7 @@
                             font-style: normal;
                             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                             color: darkgray;
+                            letter-spacing: 0.5ch;
                             pointer-events: none;
                             font-size: 1.5rem;
                         }
