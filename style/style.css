@@ -167,9 +167,10 @@
   }
   
   .M {
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-bottom: 1.0rem;
+    width: 7.0rem;
+    height: 7.0rem;
+    margin-bottom: 2.0rem;
+    margin-right: 0.5rem;
   }
   
   a:hover {
@@ -182,10 +183,11 @@
     font-style: normal;
     font-weight: bolder;
     color: white;
-    white-space: nowrap;
-    overflow: hidden;
-    font-size: 6.0rem;
-    
+    font-size: 10.0rem;
+  }
+
+  .sup {
+      font-size: 10rem;
   }
   
   #fp {
@@ -214,7 +216,7 @@
     overflow-x: hidden;
     text-align: center;
     position: relative;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
   }
   
   .contact {
@@ -227,9 +229,9 @@
     width: 17.0rem;
     height: 5.0rem;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-left: 10rem;
-    margin-top: 13rem;
+    margin-top: 20rem;
     padding: 1.4rem;
     letter-spacing: .2rem;
   }
@@ -245,9 +247,7 @@
     width: 17.0rem;
     height: 5.0rem;
     text-align: center;
-    font-size: 1.4rem;
-    margin-left: 10rem;
-    padding: 1.4rem;
+    font-size: 1.5rem;
     letter-spacing: .2rem;
     transition: 0.5s linear;
   }
@@ -259,7 +259,7 @@
     background: transparent;
     top: 5.5rem;
     margin-left: 7.0rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
 
   .html-body-h2 {
@@ -269,7 +269,7 @@
     background: transparent;
     top: 7.5rem;
     margin-left: 6.0rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   
   .html-body_h1 {
@@ -277,9 +277,9 @@
     color: lightslategrey;
     position: fixed;
     background: transparent;
-    margin-bottom: 25rem;
+    margin-bottom: 37rem;
     margin-left: 8.0rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   
   .html-body-html {
@@ -287,9 +287,9 @@
     color: lightslategrey;
     position: fixed;
     background: transparent;
-    bottom: 5.5rem;
+    bottom: 4.5rem;
     margin-left: 7.0rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   
   .html-body-html span:nth-child(1) {
@@ -305,9 +305,9 @@
     color: lightslategrey;
     position: fixed;
     background: transparent;
-    font-size: 1.25rem;
-    margin-left: 49rem;
-    margin-top: 15rem;
+    font-size: 2rem;
+    margin-left: 73rem;
+    margin-top: 27rem;
   }
   
   #fb:hover {
