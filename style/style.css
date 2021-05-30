@@ -3,6 +3,9 @@
                             padding: 0%;
                             box-sizing: border-box;
                         }
+
+                        
+                        @font-face { font-family: Coolvetica Rg; font-weight: bold; src: url('coolvetica rg.ttf');}
                         
                         html {
                             font-size: 62.5%;
@@ -197,7 +200,7 @@
                         }
                         
                         h1 {
-                            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                            font-family: Coolvetica Rg;
                             font-style: normal;
                             font-weight: bolder;
                             color: white;
