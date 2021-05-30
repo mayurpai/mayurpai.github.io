@@ -231,7 +231,7 @@
     text-align: center;
     font-size: 1.5rem;
     margin-left: 10rem;
-    margin-top: 20rem;
+    margin-top: 16rem;
     padding: 1.4rem;
     letter-spacing: .2rem;
   }
@@ -307,8 +307,13 @@
     background: transparent;
     font-size: 2rem;
     margin-left: 73rem;
-    margin-top: 27rem;
+    margin-top: 18rem;
   }
+
+  .br {
+    display: block;
+    margin-bottom: -3rem;
+}
   
   #fb:hover {
     color: #3b5999;
