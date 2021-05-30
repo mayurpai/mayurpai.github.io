@@ -8,6 +8,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    overflow: hidden;
   }
   
   @font-face {
@@ -24,17 +25,11 @@
     html {
       font-size: 65%;
     }
-    .html-body-html {
-      top: 70rem;
-    }
   }
   
   @media(max-width: 1600px) {
     html {
       font-size: 65%;
-    }
-    .html-body-html {
-      top: 70rem;
     }
   }
   
@@ -42,17 +37,11 @@
     html {
       font-size: 32%;
     }
-    .html-body-html {
-      top: 131rem;
-    }
   }
   
   @media(max-width: 768px) {
     html {
       font-size: 35%;
-    }
-    .html-body-html {
-      top: 120rem;
     }
   }
   
@@ -63,9 +52,6 @@
     .slant-m {
       display: none;
     }
-    .html-body-html {
-      top: 131rem;
-    }
   }
   
   @media(max-width: 390px) {
@@ -74,9 +60,6 @@
     }
     .slant-m {
       display: none;
-    }
-    .html-body-html {
-      top: 131rem;
     }
   }
   
@@ -87,18 +70,15 @@
     .slant-m {
       display: none;
     }
-    .html-body-html {
-      top: 131rem;
-    }
   }
   
   .container {
-    position: relative;
+    position: fixed;
+    display: flex;
+    place-items: center;
     min-height: 100vh;
     min-width: 100vw;
     background: rgb(29, 29, 29);
-    justify-content: center;
-    overflow: hidden;
   }
   
   .sidebar {
@@ -173,13 +153,12 @@
   }
   
   .page {
-    position: relative;
+    position:fixed;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 100vh;
     place-items: center;
-    left: 10rem;
+    margin-top: 0rem;
+    margin-left: 10rem;
   }
   
   .page,
@@ -191,16 +170,6 @@
     width: 4.5rem;
     height: 4.5rem;
     margin-bottom: 1.0rem;
-  }
-  
-  .namaste {
-    position: relative;
-    background: transparent;
-    transform: rotate(-15deg);
-    height: 25.0rem;
-    width: 25.0rem;
-    left: 36rem;
-    top: 15rem;
   }
   
   a:hover {
@@ -216,7 +185,7 @@
     white-space: nowrap;
     overflow: hidden;
     font-size: 6.0rem;
-    pointer-events: none;
+    
   }
   
   #fp {
@@ -224,17 +193,15 @@
     font-family: 'Montserrat', sans-serif;
     color: darkgray;
     letter-spacing: 0.4ch;
-    pointer-events: none;
     font-size: 1.5rem;
   }
   
   .slant-m {
-    position: absolute;
+    position: fixed;
     justify-content: center;
     place-items: center;
     height: 58rem;
-    top: 10rem;
-    left: 80rem;
+    margin-left: 80rem;
   }
   
   #copy {
@@ -247,12 +214,11 @@
     overflow-x: hidden;
     text-align: center;
     position: relative;
-    pointer-events: none;
     font-size: 1.25rem;
   }
   
   .contact {
-    position: relative;
+    position: fixed;
     font-family: 'Roboto Mono', monospace;
     border: .1rem solid aqua;
     color: aqua;
@@ -262,13 +228,14 @@
     height: 5.0rem;
     text-align: center;
     font-size: 1.4rem;
-    left: 10rem;
+    margin-left: 10rem;
+    margin-top: 13rem;
     padding: 1.4rem;
     letter-spacing: .2rem;
   }
   
   .contact:hover {
-    position: relative;
+    position: fixed;
     font-family: 'Roboto Mono', monospace;
     border: .1rem solid aqua;
     color: rgb(29, 29, 29);
@@ -279,7 +246,7 @@
     height: 5.0rem;
     text-align: center;
     font-size: 1.4rem;
-    left: 10rem;
+    margin-left: 10rem;
     padding: 1.4rem;
     letter-spacing: .2rem;
     transition: 0.5s linear;
@@ -288,46 +255,59 @@
   .html-body-h1 {
     font-family: 'La Belle Aurore', cursive;
     color: lightslategrey;
-    position: relative;
+    position: fixed;
     background: transparent;
-    pointer-events: none;
     top: 5.5rem;
-    left: 7.0rem;
+    margin-left: 7.0rem;
+    font-size: 1.25rem;
+  }
+
+  .html-body-h2 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    top: 7.5rem;
+    margin-left: 6.0rem;
     font-size: 1.25rem;
   }
   
   .html-body_h1 {
     font-family: 'La Belle Aurore', cursive;
     color: lightslategrey;
-    position: relative;
+    position: fixed;
     background: transparent;
-    pointer-events: none;
-    top: 25.5rem;
-    left: 8.0rem;
+    margin-bottom: 25rem;
+    margin-left: 8.0rem;
     font-size: 1.25rem;
   }
   
   .html-body-html {
     font-family: 'La Belle Aurore', cursive;
     color: lightslategrey;
-    position: absolute;
+    position: fixed;
     background: transparent;
-    pointer-events: none;
-    left: 5.5rem;
+    bottom: 5.5rem;
+    margin-left: 7.0rem;
     font-size: 1.25rem;
   }
   
   .html-body-html span:nth-child(1) {
     margin-left: 2.5rem;
   }
+
+  .html-body-h2 span:nth-child(1) {
+    margin-left: 2.5rem;
+  }
   
   .html_h1 {
     font-family: 'La Belle Aurore', cursive;
     color: lightslategrey;
-    position: relative;
+    position: fixed;
     background: transparent;
-    pointer-events: none;
     font-size: 1.25rem;
+    margin-left: 49rem;
+    margin-top: 15rem;
   }
   
   #fb:hover {
