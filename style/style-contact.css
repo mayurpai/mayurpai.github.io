@@ -1,399 +1,306 @@
-    * {
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-    }
-    
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Coolvetica Rg;
+    font-weight: bold;
+    src: url('coolvetica rg.ttf');
+  }
+
+html {
+    font-size: 62.5%;
+}
+
+@media(max-width: 2560px) {
     html {
-        font-size: 62.5%;
+        font-size: 65%;
     }
+}
+
+@media(max-width: 1600px) {
+    html {
+        font-size: 65%;
+    }
+}
+
+@media(max-width: 1200px) {
+    html {
+        font-size: 32%;
+    }
+}
+
+@media(max-width: 768px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media(max-width: 450px) {
+    html {
+        font-size: 29.5%;
+    }
+    .mp {display: none;}
+}
+
+@media(max-width: 390px) {
+    html {
+        font-size: 26.5%;
+    }
+    .mp {display: none;}
+}
+
+@media(max-width: 320px) {
+    html {
+        font-size: 21%;
+    }
+    .mp {display: none;}
+} 
+
+.container {
+    position: fixed;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: rgb(29, 29, 29);
+}
+
+.mp {
+    position: fixed;
+    width: 44rem;
+    height: 49rem;
+    margin-top: -5rem;
+    margin-left: 90rem;
+}
+
+.sidebar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow: hidden;
+    height: 100vh;
+    width: 12rem;
+    text-align: center;
+  }
+  
+  .sidebar a img.m_dir {
+    display: block;
+    width: 7rem;
+    height: 7rem;
+    margin: 2.5rem 2.5rem; 
+  }
+  
+  .sidebar1 a  {
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .sidebar2 a  {
+    text-decoration: none;
+    color: #818181;
+    display: inline-flex;
+    margin-top: 14rem;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar1 a:nth-child(6) {
+    margin-left: -.6rem;
+  }
+  
+  .sidebar1 a :hover {
+    color: aqua;
+  }
+  
+  .sidebar a img.m_dir {
+    background: transparent;
+  }
+  
+  i {
+    background: transparent;
+  }
+
+.page {
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin-bottom: 35rem;
+    margin-left: 17rem;
+}
+
+.page,
+.html_h1 {
+    display: inline;
+}
+
+.Me {
+    width: 7.0rem;
+    height: 7.0rem;
+    margin-bottom: 2.0rem;
+    margin-right: 0.55rem;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Coolvetica Rg;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: 0rem;
+    color: aqua;
+    font-size: 10.0rem;
+}
+
+ #fp {
+    color: white;
+    pointer-events: none;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    width: 60rem;
+    height: 50rem;
+    margin-left: 17rem;
+    margin-top: 32rem;
+    padding-top: 2.25rem;
+} 
+
+#copy {
+    color: white;
+    background-color: #111;
+    font-size: 1.4rem;
+  }
+
+.html-body_p span {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    margin-top: -12rem;
+    margin-left: 15.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+  .html-body_pc span {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    margin-top: 0rem;
+    margin-left: -4.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+
+  .html-body-h1 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    top: 5.5rem;
+    margin-left: 14.0rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+.html-body-h2 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    top: 8.5rem;
+    margin-left: 15.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.html-body_h1 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    margin-bottom: 47rem;
+    margin-left: 15.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.html-body-html {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    bottom: 4.5rem;
+    margin-left: 14.0rem;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.html-body-html span:nth-child(1) {
+    margin-left: 2.5rem;
+}
+
+.html_h1 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    font-size: 2rem;
+    margin-left: 2.25rem;
+    margin-top: 8.5rem;
+    overflow: hidden;
+}
+
+#fb:hover {
+    color: #3b5999;
+}
+
+#git:hover {
+    color: #6e5494;
+}
+
+#twitter:hover {
+    color: #55acee;
+}
+
+#link:hover {
+    color: #0077B5;
+}
+
+#insta:hover {
+    color: #e4405f;
+}
     
-    @media(max-width: 2560px) {
-        html {
-            font-size: 65%;
-        }
-        .html-body_h1 {
-            top: 12.5rem;
-            left: 12.0rem;
-        }
-        .mail {
-            font-size: 1.6rem;
-            padding: 1.4rem;
-        }
-        .contact {
-            font-size: 1.6rem;
-            padding: 1.4rem;
-        }
-    }
-    
-    @media(max-width: 1600px) {
-        html {
-            font-size: 65%;
-        }
-        .html-body_h1 {
-            top: 12.5rem;
-            left: 12.0rem;
-        }
-        .mail {
-            font-size: 1.6rem;
-            padding: 1.4rem;
-        }
-        .contact {
-            font-size: 1.6rem;
-            padding: 1.4rem;
-        }
-    }
-    
-    @media(max-width: 1200px) {
-        html {
-            font-size: 32%;
-        }
-        .html-body_h1 {
-            top: 10.5rem;
-            left: 10.0rem;
-        }
-        .mail {
-            font-size: 1.6rem;
-            padding: 1.4rem;
-        }
-        .contact {
-            font-size: 1.6rem;
-            padding: 1.4rem;
-        }
-    }
-    
-    @media(max-width: 768px) {
-        html {
-            font-size: 35%;
-        }
-        .html-body_h1 {
-            top: 10.5rem;
-            left: 10.0rem;
-        }
-        .mail {
-            font-size: 1.6rem;
-            padding: 1.4rem;
-        }
-        .contact {
-            font-size: 1.6rem;
-            padding: 1.4rem;
-        }
-    }
-    
-    @media(max-width: 450px) {
-        html {
-            font-size: 29.5%;
-        }
-        .html-body_h1 {
-            top: 10.5rem;
-            left: 10.0rem;
-        }
-        .mail {
-            font-size: 1.4rem;
-            padding: 1.4rem;
-        }
-        .contact {
-            font-size: 1.6rem;
-            padding: 1.4rem;
-        }
-    }
-    
-    @media(max-width: 390px) {
-        html {
-            font-size: 26.5%;
-        }
-        .html-body_h1 {
-            top: 10.5rem;
-            left: 10.0rem;
-        }
-        .mail {
-            font-size: 1.6rem;
-            padding: 1.2rem;
-        }
-        .contact {
-            font-size: 1.6rem;
-            padding: 1.6rem;
-        }
-    }
-    
-    @media(max-width: 320px) {
-        html {
-            font-size: 21%;
-        }
-        .html-body_h1 {
-            top: 10.5rem;
-            left: 8.0rem;
-        }
-        .mail {
-            font-size: 1.6rem;
-            padding: 1.2rem;
-        }
-        .contact {
-            font-size: 1.6rem;
-            padding: 1.4rem;
-        }
-    }
-    
-    .container {
-        position: relative;
-        min-height: 100vh;
-        min-width: 100vw;
-        background: rgb(29, 29, 29);
-        justify-content: center;
-        overflow: hidden;
-    }
-    
-    .sidebar {
-        position: fixed;
-        display: flex;
-        flex-direction: column;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        height: 100vh;
-        width: 5rem;
-        text-align: center;
-        place-items: center;
-    }
-    
-    .sidebar1 {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        place-items: center;
-    }
-    
-    .sidebar2 {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        place-items: center;
-        position: absolute;
-        bottom: 15rem;
-    }
-    
-    .sidebar a img.m_dir {
-        position: relative;
-        width: 4.5rem;
-        height: 4.5rem;
-        margin-bottom: 5rem;
-    }
-    
-    .sidebar1 a i {
-        text-decoration: none;
-        color: #818181;
-        display: block;
-        padding: .5rem;
-        font-size: 2.0rem;
-        margin-top: 2rem;
-    }
-    
-    .sidebar2 a i {
-        text-decoration: none;
-        color: #818181;
-        display: block;
-        padding: 0.5rem;
-        font-size: 1.75rem;
-    }
-    
-    .sidebar1 a:nth-child(6) {
-        margin-left: -.6rem;
-    }
-    
-    .sidebar a :hover {
-        color: aqua;
-    }
-    
-    .sidebar a img.m_dir {
-        background: transparent;
-    }
-    
-    i {
-        background: transparent;
-    }
-    
-    .page {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100vh;
-        place-items: center;
-        left: 15rem;
-        top: 15rem;
-    }
-    
-    .page,
-    .html_h1 {
-        display: inline;
-    }
-    
-    a:hover {
-        text-decoration: none;
-        cursor: pointer;
-    }
-    
-    h1 {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-style: normal;
-        font-weight: bolder;
-        color: aqua;
-        white-space: nowrap;
-        overflow: hidden;
-        font-size: 6.0rem;
-        pointer-events: none;
-    }
-    
-    #fp {
-        font-style: normal;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: white;
-        pointer-events: none;
-        font-size: 1.5rem;
-    }
-    
-    #copy {
-        color: white;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        text-align: center;
-        position: relative;
-        pointer-events: none;
-        font-size: 1.25rem;
-    }
-    
-    .mail {
-        position: absolute;
-        font-style: italic;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        border: .1rem solid aqua;
-        color: aqua;
-        box-sizing: border-box;
-        width: 21.0rem;
-        height: 5.0rem;
-        text-align: center;
-        top: 40rem;
-        left: 40rem;
-        transition: 0.5s linear;
-        z-index: 5;
-    }
-    
-    .contact {
-        position: absolute;
-        font-style: italic;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        border: .1rem solid aqua;
-        color: aqua;
-        box-sizing: border-box;
-        width: 21.0rem;
-        height: 5.0rem;
-        text-align: center;
-        top: 48rem;
-        left: 40rem;
-        transition: 0.5s linear;
-        z-index: 5;
-    }
-    
-    .contact:hover,
-    .mail:hover {
-        color: rgb(29, 29, 29);
-        background-color: aqua;
-        color: rgb(29, 29, 29);
-        font-weight: bolder;
-    }
-    
-    .html-body-h1 {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        position: relative;
-        background: transparent;
-        pointer-events: none;
-        top: 5.5rem;
-        left: 7.0rem;
-        font-size: 1.25rem;
-    }
-    
-    .html-body_h1 {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        position: relative;
-        background: transparent;
-        pointer-events: none;
-        font-size: 1.25rem;
-    }
-    
-    .html-body-html {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        position: absolute;
-        background: transparent;
-        pointer-events: none;
-        bottom: 15.5rem;
-        left: 5.5rem;
-        font-size: 1.25rem;
-    }
-    
-    .html-body-html span:nth-child(1) {
-        margin-left: 2.5rem;
-    }
-    
-    .html_h1 {
-        font-style: italic;
-        font-family: cursive;
-        color: lightslategrey;
-        position: relative;
-        background: transparent;
-        pointer-events: none;
-        font-size: 1.25rem;
-    }
-    
-    #fb:hover {
-        color: #3b5999;
-    }
-    
-    #git:hover {
-        color: #6e5494;
-    }
-    
-    #twitter:hover {
-        color: #55acee;
-    }
-    
-    #link:hover {
-        color: #0077B5;
-    }
-    
-    #insta:hover {
-        color: #e4405f;
-    }
     
     #map {
-        position: absolute;
+        position: fixed;
         height: 100vh;
         width: 100vw;
-        padding-left: 5rem;
+        padding-left: 12rem;
         top: 0;
         right: 0;
         opacity: 0.2;
-    }
-    
-    .m_direct {
-        position: absolute;
-        height: 25rem;
-        width: 25rem;
-        left: 10rem;
-        top: 30rem;
-        background: transparent;
-        z-index: 2;
     }
     
     .M {
@@ -402,7 +309,37 @@
         margin-bottom: 1.0rem;
     }
     
-    .im,
-    .image {
-        display: inline-block;
-    }
+.image {
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    margin-left: 22rem;
+    margin-top: 20rem;
+}
+
+.mail p,.contact p {
+    font-family: 'La Belle Aurore', cursive;
+    border: .1rem solid aqua;
+    color: aqua;
+    box-sizing: border-box;
+    width: 20.0rem;
+    font-weight: bolder;
+    background:rgba(255,255,255,.15);
+    height: 5.0rem;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 50rem;
+    margin-right: 5rem;
+    overflow: hidden;
+}
+
+.contact p:hover,
+.mail p:hover {
+    color: rgb(29, 29, 29);
+    background-color: aqua;
+    color: rgb(29, 29, 29);
+    font-weight: bolder;
+}
