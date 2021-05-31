@@ -142,9 +142,6 @@
             font-size: 1.75rem;
         }
         
-        .sidebar1 a:nth-child(6) {
-            margin-left: -.6rem;
-        }
         
         .sidebar a :hover {
             color: aqua;

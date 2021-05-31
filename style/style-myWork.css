@@ -73,7 +73,6 @@
 .container {
     position: fixed;
     display: flex;
-
     min-height: 100vh;
     min-width: 100vw;
     background: rgb(29, 29, 29);
@@ -93,10 +92,11 @@
     display: inline;
 }
 
-.M {
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-bottom: 1.0rem;
+.Me {
+    width: 7.0rem;
+    height: 7.0rem;
+    margin-bottom: 2.0rem;
+    margin-right: -0.85rem;
 }
 
 a:hover {
@@ -108,10 +108,22 @@ h1 {
     font-family: Coolvetica Rg;
     font-style: normal;
     font-weight: bolder;
-    letter-spacing: 0rem;
+    letter-spacing: -1.2rem;
     color: aqua;
     font-size: 10.0rem;
 }
+
+h1 ul li:hover {
+    color: aqua;
+    transition: 0.5s linear;
+    text-shadow: .5rem .5rem rgb(249, 13, 84);
+}
+
+ul li {
+    display: inline;
+    text-shadow: .5rem .5rem rgb(255,255,255,.2);
+}
+
 
 #copy {
     color: white;
@@ -173,8 +185,9 @@ h1 {
     position: fixed;
     background: transparent;
     font-size: 2rem;
-    margin-left: 2.25rem;
-    margin-top: 8.5rem;
+    margin-left: 45rem;
+    margin-top: -5rem;
+    width: 100rem;
     overflow: hidden;
 }
 
@@ -301,6 +314,7 @@ h1 {
     height: 100vh;
     width: 12rem;
     text-align: center;
+    padding-top: 2rem;
   }
   
   .sidebar a img.m_dir {
@@ -325,10 +339,6 @@ h1 {
     margin-top: 14rem;
     padding: 0.4rem;
     font-size: 1.5rem;
-  }
-  
-  .sidebar1 a:nth-child(6) {
-    margin-left: -.6rem;
   }
   
   .sidebar1 a :hover {
@@ -363,3 +373,82 @@ h1 {
 #insta:hover {
     color: #e4405f;
 }
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        color: transparent;
+        width: auto;
+    }
+    33% {
+        opacity: 1;
+        color: aqua;
+        width: auto;
+        text-shadow: .5rem .5rem rgb(249, 13, 84);
+    }
+    66% {
+    opacity: 1;
+        color: rgb(249, 13, 84);
+        width: auto;
+        text-shadow: .5rem .5rem aqua;
+      }
+    100% {
+        opacity: 1;
+        color: white;
+        width: auto;
+    }
+}
+
+ul li:nth-child(1) {
+    animation: move alternate-reverse 1s 0.3s;
+    color: aqua;
+    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
+  }
+  
+  ul li:nth-child(2) {
+    animation: move alternate-reverse 1s 0.4s;
+    color: white;
+    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
+  }
+  
+  ul li:nth-child(3) {
+    animation: move alternate-reverse 1s 0.5s;
+    color: white;
+    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
+  }
+  
+  ul li:nth-child(4) {
+    animation: move alternate-reverse 1s 0.6s;
+    color: white;
+    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
+  }
+  
+  ul li:nth-child(5) {
+    animation: move alternate-reverse 1s 0.7s;
+    color: white;
+    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
+  }
+  
+  ul li:nth-child(6) {
+    animation: move alternate-reverse 1s 0.8s;
+    color: white;
+    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
+  }
+  
+  ul li:nth-child(7) {
+    animation: move alternate-reverse 1s 0.9s;
+    color: white;
+    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
+  }
+  
+  ul li:nth-child(8) {
+    animation: move alternate-reverse 1s 1.0s;
+    color: white;
+    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
+  }
+
+  .br {
+    display: block;
+    margin-bottom: 4.5rem;
+}
+ 
