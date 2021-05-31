@@ -47,7 +47,7 @@
   
   @media(max-width: 450px) {
     html {
-      font-size: 29.5%;
+      font-size: 28.0%;
     }
     .slant-m {
       display: none;
@@ -56,7 +56,7 @@
   
   @media(max-width: 390px) {
     html {
-      font-size: 26.5%;
+      font-size: 25.5%;
     }
     .slant-m {
       display: none;
@@ -65,13 +65,13 @@
   
   @media(max-width: 320px) {
     html {
-      font-size: 23%;
+      font-size: 22.5%;
     }
     .slant-m {
       display: none;
     }
   }
-  
+
   .container {
     position: fixed;
     display: flex;
@@ -79,7 +79,6 @@
     min-height: 100vh;
     min-width: 100vw;
     background: rgb(29, 29, 29);
-    scroll-behavior: smooth;
   }
   
   .sidebar {
@@ -202,7 +201,6 @@
   #copy {
     color: white;
     background-color: #111;
-    overflow-x: hidden;
     font-size: 1.4rem;
   }
   
@@ -240,7 +238,7 @@
     transition: 0.5s linear;
     overflow: hidden;
   }
-  
+
   .html-body-h1 {
     font-family: 'La Belle Aurore', cursive;
     color: lightslategrey;
@@ -258,7 +256,7 @@
     position: fixed;
     background: transparent;
     top: 8.5rem;
-    margin-left: 13.0rem;
+    margin-left: 15.5rem;
     font-size: 2rem;
     overflow: hidden;
   }
@@ -269,7 +267,7 @@
     position: fixed;
     background: transparent;
     margin-bottom: 37rem;
-    margin-left: 15.0rem;
+    margin-left: 15.5rem;
     font-size: 2rem;
     overflow: hidden;
   }
@@ -286,10 +284,6 @@
   }
   
   .html-body-html span:nth-child(1) {
-    margin-left: 2.5rem;
-  }
-
-  .html-body-h2 span:nth-child(1) {
     margin-left: 2.5rem;
   }
   
