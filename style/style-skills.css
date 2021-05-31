@@ -196,7 +196,7 @@ h1 {
     position: fixed;
     background: transparent;
     margin-top: 11.5rem;
-    margin-left: 2rem;
+    margin-left: -3rem;
     font-size: 2rem;
     overflow: hidden;
   }
