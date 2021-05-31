@@ -2,6 +2,23 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Coolvetica Rg;
+    font-weight: bold;
+    src: url('coolvetica rg.ttf');
+  }
+
+html {
+    font-size: 62.5%;
 }
 
 html {
@@ -12,39 +29,11 @@ html {
     html {
         font-size: 65%;
     }
-    .html-body_h1 {
-        top: 12.5rem;
-        left: 12.0rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-        top: 20rem;
-        left: 12rem;
-    }
-    .logo {
-        top: 0rem;
-        right: 0rem;
-    }
 }
 
 @media(max-width: 1600px) {
     html {
         font-size: 65%;
-    }
-    .html-body_h1 {
-        top: 12.5rem;
-        left: 12.0rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-    }
-    button {
-        font-size: 1.5rem;
-        padding: .8rem;
-    }
-    .logo {
-        top: 0rem;
-        right: 0rem;
     }
 }
 
@@ -52,42 +41,11 @@ html {
     html {
         font-size: 32%;
     }
-    .html-body_h1 {
-        top: 10.5rem;
-        left: 10.0rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-    }
-    button {
-        font-size: 1.0rem;
-        padding: .8rem;
-    }
-    .logo {
-        top: 0rem;
-        right: 0rem;
-    }
 }
 
 @media(max-width: 768px) {
     html {
         font-size: 35%;
-    }
-    .html-body_h1 {
-        top: 10.5rem;
-        left: 10.0rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-        width: 50%;
-    }
-    button {
-        font-size: 1.3rem;
-        padding: .8rem;
-    }
-    .logo {
-        top: 20rem;
-        left: 13rem;
     }
 }
 
@@ -95,43 +53,11 @@ html {
     html {
         font-size: 29.5%;
     }
-    .html-body_h1 {
-        top: 10.5rem;
-        left: 10.0rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-        width: 45%;
-    }
-    button {
-        font-size: 1.4rem;
-        padding: .8rem;
-    }
-    .logo {
-        top: 20rem;
-        left: 13rem;
-    }
 }
 
 @media(max-width: 390px) {
     html {
         font-size: 26.5%;
-    }
-    .html-body_h1 {
-        top: 10.5rem;
-        left: 10.0rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-        width: 45%;
-    }
-    button {
-        font-size: 1rem;
-        padding: .4rem;
-    }
-    .logo {
-        top: 20rem;
-        left: 13rem;
     }
 }
 
@@ -139,113 +65,73 @@ html {
     html {
         font-size: 21%;
     }
-    .html-body_h1 {
-        top: 10.5rem;
-        left: 8.0rem;
-    }
-    #fp {
-        font-size: 1.5rem;
-        width: 45%;
-    }
-    button {
-        font-size: 0.1rem;
-        padding: .2rem;
-    }
-    .logo {
-        top: 20rem;
-        left: 13rem;
-    }
-}
+} 
 
 .container {
-    position: relative;
+    position: fixed;
+    display: flex;
+    place-items: center;
     min-height: 100vh;
     min-width: 100vw;
     background: rgb(29, 29, 29);
-    justify-content: center;
-    overflow: hidden;
 }
 
 .sidebar {
     position: fixed;
-    display: flex;
-    flex-direction: column;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
-    overflow-x: hidden;
+    overflow: hidden;
     height: 100vh;
-    width: 5rem;
+    width: 12rem;
     text-align: center;
-    place-items: center;
-}
-
-.sidebar1 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    place-items: center;
-}
-
-.sidebar2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    place-items: center;
-    position: absolute;
-    bottom: 15rem;
-}
-
-.sidebar a img.m_dir {
-    position: relative;
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-bottom: 5rem;
-}
-
-.sidebar1 a i {
+  }
+  
+  .sidebar a img.m_dir {
+    display: block;
+    width: 7rem;
+    height: 7rem;
+    margin: 2.5rem 2.5rem; 
+  }
+  
+  .sidebar1 a  {
     text-decoration: none;
     color: #818181;
     display: block;
-    padding: .5rem;
-    font-size: 2.0rem;
+    font-size: 2rem;
     margin-top: 2rem;
-}
-
-.sidebar2 a i {
+  }
+  
+  .sidebar2 a  {
     text-decoration: none;
     color: #818181;
-    display: block;
-    padding: 0.5rem;
-    font-size: 1.75rem;
-}
-
-.sidebar1 a:nth-child(6) {
+    display: inline-flex;
+    margin-top: 14rem;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar1 a:nth-child(6) {
     margin-left: -.6rem;
-}
-
-.sidebar a :hover {
+  }
+  
+  .sidebar1 a :hover {
     color: aqua;
-}
-
-.sidebar a img.m_dir {
+  }
+  
+  .sidebar a img.m_dir {
     background: transparent;
-}
+  }
+  
 
-i {
-    background: transparent;
-}
-
-.page {
-    position: absolute;
+  .page {
+    position:fixed;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 100vh;
     place-items: center;
-    left: 15rem;
-    top: 15rem;
+    margin-bottom: 26rem;
+    margin-left: 17rem;
 }
 
 .page,
@@ -254,108 +140,110 @@ i {
 }
 
 .M {
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-bottom: 1.0rem;
-}
-
-.namaste {
-    position: relative;
-    background: transparent;
-    transform: rotate(-15deg);
-    height: 25.0rem;
-    width: 25.0rem;
-    left: 36rem;
-    top: 15rem;
+    width: 7.0rem;
+    height: 7.0rem;
+    margin-bottom: 2.0rem;
+    margin-right: 0.55rem;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
-    color: rgb(251, 12, 84);
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-    color: aqua;
 }
 
 h1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Coolvetica Rg;
     font-style: normal;
     font-weight: bolder;
+    letter-spacing: 0rem;
     color: aqua;
-    white-space: nowrap;
-    overflow: hidden;
-    font-size: 6.0rem;
-    pointer-events: none;
+    font-size: 10.0rem;
 }
 
-#fp {
-    position: relative;
-    font-style: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ #fp {
     color: white;
-    top: 0rem;
-    left: 0rem;
-}
-
-.slant-m {
-    position: absolute;
-    justify-content: center;
-    place-items: center;
-    height: 58rem;
-    top: 10rem;
-    left: 80rem;
-}
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    width: 60rem;
+    height: 50rem;
+    margin-left: 17rem;
+    margin-top: 32rem;
+    padding-top: 11rem;
+} 
 
 #copy {
     color: white;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background-color: #111;
-    overflow-x: hidden;
-    text-align: center;
-    position: relative;
-    pointer-events: none;
-    font-size: 1.25rem;
-}
+    font-size: 1.4rem;
+  }
 
-.html-body-h1 {
-    font-style: italic;
-    font-family: cursive;
+.html-body_p span {
+    font-family: 'La Belle Aurore', cursive;
     color: lightslategrey;
-    position: relative;
+    position: fixed;
     background: transparent;
-    pointer-events: none;
+    margin-top: -1rem;
+    margin-left: 15.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+  .html-body_pc span {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    margin-top: 11.5rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+
+  .html-body-h1 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
     top: 5.5rem;
-    left: 7.0rem;
-    font-size: 1.25rem;
+    margin-left: 14.0rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+.html-body-h2 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    top: 8.5rem;
+    margin-left: 15.5rem;
+    font-size: 2rem;
+    overflow: hidden;
 }
 
 .html-body_h1 {
-    font-style: italic;
-    font-family: cursive;
+    font-family: 'La Belle Aurore', cursive;
     color: lightslategrey;
-    position: relative;
+    position: fixed;
     background: transparent;
-    pointer-events: none;
-    font-size: 1.25rem;
+    margin-bottom: 47rem;
+    margin-left: 15.5rem;
+    font-size: 2rem;
+    overflow: hidden;
 }
 
 .html-body-html {
-    font-style: italic;
-    font-family: cursive;
+    font-family: 'La Belle Aurore', cursive;
     color: lightslategrey;
-    position: absolute;
+    position: fixed;
     background: transparent;
-    pointer-events: none;
-    bottom: 15.5rem;
-    left: 5.5rem;
-    font-size: 1.25rem;
+    bottom: 4.5rem;
+    margin-left: 14.0rem;
+    font-size: 2rem;
+    overflow: hidden;
 }
 
 .html-body-html span:nth-child(1) {
@@ -363,13 +251,14 @@ h1 {
 }
 
 .html_h1 {
-    font-style: italic;
-    font-family: cursive;
+    font-family: 'La Belle Aurore', cursive;
     color: lightslategrey;
-    position: relative;
+    position: fixed;
     background: transparent;
-    pointer-events: none;
-    font-size: 1.25rem;
+    font-size: 2rem;
+    margin-left: 2.25rem;
+    margin-top: 8.5rem;
+    overflow: hidden;
 }
 
 #fb:hover {
@@ -392,138 +281,52 @@ h1 {
     color: #e4405f;
 }
 
-.logo {
-    background: transparent;
-    position: absolute;
-    height: 60.0rem;
-    width: 60.0rem;
-    background-color: transparent;
-    padding-left: 1rem;
-}
-
-.skills:first-child {
-    background: transparent;
-    position: relative;
-    height: 10.0rem;
-    width: 10.0rem;
-    margin-right: 3.0rem;
-}
-
-.skills:nth-child(2) {
-    background: transparent;
-    position: relative;
-    height: 10.0rem;
-    margin-right: 3.0rem;
-    width: 10.0rem;
-}
-
-.skills:nth-child(3) {
-    background: transparent;
-    position: relative;
-    height: 10.0rem;
-    margin-right: 3.0rem;
-    width: 10.0rem;
-}
-
-.skills:nth-child(4) {
-    background: transparent;
-    position: relative;
-    height: 10.0rem;
-    width: 10.0rem;
-    margin-right: 3.0rem;
-}
-
-.skills:nth-child(5) {
-    background: transparent;
-    position: relative;
-    height: 10.0rem;
-    width: 10.0rem;
-    margin-right: 3.0rem;
-    margin-top: 28.0rem;
-    margin-bottom: 3.0rem;
-    margin-left: -53.8rem;
-}
-
-.skills:nth-child(6) {
-    background: transparent;
-    position: relative;
-    height: 10.0rem;
-    width: 39.3rem;
-    margin-right: 3.0rem;
-    margin-left: -1.0rem;
-    margin-top: 25.5rem;
-}
-
-.skills:nth-child(7) {
-    background: transparent;
-    position: relative;
-    height: 10.0rem;
-    width: 10.0rem;
-    margin-right: 3.0rem;
-    margin-top: 50.0rem;
-    margin-left: -54.7rem;
-}
-
-.skills:nth-child(8) {
-    background: transparent;
-    position: relative;
-    height: 10.0rem;
-    width: 10.0rem;
-    margin-right: 3.0rem;
-    margin-top: 50.0rem;
-}
-
-.skills:nth-child(9) {
-    background: transparent;
-    position: relative;
-    height: 10.0rem;
-    width: 10.0rem;
-    margin-right: 3.0rem;
-    margin-top: 50.0rem;
-}
-
-.skills:nth-child(10) {
-    background: transparent;
-    position: relative;
-    height: 10.0rem;
-    width: 10.0rem;
-    margin-right: 3.0rem;
-    margin-top: 50.0rem;
+.br {
+    display: block;
+    margin-bottom: -3rem;
 }
 
 button {
-    font-family: 'Share Tech Mono', monospace;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
     font-weight: bolder;
     text-align: center;
     transition: 0.5s;
     color: whitesmoke;
     background-image: linear-gradient(to right, aqua 0%, rgb(251, 12, 84) 100%);
-    position: absolute;
+    position: fixed;
     border-radius: 4.0rem;
     width: 15.0rem;
-    left: 14.5rem;
-    top: 35rem;
+    margin-left: -60.5rem;
+    margin-top: 15rem;
     z-index: 2;
     height: 4.0rem;
-}
-
-button:hover {
-    background-position: right center;
-    transform: scale(1.03);
-    transition: linear 0.25s;
+    padding-top: 0.5rem;
 }
 
 #one p:hover {
     cursor: pointer;
     transform: scale(1.3);
-    transition: ease-in-out 1s;
+    transition: ease-in-out 0.5s;
     color: aqua;
+}
+
+#one p i {
+    transform: scale(1.5);
+    overflow: hidden;
 }
 
 #one {
     cursor: pointer;
     animation: loads alternate-reverse 0.5s 0.1s infinite;
+    text-align: center;
+    padding-top: 1.25rem;
 }
+i {
+    background: transparent;
+  }
+
 
 @keyframes loads {
     0% {
