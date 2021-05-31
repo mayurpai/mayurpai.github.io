@@ -170,6 +170,7 @@ h1 {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+   
 }
 
 
@@ -186,6 +187,10 @@ a:hover {
     margin-top: 32rem;
     padding-top: 11rem;
 } 
+
+#fp a {
+  color: aqua;
+}
 
 #copy {
     color: white;
@@ -384,7 +389,7 @@ i {
 ul li:nth-child(1) {
   animation: move alternate-reverse 1s 0.3s;
   color: aqua;
-  text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
+  text-shadow: .5rem .5rem .3rem rgb(249, 13, 84);
 }
 
 ul li:nth-child(2) {
