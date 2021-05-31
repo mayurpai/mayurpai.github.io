@@ -189,7 +189,19 @@ h1 {
     font-size: 1.4rem;
   }
 
-.html-body-h1 {
+
+  .html-body-h1 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    top: 5.5rem;
+    margin-left: 14.0rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+.html-body-h2 {
     font-family: 'La Belle Aurore', cursive;
     color: lightslategrey;
     position: fixed;
