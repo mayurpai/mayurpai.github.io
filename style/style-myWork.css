@@ -73,19 +73,19 @@
 .container {
     position: fixed;
     display: flex;
-    place-items: center;
+
     min-height: 100vh;
     min-width: 100vw;
     background: rgb(29, 29, 29);
 }
 
 .page {
-    position:relative;
+    position:fixed;
     display: flex;
     justify-content: center;
     place-items: center;
     margin-left: 17rem;
-    margin-top: -25rem;
+    margin-top: 18rem;
 }
 
 .page,
@@ -146,7 +146,7 @@ h1 {
     color: lightslategrey;
     position: fixed;
     background: transparent;
-    margin-bottom: 37rem;
+    margin-top: 16.55rem;
     margin-left: 15.5rem;
     font-size: 2rem;
     overflow: hidden;
