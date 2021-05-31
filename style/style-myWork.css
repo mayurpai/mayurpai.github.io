@@ -348,6 +348,10 @@ ul li {
   .sidebar a img.m_dir {
     background: transparent;
   }
+
+  .sidebar1 a:nth-child(6) {
+    color: aqua;
+}
   
   i {
     background: transparent;

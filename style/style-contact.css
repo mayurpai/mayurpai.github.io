@@ -127,6 +127,10 @@ html {
   .sidebar a img.m_dir {
     background: transparent;
   }
+
+  .sidebar1 a:nth-child(4) {
+    color: aqua;
+}
   
   i {
     background: transparent;
