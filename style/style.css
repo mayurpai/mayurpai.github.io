@@ -8,7 +8,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   
   @font-face {
@@ -79,6 +79,7 @@
     min-height: 100vh;
     min-width: 100vw;
     background: rgb(29, 29, 29);
+    scroll-behavior: smooth;
   }
   
   .sidebar {
@@ -87,7 +88,7 @@
     top: 0;
     left: 0;
     background-color: #111;
-    overflow-x: hidden;
+    overflow: hidden;
     height: 100vh;
     width: 12rem;
     text-align: center;
@@ -220,6 +221,7 @@
     margin-top: 16rem;
     padding: 1.4rem;
     letter-spacing: .2rem;
+    overflow: hidden;
   }
   
   .contact:hover {
@@ -236,6 +238,7 @@
     font-size: 1.5rem;
     letter-spacing: .2rem;
     transition: 0.5s linear;
+    overflow: hidden;
   }
   
   .html-body-h1 {
@@ -246,6 +249,7 @@
     top: 5.5rem;
     margin-left: 14.0rem;
     font-size: 2rem;
+    overflow: hidden;
   }
 
   .html-body-h2 {
@@ -256,6 +260,7 @@
     top: 8.5rem;
     margin-left: 13.0rem;
     font-size: 2rem;
+    overflow: hidden;
   }
   
   .html-body_h1 {
@@ -266,6 +271,7 @@
     margin-bottom: 37rem;
     margin-left: 15.0rem;
     font-size: 2rem;
+    overflow: hidden;
   }
   
   .html-body-html {
@@ -276,6 +282,7 @@
     bottom: 4.5rem;
     margin-left: 14.0rem;
     font-size: 2rem;
+    overflow: hidden;
   }
   
   .html-body-html span:nth-child(1) {
@@ -294,6 +301,7 @@
     font-size: 2rem;
     margin-left: 80rem;
     margin-top: 18rem;
+    overflow: hidden;
   }
 
   .br {
