@@ -189,6 +189,28 @@ h1 {
     font-size: 1.4rem;
   }
 
+.html-body_p span {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    margin-top: -12rem;
+    margin-left: 15.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+  .html-body_pc span {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    margin-top: 17rem;
+    margin-left: -2.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
 
   .html-body-h1 {
     font-family: 'La Belle Aurore', cursive;
