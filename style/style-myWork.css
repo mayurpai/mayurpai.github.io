@@ -2,9 +2,21 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-html {
+@font-face {
+    font-family: Coolvetica Rg;
+    font-weight: bold;
+    src: url('coolvetica rg.ttf');
+  }
+
+  html {
     font-size: 62.5%;
 }
 
@@ -12,19 +24,11 @@ html {
     html {
         font-size: 65%;
     }
-    .html-body_h1 {
-        top: 12.5rem;
-        left: 12.0rem;
-    }
 }
 
 @media(max-width: 1600px) {
     html {
         font-size: 65%;
-    }
-    .html-body_h1 {
-        top: 12.5rem;
-        left: 12.0rem;
     }
 }
 
@@ -32,22 +36,11 @@ html {
     html {
         font-size: 32%;
     }
-    .html-body_h1 {
-        top: 10.5rem;
-        left: 10.0rem;
-    }
 }
 
 @media(max-width: 768px) {
     html {
         font-size: 35%;
-    }
-    .html-body_h1 {
-        top: 10.5rem;
-        left: 10.0rem;
-    }
-    .projects {
-        flex-wrap: wrap;
     }
 }
 
@@ -55,11 +48,7 @@ html {
     html {
         font-size: 29.5%;
     }
-    .html-body_h1 {
-        top: 10.5rem;
-        left: 10.0rem;
-    }
-    .projects {
+    .projects{
         flex-wrap: wrap;
     }
 }
@@ -68,11 +57,7 @@ html {
     html {
         font-size: 26.5%;
     }
-    .html-body_h1 {
-        top: 10.5rem;
-        left: 10.0rem;
-    }
-    .projects {
+    .projects{
         flex-wrap: wrap;
     }
 }
@@ -81,30 +66,124 @@ html {
     html {
         font-size: 21%;
     }
-    .html-body_h1 {
-        top: 10.5rem;
-        left: 8.0rem;
-    }
-    .projects {
+    .projects{
         flex-wrap: wrap;
     }
-}
-
+} 
 .container {
-    position: relative;
+    position: fixed;
+    display: flex;
+    place-items: center;
     min-height: 100vh;
     min-width: 100vw;
     background: rgb(29, 29, 29);
+}
+
+.page {
+    position:relative;
+    display: flex;
     justify-content: center;
+    place-items: center;
+    margin-left: 17rem;
+    margin-top: -25rem;
+}
+
+.page,
+.html_h1 {
+    display: inline;
+}
+
+.M {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-bottom: 1.0rem;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Coolvetica Rg;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: 0rem;
+    color: aqua;
+    font-size: 10.0rem;
+}
+
+#copy {
+    color: white;
+    background-color: #111;
+    font-size: 1.4rem;
+}
+
+.html-body-h1 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    top: 5.5rem;
+    margin-left: 14.0rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+.html-body-h2 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    top: 8.5rem;
+    margin-left: 15.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.html-body_h1 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    margin-bottom: 37rem;
+    margin-left: 15.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.html-body-html {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    bottom: 4.5rem;
+    margin-left: 14.0rem;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.html-body-html span:nth-child(1) {
+    margin-left: 2.5rem;
+}
+
+.html_h1 {
+    font-family: 'La Belle Aurore', cursive;
+    color: lightslategrey;
+    position: fixed;
+    background: transparent;
+    font-size: 2rem;
+    margin-left: 2.25rem;
+    margin-top: 8.5rem;
     overflow: hidden;
 }
 
 .projects {
-    position: absolute;
+    position: fixed;
     display: flex;
     max-width: 120rem;
     margin: 4rem 0;
-    top: 19rem;
+    top: 24rem;
     left: 12rem;
 }
 
@@ -144,7 +223,7 @@ html {
 }
 
 .container .card .box:hover {
-    transform: translateY(-5rem);
+    transform: translateY(-3rem);
     box-shadow: 0 4rem 7rem rgba(0, 0, 0, 0.5);
 }
 
@@ -214,174 +293,56 @@ html {
 
 .sidebar {
     position: fixed;
-    display: flex;
-    flex-direction: column;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
-    overflow-x: hidden;
-    height: 100vh;
-    width: 5rem;
-    text-align: center;
-    place-items: center;
-}
-
-.sidebar1 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    place-items: center;
-}
-
-.sidebar2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    place-items: center;
-    position: absolute;
-    bottom: 15rem;
-}
-
-.sidebar a img.m_dir {
-    position: relative;
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-bottom: 5rem;
-}
-
-.sidebar1 a i {
-    text-decoration: none;
-    color: #818181;
-    display: block;
-    padding: .5rem;
-    font-size: 2.0rem;
-    margin-top: 2rem;
-}
-
-.sidebar2 a i {
-    text-decoration: none;
-    color: #818181;
-    display: block;
-    padding: 0.5rem;
-    font-size: 1.75rem;
-}
-
-.sidebar1 a:nth-child(6) {
-    margin-left: -.6rem;
-}
-
-.sidebar a :hover {
-    color: aqua;
-}
-
-.sidebar a img.m_dir {
-    background: transparent;
-}
-
-i {
-    background: transparent;
-}
-
-.page {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100vh;
-    place-items: center;
-    left: 15rem;
-    top: 15rem;
-}
-
-.page,
-.html_h1 {
-    display: inline;
-}
-
-.M {
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-bottom: 1.0rem;
-}
-
-a:hover {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-h1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    color: aqua;
-    white-space: nowrap;
     overflow: hidden;
-    font-size: 6.0rem;
-    pointer-events: none;
-}
-
-#copy {
-    color: white;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
+    height: 100vh;
+    width: 12rem;
     text-align: center;
-    position: relative;
-    pointer-events: none;
-    font-size: 1.25rem;
-}
-
-.html-body-h1 {
-    font-style: italic;
-    font-family: cursive;
-    color: lightslategrey;
-    position: relative;
+  }
+  
+  .sidebar a img.m_dir {
+    display: block;
+    width: 7rem;
+    height: 7rem;
+    margin: 2.5rem 2.5rem; 
+  }
+  
+  .sidebar1 a  {
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .sidebar2 a  {
+    text-decoration: none;
+    color: #818181;
+    display: inline-flex;
+    margin-top: 14rem;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar1 a:nth-child(6) {
+    margin-left: -.6rem;
+  }
+  
+  .sidebar1 a :hover {
+    color: aqua;
+  }
+  
+  .sidebar a img.m_dir {
     background: transparent;
-    pointer-events: none;
-    top: 5.5rem;
-    left: 7.0rem;
-    font-size: 1.25rem;
-}
-
-.html-body_h1 {
-    font-style: italic;
-    font-family: cursive;
-    color: lightslategrey;
-    position: relative;
+  }
+  
+  i {
     background: transparent;
-    pointer-events: none;
-    font-size: 1.25rem;
-}
+  }
 
-.html-body-html {
-    font-style: italic;
-    font-family: cursive;
-    color: lightslategrey;
-    position: absolute;
-    background: transparent;
-    pointer-events: none;
-    bottom: 15.5rem;
-    left: 5.5rem;
-    font-size: 1.25rem;
-}
-
-.html-body-html span:nth-child(1) {
-    margin-left: 2.5rem;
-}
-
-.html_h1 {
-    font-style: italic;
-    font-family: cursive;
-    color: lightslategrey;
-    position: relative;
-    background: transparent;
-    pointer-events: none;
-    font-size: 1.25rem;
-}
 
 #fb:hover {
     color: #3b5999;
