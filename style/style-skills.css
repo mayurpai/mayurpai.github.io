@@ -53,17 +53,26 @@ html {
     html {
         font-size: 29.5%;
     }
+    .skill {
+      display: none;
+    }
 }
 
 @media(max-width: 390px) {
     html {
         font-size: 26.5%;
     }
+    .skill {
+      display: none;
+    }
 }
 
 @media(max-width: 320px) {
     html {
         font-size: 21%;
+    }
+    .skill {
+      display: none;
     }
 } 
 
