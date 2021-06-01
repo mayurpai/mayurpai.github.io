@@ -76,6 +76,126 @@ html {
     background: rgb(29, 29, 29);
 }
 
+.skill {
+    position: fixed;
+    width: 44rem;
+    height: 49rem;
+    margin-top: -5rem;
+    margin-left: 90rem;
+    color: aqua;
+    overflow: hidden;
+}
+
+.skill .hr:nth-child(2) {
+  position: fixed;
+  width: 43rem;
+  border: 0.1rem solid aqua; 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(6) {
+  position: fixed;
+  width: 46rem;
+  border: 0.1rem solid rgb(249, 13, 84); 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(10) {
+  position: fixed;
+  width: 30rem;
+  border: 0.1rem solid aqua; 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(14) {
+  position: fixed;
+  width: 38rem;
+  border: 0.1rem solid rgb(249, 13, 84); 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(18) {
+  position: fixed;
+  width: 28rem;
+  border: 0.1rem solid aqua; 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(22) {
+  position: fixed;
+  width: 35rem;
+  border: 0.1rem solid rgb(249, 13, 84); 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(26) {
+  position: fixed;
+  width: 40rem;
+  border: 0.1rem solid aqua; 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(30) {
+  position: fixed;
+  width: 42rem;
+  border: 0.1rem solid rgb(249, 13, 84); 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(34) {
+  position: fixed;
+  width: 22rem;
+  border: 0.1rem solid aqua; 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(38) {
+  position: fixed;
+  width: 40rem;
+  border: 0.1rem solid rgb(249, 13, 84); 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(42) {
+  position: fixed;
+  width: 36rem;
+  border: 0.1rem solid aqua; 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(46) {
+  position: fixed;
+  width: 33rem;
+  border: 0.1rem solid rgb(249, 13, 84); 
+  z-index: 1;
+}
+
+.skill .hr:nth-child(50) {
+  position: fixed;
+  width: 30rem;
+  border: 0.1rem solid aqua; 
+  z-index: 1;
+}
+
+.max {
+  position: fixed;
+  width: 50rem;
+  border: 0.1rem solid lightslategrey;; 
+}
+
+.skill h3 {
+  position: fixed;
+  font-family: Coolvetica Rg;
+  font-style: normal;
+  letter-spacing: 1rem;
+  color: whitesmoke;
+  letter-spacing: 0.1rem;
+  font-size: 2.0rem;
+  margin-top: -3rem;
+  overflow: hidden;
+}
+
+
 .sidebar {
     position: fixed;
     z-index: 1;
@@ -302,7 +422,12 @@ a:hover {
 
 .br {
     display: block;
-    margin-bottom: -3rem;
+    margin-bottom: 4rem;
+}
+
+.brs {
+  display: block;
+  margin-bottom: -3rem;
 }
 
 button {
