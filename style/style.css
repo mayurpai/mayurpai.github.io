@@ -118,6 +118,12 @@
     color: aqua;
   }
   
+  .sidebar2 a :hover {
+    background-color: rgb(29, 29, 29,0.1);
+    transform: scale(1.1);
+    transition: 0.2s linear;
+  }
+
   .sidebar2 a  {
     text-decoration: none;
     color: #818181;
@@ -196,6 +202,8 @@
     color: darkgray;
     letter-spacing: 0.4ch;
     font-size: 1.5rem;
+    animation: move alternate-reverse 1s 3.3s;
+    
   }
   
   .slant-m {
@@ -228,7 +236,38 @@
     padding: 1.4rem;
     letter-spacing: .2rem;
     overflow: hidden;
+    box-shadow: 0.5rem 0.5rem rgb(249, 13, 84);
+    animation: moves alternate-reverse 1s 3.4s;
   }
+
+  @keyframes moves {
+    0% {
+        opacity: 1;
+        color: transparent;
+        width: 17.0rem;
+        height: 5.0rem;
+    }
+    33% {
+        opacity: 1;
+        color: aqua;
+        width: 17.0rem;
+        height: 5.0rem;
+        text-shadow: .5rem .5rem rgb(249, 13, 84);
+    }
+    66% {
+    opacity: 1;
+        color: rgb(249, 13, 84);
+        width: 17.0rem;
+        height: 5.0rem;
+        text-shadow: .5rem .5rem aqua;
+      }
+    100% {
+        opacity: 1;
+        color: white;
+        width: 17.0rem;
+        height: 5.0rem;
+    }
+}
   
   .contact:hover {
     position: fixed;
@@ -245,6 +284,7 @@
     letter-spacing: .2rem;
     transition: 0.5s linear;
     overflow: hidden;
+    box-shadow: .5rem .5rem rgb(255,255,255,.2);
   }
 
   .html-body-h1 {

@@ -47,6 +47,9 @@ html {
     html {
         font-size: 35%;
     }
+    .skill {
+      display: none;
+    }
 }
 
 @media(max-width: 450px) {
@@ -87,12 +90,23 @@ html {
 
 .skill {
     position: fixed;
-    width: 44rem;
+    width: 45rem;
     height: 49rem;
     margin-top: -5rem;
     margin-left: 90rem;
     color: aqua;
     overflow: hidden;
+    z-index: 2;
+}
+
+.frost {
+position: fixed;
+width: 54rem;
+height: 55rem;
+margin-top: -8rem;
+margin-left: 88rem;
+background: rgba(255,255,255,.05);
+box-shadow: .5rem .5rem aqua;
 }
 
 .skill .hr:nth-child(2) {

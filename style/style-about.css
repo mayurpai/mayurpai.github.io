@@ -81,6 +81,13 @@ html {
     height: 49rem;
     margin-top: -5rem;
     margin-left: 90rem;
+    box-shadow: 0.8rem 0.8rem rgb(249, 13, 84);
+}
+
+.mp:hover {
+    box-shadow: 0.8rem 0.8rem aqua;
+    transform: scale(1.05);
+    transition: 0.5s linear;
 }
 
 .sidebar {
