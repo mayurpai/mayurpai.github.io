@@ -240,6 +240,25 @@
     animation: moves alternate-reverse 1s 3.4s;
   }
 
+  .contact:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    content: "";
+    background-color: aqua;
+  }
+
+  .contact:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+
   @keyframes moves {
     0% {
         opacity: 1;
@@ -284,7 +303,6 @@
     letter-spacing: .2rem;
     transition: 0.5s linear;
     overflow: hidden;
-    box-shadow: .5rem .5rem rgb(255,255,255,.2);
   }
 
   .html-body-h1 {
