@@ -33,7 +33,7 @@ html {
 
 @media(max-width: 1600px) {
     html {
-        font-size: 65%;
+        font-size: 60%;
     }
 }
 
@@ -98,6 +98,7 @@ html {
     overflow: hidden;
     z-index: 2;
 }
+
 
 .frost {
 position: fixed;
