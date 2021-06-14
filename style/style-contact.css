@@ -49,6 +49,7 @@ html {
   html {
     font-size: 28.5%;
   }
+
   .mp {
     display: none;
   }
@@ -58,6 +59,7 @@ html {
   html {
     font-size: 25.5%;
   }
+
   .mp {
     display: none;
   }
@@ -67,6 +69,7 @@ html {
   html {
     font-size: 21%;
   }
+
   .mp {
     display: none;
   }
@@ -307,7 +310,7 @@ h1 {
 }
 
 #insta:hover {
-  color: #e4405f;
+  color: #c32aa3;
 }
 
 #linkedin {
@@ -316,6 +319,14 @@ h1 {
 
 #github {
   color: #171515;
+}
+
+#facebook {
+  color: #3b5999;
+}
+
+#instagram {
+  color: #c32aa3;
 }
 
 #map {
@@ -381,7 +392,7 @@ h1 {
   margin-left: 22rem;
   margin-top: 44rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .itemOne {
@@ -399,6 +410,14 @@ h1 {
   color: #171515;
 }
 
+#fbCol {
+  color: #3b5999;
+}
+
+#instaCol {
+  color: #c32aa3;
+}
+
 .counter {
   font-family: "Montserrat", sans-serif;
   color: lightslategrey;
@@ -412,18 +431,21 @@ h1 {
     color: transparent;
     width: auto;
   }
+
   33% {
     opacity: 1;
     color: aqua;
     width: auto;
     text-shadow: 0.5rem 0.5rem rgb(249, 13, 84);
   }
+
   66% {
     opacity: 1;
     color: rgb(249, 13, 84);
     width: auto;
     text-shadow: 0.5rem 0.5rem aqua;
   }
+
   100% {
     opacity: 1;
     color: white;
