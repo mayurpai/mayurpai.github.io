@@ -310,6 +310,14 @@ h1 {
   color: #e4405f;
 }
 
+#linkedin {
+  color: #0077b5;
+}
+
+#github {
+  color: #171515;
+}
+
 #map {
   position: fixed;
   height: 100vh;
@@ -363,6 +371,39 @@ h1 {
   font-weight: bolder;
   transition: 0.5s linear;
   box-shadow: 0.5rem 0.5rem rgb(255, 255, 255, 0.2);
+}
+
+.social {
+  position: fixed;
+  height: 12.5rem;
+  width: 45rem;
+  z-index: 5;
+  margin-left: 22rem;
+  margin-top: 44rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.itemOne {
+  display: grid;
+  flex-direction: column;
+  place-items: center;
+  overflow: hidden;
+}
+
+#linkCol {
+  color: #0077b5;
+}
+
+#gitCol {
+  color: #171515;
+}
+
+.counter {
+  font-family: "Montserrat", sans-serif;
+  color: lightslategrey;
+  font-size: 5rem;
+  font-weight: bolder;
 }
 
 @keyframes move {
