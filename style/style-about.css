@@ -91,6 +91,7 @@ html {
     margin-top: -5rem;
     margin-left: 90rem;
     box-shadow: 0.8rem 0.8rem rgb(249, 13, 84);
+    transition: all 1s linear;
 }
 
 .mp:hover {
@@ -196,6 +197,7 @@ h1 ul li:hover {
 ul li {
     display: inline;
     text-shadow: .5rem .5rem rgb(255, 255, 255, .2);
+    transition: all 0.5s linear;
 }
 
 h1 {

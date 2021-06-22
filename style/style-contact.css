@@ -381,6 +381,7 @@ h1 {
   margin-right: 5rem;
   overflow: hidden;
   box-shadow: 0.5rem 0.5rem rgb(249, 13, 84);
+  transition: all 1s linear;
 }
 
 .contact p:hover,
