@@ -346,7 +346,16 @@ ul li {
 }
 
 .sidebar1 a :hover {
+    background-color: rgb(29, 29, 29, 0.1);
+    transform: scale(1.05);
+    transition: 0.2s linear;
     color: aqua;
+}
+
+.sidebar2 a :hover {
+    background-color: rgb(29, 29, 29, 0.1);
+    transform: scale(1.1);
+    transition: 0.2s linear;
 }
 
 .sidebar a img.m_dir {

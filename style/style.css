@@ -136,9 +136,6 @@ html {
   font-size: 2rem;
 }
 
-.sidebar1 a :hover {
-  color: aqua;
-}
 
 .sidebar a img.m_dir {
   background: transparent;
