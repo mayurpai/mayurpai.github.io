@@ -14,9 +14,9 @@
     font-family: Coolvetica Rg;
     font-weight: bold;
     src: url('coolvetica rg.ttf');
-  }
+}
 
-  html {
+html {
     font-size: 62.5%;
 }
 
@@ -48,7 +48,8 @@
     html {
         font-size: 28.5%;
     }
-    .projects{
+
+    .projects {
         flex-wrap: wrap;
     }
 }
@@ -57,7 +58,8 @@
     html {
         font-size: 25.5%;
     }
-    .projects{
+
+    .projects {
         flex-wrap: wrap;
     }
 }
@@ -66,10 +68,12 @@
     html {
         font-size: 21%;
     }
-    .projects{
+
+    .projects {
         flex-wrap: wrap;
     }
-} 
+}
+
 .container {
     position: fixed;
     display: flex;
@@ -79,7 +83,7 @@
 }
 
 .page {
-    position:fixed;
+    position: fixed;
     display: flex;
     justify-content: center;
     place-items: center;
@@ -121,7 +125,7 @@ h1 ul li:hover {
 
 ul li {
     display: inline;
-    text-shadow: .5rem .5rem rgb(255,255,255,.2);
+    text-shadow: .5rem .5rem rgb(255, 255, 255, .2);
 }
 
 
@@ -140,7 +144,7 @@ ul li {
     margin-left: 14.0rem;
     font-size: 2rem;
     overflow: hidden;
-  }
+}
 
 .html-body-h2 {
     font-family: 'La Belle Aurore', cursive;
@@ -315,47 +319,47 @@ ul li {
     width: 12rem;
     text-align: center;
     padding-top: 2rem;
-  }
-  
-  .sidebar a img.m_dir {
+}
+
+.sidebar a img.m_dir {
     display: block;
     width: 7rem;
     height: 7rem;
-    margin: 2.5rem 2.5rem; 
-  }
-  
-  .sidebar1 a  {
+    margin: 2.5rem 2.5rem;
+}
+
+.sidebar1 a {
     text-decoration: none;
     color: #818181;
     display: block;
     font-size: 2rem;
     margin-top: 2rem;
-  }
-  
-  .sidebar2 a  {
+}
+
+.sidebar2 a {
     text-decoration: none;
     color: #818181;
     display: inline-flex;
     margin-top: 14rem;
     padding: 0.4rem;
     font-size: 2rem;
-  }
-  
-  .sidebar1 a :hover {
-    color: aqua;
-  }
-  
-  .sidebar a img.m_dir {
-    background: transparent;
-  }
+}
 
-  .sidebar1 a:nth-child(6) {
+.sidebar1 a :hover {
     color: aqua;
 }
-  
-  i {
+
+.sidebar a img.m_dir {
     background: transparent;
-  }
+}
+
+.sidebar1 a:nth-child(6) {
+    color: aqua;
+}
+
+i {
+    background: transparent;
+}
 
 
 #fb:hover {
@@ -384,18 +388,21 @@ ul li {
         color: transparent;
         width: auto;
     }
+
     33% {
         opacity: 1;
         color: aqua;
         width: auto;
         text-shadow: .5rem .5rem rgb(249, 13, 84);
     }
+
     66% {
-    opacity: 1;
+        opacity: 1;
         color: rgb(249, 13, 84);
         width: auto;
         text-shadow: .5rem .5rem aqua;
-      }
+    }
+
     100% {
         opacity: 1;
         color: white;
@@ -407,52 +414,109 @@ ul li:nth-child(1) {
     animation: move alternate-reverse 1s 0.3s;
     color: aqua;
     text-shadow: .5rem .5rem .3rem rgb(249, 13, 84);
-  }
-  
-  ul li:nth-child(2) {
+}
+
+ul li:nth-child(2) {
     animation: move alternate-reverse 1s 0.4s;
     color: white;
-    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
-  }
-  
-  ul li:nth-child(3) {
+    text-shadow: .5rem .5rem .3rem rgb(255, 255, 255, .2);
+}
+
+ul li:nth-child(3) {
     animation: move alternate-reverse 1s 0.5s;
     color: white;
-    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
-  }
-  
-  ul li:nth-child(4) {
+    text-shadow: .5rem .5rem .3rem rgb(255, 255, 255, .2);
+}
+
+ul li:nth-child(4) {
     animation: move alternate-reverse 1s 0.6s;
     color: white;
-    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
-  }
-  
-  ul li:nth-child(5) {
+    text-shadow: .5rem .5rem .3rem rgb(255, 255, 255, .2);
+}
+
+ul li:nth-child(5) {
     animation: move alternate-reverse 1s 0.7s;
     color: white;
-    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
-  }
-  
-  ul li:nth-child(6) {
+    text-shadow: .5rem .5rem .3rem rgb(255, 255, 255, .2);
+}
+
+ul li:nth-child(6) {
     animation: move alternate-reverse 1s 0.8s;
     color: white;
-    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
-  }
-  
-  ul li:nth-child(7) {
+    text-shadow: .5rem .5rem .3rem rgb(255, 255, 255, .2);
+}
+
+ul li:nth-child(7) {
     animation: move alternate-reverse 1s 0.9s;
     color: white;
-    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
-  }
-  
-  ul li:nth-child(8) {
+    text-shadow: .5rem .5rem .3rem rgb(255, 255, 255, .2);
+}
+
+ul li:nth-child(8) {
     animation: move alternate-reverse 1s 1.0s;
     color: white;
-    text-shadow: .5rem .5rem .3rem rgb(255,255,255,.2);
-  }
+    text-shadow: .5rem .5rem .3rem rgb(255, 255, 255, .2);
+}
 
-  .br {
+.br {
     display: block;
     margin-bottom: 4.5rem;
 }
- 
+
+.videoback {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    animation: fade alternate 5s infinite;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0.1;
+    }
+
+    10% {
+        opacity: 0.15;
+    }
+
+    20% {
+        opacity: 0.2;
+    }
+
+    30% {
+        opacity: 0.25;
+    }
+
+    40% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 0.35;
+    }
+
+    60% {
+        opacity: 0.4;
+    }
+
+    70% {
+        opacity: 0.45;
+    }
+
+    80% {
+        opacity: 0.5;
+    }
+
+    90% {
+        opacity: 0.55;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
+}
