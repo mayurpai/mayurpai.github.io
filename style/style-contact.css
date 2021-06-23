@@ -97,11 +97,12 @@ html {
   z-index: 1;
   top: 0rem;
   left: 0;
-  background-color: #111;
+  background-color: rgb(255, 255, 255, .1);
   overflow: hidden;
   height: 100vh;
   width: 12rem;
   text-align: center;
+  border-right: .1rem solid rgb(29, 29, 29);
 }
 
 .sidebar a img.m_dir {
@@ -129,7 +130,7 @@ html {
 }
 
 .sidebar1 a :hover {
-  background-color: rgb(29, 29, 29, 0.1);
+  /* background-color: rgb(29, 29, 29, 0.1); */
   transform: scale(1.05);
   transition: 0.2s linear;
   color: aqua;
@@ -216,7 +217,6 @@ h1 {
 
 #copy {
   color: white;
-  background-color: #111;
   font-size: 1.4rem;
 }
 
@@ -342,7 +342,7 @@ h1 {
   position: fixed;
   height: 100vh;
   width: 100vw;
-  padding-left: 12rem;
+  /* padding-left: 12rem; */
   top: 0;
   right: 0;
   opacity: 0.2;
