@@ -23,36 +23,6 @@ html {
     h1 {
         font-size: 8rem;
     }
-
-    ul a {
-        font-size: 2rem;
-    }
-
-    .result {
-        top: 60rem;
-    }
-
-    #cgpa,
-    #perc {
-        font-size: 2.5rem;
-    }
-
-    #by {
-        font-size: 1.5rem;
-    }
-
-    #copy {
-        font-size: 1.5rem;
-    }
-
-    #whatsapp,
-    #link,
-    #fb,
-    #twitter,
-    #insta,
-    #git {
-        font-size: 3rem;
-    }
 }
 
 @media(max-width: 1600px) {
@@ -62,36 +32,6 @@ html {
 
     h1 {
         font-size: 8rem;
-    }
-
-    ul a {
-        font-size: 2rem;
-    }
-
-    .result {
-        top: 60rem;
-    }
-
-    #cgpa,
-    #perc {
-        font-size: 2.5rem;
-    }
-
-    #by {
-        font-size: 1.5rem;
-    }
-
-    #copy {
-        font-size: 1.5rem;
-    }
-
-    #whatsapp,
-    #link,
-    #fb,
-    #twitter,
-    #insta,
-    #git {
-        font-size: 3rem;
     }
 }
 
@@ -103,36 +43,6 @@ html {
     h1 {
         font-size: 8rem;
     }
-
-    ul a {
-        font-size: 2rem;
-    }
-
-    .result {
-        top: 60rem;
-    }
-
-    #cgpa,
-    #perc {
-        font-size: 2.5rem;
-    }
-
-    #by {
-        font-size: 1.5rem;
-    }
-
-    #copy {
-        font-size: 1.5rem;
-    }
-
-    #whatsapp,
-    #link,
-    #fb,
-    #twitter,
-    #insta,
-    #git {
-        font-size: 3rem;
-    }
 }
 
 @media(max-width: 768px) {
@@ -143,98 +53,16 @@ html {
     h1 {
         font-size: 8rem;
     }
-
-    ul a {
-        font-size: 2rem;
-    }
-
-    .result {
-        top: 60rem;
-    }
-
-    #cgpa,
-    #perc {
-        font-size: 2.5rem;
-    }
-
-    #by {
-        font-size: 1.5rem;
-    }
-
-    #copy {
-        font-size: 1.5rem;
-    }
-
-    #whatsapp,
-    #link,
-    #fb,
-    #twitter,
-    #insta,
-    #git {
-        font-size: 3rem;
-    }
 }
 
 @media(max-width: 450px) {
     html {
-        font-size: 60.0%;
+        font-size: 27.0%;
     }
 
     h1 {
-        font-size: 3.0rem;
+        font-size: 5.25rem;
     }
-
-    ul a {
-        font-size: 1.4rem;
-    }
-
-    .result {
-        top: 62rem;
-    }
-
-    #cgpa,
-    #perc {
-        font-size: 1.275rem;
-    }
-
-    #by {
-        font-size: .8rem;
-    }
-
-    #copy {
-        font-size: .8rem;
-    }
-
-    #whatsapp {
-        font-size: 1rem;
-        right: 10rem;
-    }
-
-    #link {
-        font-size: 1rem;
-        right: 3rem;
-    }
-
-    #fb {
-        font-size: 1rem;
-        right: 9rem;
-    }
-
-    #twitter {
-        font-size: 1rem;
-        right: 6rem;
-    }
-
-    #insta {
-        font-size: 1rem;
-        right: 4.5rem;
-    }
-
-    #git {
-        font-size: 1rem;
-        right: 7.5rem;
-    }
-
 }
 
 @media(max-width: 390px) {
@@ -244,36 +72,6 @@ html {
 
     h1 {
         font-size: 5rem;
-    }
-
-    ul a {
-        font-size: 2rem;
-    }
-
-    .result {
-        top: 60rem;
-    }
-
-    #cgpa,
-    #perc {
-        font-size: 2.5rem;
-    }
-
-    #by {
-        font-size: 1.5rem;
-    }
-
-    #copy {
-        font-size: 1.5rem;
-    }
-
-    #whatsapp,
-    #link,
-    #fb,
-    #twitter,
-    #insta,
-    #git {
-        font-size: 3rem;
     }
 }
 
@@ -285,36 +83,6 @@ html {
     h1 {
         font-size: 4.75rem;
     }
-
-    ul a {
-        font-size: 2rem;
-    }
-
-    .result {
-        top: 60rem;
-    }
-
-    #cgpa,
-    #perc {
-        font-size: 2.5rem;
-    }
-
-    #by {
-        font-size: 1.5rem;
-    }
-
-    #copy {
-        font-size: 1.5rem;
-    }
-
-    #whatsapp,
-    #link,
-    #fb,
-    #twitter,
-    #insta,
-    #git {
-        font-size: 3rem;
-    }
 }
 
 @media(max-width: 280px) {
@@ -324,32 +92,6 @@ html {
 
     h1 {
         font-size: 4.5rem;
-    }
-
-    ul a {
-        font-size: 2rem;
-    }
-
-    .result {
-        top: 60rem;
-    }
-
-    #cgpa,
-    #perc {
-        font-size: 2.5rem;
-    }
-
-    #by {
-        font-size: 1.5rem;
-    }
-
-    #whatsapp,
-    #link,
-    #fb,
-    #twitter,
-    #insta,
-    #git {
-        font-size: 3rem;
     }
 }
 
@@ -369,7 +111,6 @@ html {
     height: max-content;
     width: max-content;
     background-color: transparent;
-    justify-content: center;
 }
 
 h1 {
@@ -390,13 +131,11 @@ a {
 nav {
     position: fixed;
     width: 100vw;
-    height: 17.5rem;
-
+    height: 7.5rem;
 }
 
 ul {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -406,6 +145,7 @@ ul a {
     color: whitesmoke;
     margin: 2.5rem 1.5rem;
     font-family: 'Black Ops One', cursive;
+    font-size: 2rem;
     font-weight: bolder;
     transition: 1s all linear;
     text-shadow: .5rem .5rem 0rem rgba(255, 255, 255, 0.1);
@@ -420,7 +160,7 @@ ul a:hover {
 
 .footer {
     position: fixed;
-    top: 72.5rem;
+    bottom: 5rem;
     height: 6.5rem;
     width: 100vw;
     overflow: hidden;
@@ -432,6 +172,7 @@ ul a:hover {
     background-color: transparent;
     text-align: center;
     letter-spacing: 0rem;
+    font-size: 1.5rem;
     margin-top: 2.5rem;
     left: 50%;
     transform: translate(-50%);
@@ -442,6 +183,7 @@ ul a:hover {
     position: absolute;
     background-color: transparent;
     letter-spacing: 0;
+    font-size: 1.5rem;
     margin-top: 2.5rem;
     left: 3rem;
 }
@@ -454,12 +196,18 @@ i {
     position: absolute;
     color: darkgray;
     margin-top: 2.5rem;
+    margin-right: 5rem;
+    font-size: 3rem;
+    right: 15rem;
 }
 
 #whatsapp {
     position: absolute;
     color: darkgray;
     margin-top: 2.5rem;
+    margin-right: 5rem;
+    font-size: 3rem;
+    right: 18rem;
 }
 
 #whatsapp:hover {
@@ -470,24 +218,36 @@ i {
     position: absolute;
     color: darkgray;
     margin-top: 2.5rem;
+    margin-right: 4rem;
+    font-size: 3rem;
+    right: 11.5rem;
 }
 
 #twitter {
     position: absolute;
     color: darkgray;
     margin-top: 2.5rem;
+    margin-right: 3rem;
+    font-size: 3rem;
+    right: 8rem;
 }
 
 #insta {
     position: absolute;
     color: darkgray;
     margin-top: 2.5rem;
+    margin-right: 2rem;
+    font-size: 3rem;
+    right: 4.5rem;
 }
 
 #link {
     position: absolute;
     color: darkgray;
     margin-top: 2.5rem;
+    margin-right: 1rem;
+    font-size: 3rem;
+    right: 1rem;
 }
 
 #fb:hover {
@@ -633,6 +393,7 @@ label {
     position: fixed;
     display: flex;
     justify-content: center;
+    top: 60rem;
     overflow: hidden;
 }
 
@@ -643,6 +404,7 @@ label {
     letter-spacing: 0.1rem;
     text-shadow: .5rem .5rem 0 rgba(255, 255, 255, 0.1);
     padding: .5rem 1rem;
+    font-size: 2.5rem;
     text-align: center;
     border-radius: .5rem;
     justify-content: center;
@@ -674,7 +436,7 @@ input::-webkit-input-placeholder {
 
 .note {
     position: fixed;
-    display: flex;
+    display: grid;
     place-items: center;
     text-align: center;
     justify-content: center;
