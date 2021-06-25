@@ -420,7 +420,7 @@ ul a:hover {
 
 .footer {
     position: fixed;
-    bottom: 5rem;
+    top: 72.5rem;
     height: 6.5rem;
     width: 100vw;
     overflow: hidden;
