@@ -17,18 +17,9 @@
   src: url('coolvetica rg.ttf');
 }
 
-html,
-body,
-.container {
-  position: absolute;
+html {
   font-size: 62.5%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: hidden;
 }
-
 
 @media(max-width: 2560px) {
   html {

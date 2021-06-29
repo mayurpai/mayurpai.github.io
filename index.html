@@ -7,8 +7,7 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style/style.css">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="images/m_icon1.ico" type="image/x-icon">
   <link rel="stylesheet" href="script.js">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
@@ -21,25 +20,6 @@
 </head>
 
 <body>
-  <script>
-    function _fixViewportHeight() {
-      var html = document.querySelector('html');
-
-      function _onResize(event) {
-        html.style.height = window.innerHeight + 'px';
-      }
-
-      window.addEventListener('resize', _.debounce(_onResize, 125, {
-        leading: true,
-        maxWait: 250,
-        trailing: true
-      }));
-
-      _onResize();
-    }
-
-    _fixViewportHeight();
-  </script>
   <div class="container">
     <video autoplay loop class=videoback muted plays-inline>
       <source src="VideoBack.mp4" type=video/mp4> </video> <div class="sidebar">
