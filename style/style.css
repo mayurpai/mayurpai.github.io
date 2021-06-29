@@ -75,6 +75,16 @@ html {
   }
 }
 
+@media(max-width: 280px) {
+  html {
+    font-size: 19.5%;
+  }
+
+  .slant-m {
+    display: none;
+  }
+}
+
 .container {
   position: fixed;
   display: flex;
