@@ -4,8 +4,9 @@
 <head>
   <title>Mayur</title>
   <meta name="google-site-verification" content="rh1RLLiXrVeBTdNJYi9yEqzNYMHcW_ps05wOO0xfhT4" />
-  <meta name="description" content="I am Mayur Pai B H, a web developer, and programmer. An inquisitive natured person who loves exploring routes that I've never come across.">
-  <meta name="keywords" content="HTML,CSS, JavaScript">
+  <meta name="description"
+    content="I am Mayur Pai B H, a web developer, and programmer. An inquisitive natured person who loves exploring routes that I've never come across.">
+  <meta name="keywords" content="HTML,CSS, JavaScript, Portfolio">
   <meta name="author" content="Mayur Pai">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <meta name="robots" content="noindex,nofollow"> -->
@@ -14,17 +15,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style/style.css">
   <link rel="icon" href="images/m_icon1.ico" type="image/x-icon">
-  <link rel="stylesheet" href="script.js">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
-  <script src="index.js"></script>
 </head>
 
-<body onload=""> 
+<body onload="load_home()">
   <div class="container">
     <video autoplay loop class=videoback muted plays-inline>
       <source src="VideoBack.mp4" type=video/mp4> </video> <div class="sidebar">
@@ -110,3 +108,9 @@
 </body>
 
 </html>
+
+<script>
+  function load_home() {
+    document.getElementById("content").innerHTML = '<object type="text/html" data="index.html" ></object>';
+  }
+</script>
