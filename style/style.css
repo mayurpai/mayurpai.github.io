@@ -21,19 +21,15 @@ html {
   font-size: 62.5%;
 }
 
+@media(max-width: 280px) {
+  html {
+    font-size: 15.5%;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
+  .slant-m {
+    display: none;
+  }
+}
 
 @media(min-width: 280px) {
   html {
@@ -95,7 +91,7 @@ html {
   }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 992px) {
   html {
     font-size: 40%;
   }
@@ -117,7 +113,7 @@ html {
 
 @media(min-width: 1440px) {
   html {
-    font-size: 54%;
+    font-size: 60%;
   }
 
   .slant-m {
