@@ -21,27 +21,23 @@ html {
   font-size: 62.5%;
 }
 
-@media(max-width: 2560px) {
-  html {
-    font-size: 65%;
-  }
-}
 
-@media(max-width: 1600px) {
-  html {
-    font-size: 60%;
-  }
-}
 
-@media(max-width: 1200px) {
-  html {
-    font-size: 32%;
-  }
-}
 
-@media(max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 280px) {
   html {
-    font-size: 34%;
+    font-size: 19.5%;
   }
 
   .slant-m {
@@ -49,7 +45,27 @@ html {
   }
 }
 
-@media(max-width: 450px) {
+@media(min-width: 320px) {
+  html {
+    font-size: 22.2%;
+  }
+
+  .slant-m {
+    display: none;
+  }
+}
+
+@media(min-width: 360px) {
+  html {
+    font-size: 23.2%;
+  }
+
+  .slant-m {
+    display: none;
+  }
+}
+
+@media(min-width: 390px) {
   html {
     font-size: 27.0%;
   }
@@ -59,9 +75,9 @@ html {
   }
 }
 
-@media(max-width: 390px) {
+@media(min-width: 450px) {
   html {
-    font-size: 24.5%;
+    font-size: 29.0%;
   }
 
   .slant-m {
@@ -69,9 +85,9 @@ html {
   }
 }
 
-@media(max-width: 320px) {
+@media(min-width: 768px) {
   html {
-    font-size: 22.5%;
+    font-size: 34%;
   }
 
   .slant-m {
@@ -79,13 +95,53 @@ html {
   }
 }
 
-@media(max-width: 280px) {
+@media(min-width: 1024px) {
   html {
-    font-size: 19.0%;
+    font-size: 40%;
   }
 
   .slant-m {
-    display: none;
+    display: block;
+  }
+}
+
+@media(min-width: 1200px) {
+  html {
+    font-size: 48%;
+  }
+
+  .slant-m {
+    display: block;
+  }
+}
+
+@media(min-width: 1440px) {
+  html {
+    font-size: 54%;
+  }
+
+  .slant-m {
+    display: block;
+  }
+}
+
+@media(min-width: 1600px) {
+  html {
+    font-size: 60%;
+  }
+
+  .slant-m {
+    display: block;
+  }
+}
+
+@media(min-width: 2560px) {
+  html {
+    font-size: 65%;
+  }
+
+  .slant-m {
+    display: block;
   }
 }
 
