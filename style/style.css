@@ -185,13 +185,56 @@ nav .icon-burger {
   transform: translateX(-50%);
 }
 
+nav .icon-burger .line:first-child {
+  background-color: aqua;
+}
+
+nav .icon-burger .line.line:nth-child(2) {
+  background-color: rgb(249, 13, 84);
+}
+
+nav .icon-burger .line.line:nth-child(3) {
+  background-color: aqua;
+}
+
 nav .icon-burger .line {
   width: 30px;
   height: 5px;
-  background-color: #fff;
   margin: 5px;
   border-radius: 3px;
   transition: all .3s ease-in-out;
+}
+
+nav .links .sidebar2 {
+  /* background-color: #0077B5; */
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar2 a :hover {
+  background-color: rgb(255, 255, 255, .05);
+  transform: scale(1.1);
+  transition: 0.2s linear;
+}
+
+nav .links .sidebar2 a {
+  text-decoration: none;
+  color: #818181;
+  margin-top: 14rem;
+  padding: 0.4rem;
+  font-size: 2rem;
+  /* transition: all 1s linear; */
+}
+
+#copy {
+  color: white;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -227,13 +270,21 @@ nav .icon-burger .line {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, .8);
     overflow: hidden;
     box-sizing: border-box;
     transition: all .5s ease-in-out;
   }
 
+  nav .links .sidebar2 a {
+    font-size: 5rem;
+    margin-top: 7rem;
+    width: 10rem;
+  }
+
   nav .links a {
+    width: 25rem;
     font-size: 5rem;
   }
 
@@ -243,21 +294,24 @@ nav .icon-burger .line {
 
   nav .icon-burger {
     display: block;
-    /* justify-self: center;
-    align-items: center;
-    text-align: center; */
   }
 
   nav :checked~.icon-burger .line:nth-child(1) {
     transform: translateY(10px) rotate(225deg);
+    background-color: rgb(249, 13, 84);
   }
-
+  
   nav :checked~.icon-burger .line:nth-child(3) {
     transform: translateY(-10px) rotate(-225deg);
+    background-color: aqua;
   }
 
   nav :checked~.icon-burger .line:nth-child(2) {
     opacity: 0;
+  }
+  
+  #copy {
+    font-size: 2.8rem;
   }
 
 }
@@ -302,27 +356,6 @@ nav .icon-burger .line {
   color: aqua;
 } */
 
-nav .sidebar2 {
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-}
-
-.sidebar2 a :hover {
-  background-color: rgb(255, 255, 255, .05);
-  transform: scale(1.1);
-  transition: 0.2s linear;
-}
-
-.sidebar2 a {
-  text-decoration: none;
-  color: #818181;
-  display: inline-flex;
-  margin-top: 14rem;
-  padding: 0.4rem;
-  font-size: 2rem;
-  /* transition: all 1s linear; */
-}
 
 
 .sidebar a img.m_dir {
@@ -414,13 +447,7 @@ h1 {
   /* margin-left: 80rem; */
 }
 
-#copy {
-  color: white;
-  font-size: 1.4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .contact {
   position: relative;
