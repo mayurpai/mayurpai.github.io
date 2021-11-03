@@ -27,7 +27,11 @@ html {
 
     .projects {
         flex-wrap: wrap;
-        top: 24rem;
+        /* top: 24rem; */
+    }
+
+    .html-body_h1 {
+        margin-bottom: 80rem;
     }
 }
 
@@ -38,7 +42,11 @@ html {
 
     .projects {
         flex-wrap: wrap;
-        top: 24rem;
+        /* top: 24rem; */
+    }
+
+    .html-body_h1 {
+        margin-bottom: 80rem;
     }
 }
 
@@ -49,7 +57,7 @@ html {
 
     .projects {
         flex-wrap: wrap;
-        top: 24rem;
+        /* top: 24rem; */
     }
 }
 
@@ -60,7 +68,7 @@ html {
 
     .projects {
         flex-wrap: wrap;
-        top: 24rem;
+        /* top: 24rem; */
     }
 }
 
@@ -71,7 +79,7 @@ html {
 
     .projects {
         flex-wrap: wrap;
-        top: 24rem;
+        /* top: 24rem; */
     }
 }
 
@@ -82,7 +90,7 @@ html {
 
     .projects {
         flex-wrap: wrap;
-        top: 24rem;
+        /* top: 24rem; */
     }
 }
 
@@ -93,7 +101,12 @@ html {
 
     .projects {
         flex-wrap: nowrap;
-        top: 9rem;
+        /* top: 9rem; */
+        left: 14.5rem;
+    }
+
+    .html-body_h1 {
+        margin-bottom: 43.2rem;
     }
 }
 
@@ -104,7 +117,8 @@ html {
 
     .projects {
         flex-wrap: nowrap;
-        top: 9rem;
+        /* top: 9rem; */
+        left: 14.5rem;
     }
 }
 
@@ -115,7 +129,8 @@ html {
 
     .projects {
         flex-wrap: nowrap;
-        top: 9rem;
+        /* top: 9rem; */
+        left: 14.5rem;
     }
 }
 
@@ -126,7 +141,8 @@ html {
 
     .projects {
         flex-wrap: nowrap;
-        top: 9rem;
+        /* top: 9rem; */
+        left: 14.5rem;
     }
 }
 
@@ -137,7 +153,8 @@ html {
 
     .projects {
         flex-wrap: nowrap;
-        top: 9rem;
+        /* top: 9rem; */
+        left: 14.5rem;
     }
 }
 
@@ -148,7 +165,8 @@ html {
 
     .projects {
         flex-wrap: nowrap;
-        top: 9rem;
+        /* top: 9rem; */
+        left: 14.5rem;
     }
 }
 
@@ -359,6 +377,12 @@ i {
     background: transparent;
 }
 
+.centering {
+    display: block;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+}
 
 .page {
     position: absolute;
@@ -443,7 +467,6 @@ h1 {
     color: lightslategrey;
     position: fixed;
     background: transparent;
-    margin-bottom: 43.2rem;
     /* margin-top: 16.55rem; */
     margin-left: 15.5rem;
     font-size: 2rem;
@@ -481,9 +504,11 @@ h1 {
     position: relative;
     display: flex;
     max-width: 120rem;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
     margin: 4rem 0;
-    left: 12rem;
-    /* top: 9rem; */
+    top: 9rem;
 }
 
 .container .card {
