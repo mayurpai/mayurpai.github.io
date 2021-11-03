@@ -103,7 +103,8 @@ html {
     font-size: 40%;
   }
 
-  .skill, .frost {
+  .skill,
+  .frost {
     display: block;
   }
 }
@@ -113,7 +114,8 @@ html {
     font-size: 48%;
   }
 
-  .skill, .frost {
+  .skill,
+  .frost {
     display: block;
   }
 }
@@ -123,7 +125,8 @@ html {
     font-size: 60%;
   }
 
-  .skill, .frost {
+  .skill,
+  .frost {
     display: block;
   }
 }
@@ -133,7 +136,8 @@ html {
     font-size: 60%;
   }
 
-  .skill, .frost {
+  .skill,
+  .frost {
     display: block;
   }
 }
@@ -143,7 +147,8 @@ html {
     font-size: 65%;
   }
 
-  .skill, .frost {
+  .skill,
+  .frost {
     display: block;
   }
 }
