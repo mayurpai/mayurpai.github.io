@@ -48,7 +48,7 @@
     <input id="perc" type="number " name="perc " id="perc" placeholder="Percentage" readonly />
   </div>
   <div class="cal">
-    <button onclick="calculate()" class="button1">
+    <button onclick="calculate()" class="button1" id="button1">
       <p id="a">Calculate</p>
     </button>
     <a href=""><button class="button2">
@@ -95,6 +95,14 @@
         );
       }
     }
+
+    var input = document.getElementById("1");
+    input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+    event.preventDefault();
+    document.getElementById("button1").click();
+    }
+    });
   </script>
 </body>
 
