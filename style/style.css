@@ -429,7 +429,7 @@ h1 {
 
 
 .contact {
-  position: relative;
+  position: absolute;
   font-family: 'Roboto Mono', monospace;
   border: .1rem solid aqua;
   color: aqua;
@@ -469,31 +469,23 @@ h1 {
   0% {
     opacity: 1;
     color: transparent;
-    width: 17.0rem;
-    height: 5.0rem;
   }
 
   33% {
     opacity: 1;
     color: aqua;
-    width: 17.0rem;
-    height: 5.0rem;
     text-shadow: .5rem .5rem rgb(249, 13, 84);
   }
 
   66% {
     opacity: 1;
     color: rgb(249, 13, 84);
-    width: 17.0rem;
-    height: 5.0rem;
     text-shadow: .5rem .5rem aqua;
   }
 
   100% {
     opacity: 1;
     color: white;
-    width: 17.0rem;
-    height: 5.0rem;
   }
 }
 
