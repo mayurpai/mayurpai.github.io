@@ -12,12 +12,24 @@
     <meta name="keywords"
         content="HTML,CSS, JavaScript, Engineering, Engineering-Calculator, SGPA, CGPA, SGPA Calculator, CGPA Calculator, VTU sgpa calculator, VTU cgpa calculator, Engineering sgpa calculator, Engineering cgpa calculator">
     <meta name="author" content="Mayur Pai">
-    <link rel="icon" href="/Engineering-Calculator/images/m_icon1.ico" type="image/x-icon" />
+    <link rel="icon" href="/image/m_icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/style/styles.css">
     <title>Mayur Pai</title>
 </head>
 
 <body>
-
+    <div class="loader-container">
+        <img class="m_dir" src="/image/M.png" />
+        <div class="think">
+            <p>Mayur Is Thinking!</p>
+        </div>
+        <div class="loader"></div>
+    </div>
+    <script>
+        $(window).on("load", function () {
+            $(".loader-container").fadeOut(1000);
+        });
+    </script>
 </body>
 
 </html>

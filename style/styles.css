@@ -1,0 +1,169 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+:root {
+    --background_color: rgb(31, 40, 47);
+    --theme_color_blue: #09FDD9;
+    --theme_color_pink: #FD0953;
+}
+
+@font-face {
+    font-family: Coolvetica Rg;
+    font-weight: bold;
+    src: url('coolvetica rg.ttf');
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media(max-width: 280px) {
+    html {
+        font-size: 15.5%;
+    }
+}
+
+@media(min-width: 280px) {
+    html {
+        font-size: 19.5%;
+    }
+}
+
+@media(min-width: 320px) {
+    html {
+        font-size: 22.2%;
+    }
+}
+
+@media(min-width: 360px) {
+    html {
+        font-size: 23.2%;
+    }
+}
+
+@media(min-width: 390px) {
+    html {
+        font-size: 27.0%;
+    }
+}
+
+@media(min-width: 450px) {
+    html {
+        font-size: 29.0%;
+    }
+}
+
+@media(min-width: 768px) {
+    html {
+        font-size: 34%;
+    }
+}
+
+@media(min-width: 992px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media(min-width: 1200px) {
+    html {
+        font-size: 48%;
+    }
+}
+
+@media(min-width: 1440px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media(min-width: 1600px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media(min-width: 2560px) {
+    html {
+        font-size: 65%;
+    }
+}
+
+body {
+    background-color: var(--background_color);
+}
+
+.loader-container {
+    width: 100vw;
+    z-index: 11;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--background_color);
+    position: fixed;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-container img.m_dir {
+    height: 5rem;
+    width: 5rem;
+    background: transparent;
+    margin-bottom: 1.3rem;
+}
+
+.think {
+    width: 100%;
+    text-align: center;
+    color: var(--theme_color_blue);
+    background: transparent;
+}
+
+.think p {
+    font-family: Coolvetica Rg;
+    font-style: normal;
+    font-size: 2rem;
+    letter-spacing: .15rem;
+}
+
+.loader {
+    width: 5rem;
+    height: 5rem;
+    border: 0.5rem double;
+    color: var(--theme_color_pink);
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loader 0.4s ease-in-out infinite;
+    margin: 1rem 0;
+}
+
+
+@keyframes loader {
+    25% {
+        color: var(--theme_color_blue);
+    }
+
+    50% {
+        color: var(--theme_color_pink);
+    }
+
+    75% {
+        color: var(--theme_color_blue);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
