@@ -311,10 +311,7 @@ i {
 
 .button1:hover,
 .button2:hover {
-  background-position: right center;
-  transform: scale(1.05);
-  transition: linear 0.25s;
-  /* border: 0.25rem solid whitesmoke; */
+  background-color: rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
 
