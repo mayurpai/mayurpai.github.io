@@ -125,8 +125,8 @@ html {
   display: flex;
   justify-content: center;
   text-align: center;
-  /* background: url('images/bg.jpg');
-    background-size: cover; */
+  background: url('../images/Background.png');
+  background-size: cover;
 }
 
 .header {
@@ -147,7 +147,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: rgb(17, 17, 17);
+  color: whitesmoke;
 }
 
 nav {
@@ -189,12 +189,13 @@ ul a:hover {
 }
 
 #copy {
-  color: rgb(17, 17, 17);
+  color: whitesmoke;
   position: absolute;
   background-color: transparent;
   text-align: center;
   letter-spacing: 0rem;
-  font-family: 'New Rocker', cursive;
+  font-family: 'Poppins',
+    sans-serif;
   font-size: 1.5rem;
   margin-top: 2.5rem;
   left: 50%;
@@ -202,10 +203,11 @@ ul a:hover {
 }
 
 #by {
-  color: rgb(17, 17, 17);
+  color: whitesmoke;
   position: absolute;
   background-color: transparent;
-  font-family: 'New Rocker', cursive;
+  font-family: 'Poppins',
+    sans-serif;
   letter-spacing: 0;
   font-size: 1.5rem;
   margin-top: 2.5rem;
@@ -218,7 +220,7 @@ i {
 
 #fb {
   position: absolute;
-  color: rgb(17, 17, 17);
+  color: whitesmoke;
   margin-top: 2.5rem;
   margin-right: 5rem;
   font-size: 3rem;
@@ -227,20 +229,17 @@ i {
 
 #whatsapp {
   position: absolute;
-  color: rgb(17, 17, 17);
+  color: whitesmoke;
   margin-top: 2.5rem;
   margin-right: 5rem;
   font-size: 3rem;
   right: 18rem;
 }
 
-/* #whatsapp:hover {
-  color: #25d366;
-} */
 
 #git {
   position: absolute;
-  color: rgb(17, 17, 17);
+  color: whitesmoke;
   margin-top: 2.5rem;
   margin-right: 4rem;
   font-size: 3rem;
@@ -249,7 +248,7 @@ i {
 
 #twitter {
   position: absolute;
-  color: rgb(17, 17, 17);
+  color: whitesmoke;
   margin-top: 2.5rem;
   margin-right: 3rem;
   font-size: 3rem;
@@ -258,7 +257,7 @@ i {
 
 #insta {
   position: absolute;
-  color: rgb(17, 17, 17);
+  color: whitesmoke;
   margin-top: 2.5rem;
   margin-right: 2rem;
   font-size: 3rem;
@@ -267,14 +266,13 @@ i {
 
 #link {
   position: absolute;
-  color: rgb(17, 17, 17);
+  color: whitesmoke;
   margin-top: 2.5rem;
   margin-right: 1rem;
   font-size: 3rem;
   right: 1rem;
 }
 
-/* 
 #fb:hover {
   color: #1877f2;
 }
@@ -293,7 +291,11 @@ i {
 
 #insta:hover {
   color: #c32aa3;
-} */
+}
+
+#whatsapp:hover {
+  color: #25D366;
+}
 
 .videoback {
   position: fixed;

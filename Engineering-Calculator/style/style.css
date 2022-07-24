@@ -166,9 +166,8 @@ html {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #272727;
-    /* background: url('images/bg.jpg');
-    background-size: cover; */
+    background: url('../images/Background.png');
+    background-size: cover;
 }
 
 .header {
@@ -275,6 +274,16 @@ ul a:hover {
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
     z-index: 999;
+}
+
+.sgpa a,
+.cgpa a,
+.cgpa2perc a {
+    height: 32rem;
+    width: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @-webkit-keyframes placeholderShimmer {
@@ -443,9 +452,6 @@ i {
     right: 18rem;
 }
 
-/* #whatsapp:hover {
-    color: #25D366;
-} */
 
 #git {
     position: absolute;
@@ -483,7 +489,7 @@ i {
     right: 1rem;
 }
 
-/* #fb:hover {
+#fb:hover {
     color: #1877f2;
 }
 
@@ -501,7 +507,11 @@ i {
 
 #insta:hover {
     color: #c32aa3;
-} */
+}
+
+#whatsapp:hover {
+    color: #25D366;
+}
 
 .videoback {
     position: fixed;
