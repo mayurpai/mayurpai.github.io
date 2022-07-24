@@ -44,8 +44,8 @@
     </div>
   </div>
   <div class="result">
-    <input id="cgpa" type="number" name="cgpa" id="cgpa" placeholder="CGPA" readonly />&nbsp;&nbsp;
-    <input id="perc" type="number " name="perc " id="perc" placeholder="Percentage" readonly />
+    <input id="cgpa" type="number" name="cgpa" id="cgpa" placeholder="🎓 CGPA Secured" readonly />&nbsp;&nbsp;
+    <input id="perc" type="number " name="perc " id="perc" placeholder="🎓 Percentage Secured" readonly />
   </div>
   <div class="cal">
     <button onclick="calculate()" class="button1" id="button1">
@@ -97,11 +97,11 @@
     }
 
     var input = document.getElementById("1");
-    input.addEventListener("keyup", function(event) {
-    if (event.keyCode === 13) {
-    event.preventDefault();
-    document.getElementById("button1").click();
-    }
+    input.addEventListener("keyup", function (event) {
+      if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("button1").click();
+      }
     });
   </script>
 </body>

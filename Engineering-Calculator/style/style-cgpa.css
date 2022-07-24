@@ -333,6 +333,7 @@ i {
   font-family: 'Poppins',
     sans-serif;
   font-size: 2rem;
+  border: none;
 }
 
 .button1 {
@@ -353,6 +354,7 @@ i {
   font-family: 'Poppins',
     sans-serif;
   font-size: 2rem;
+  border: none;
 }
 
 input {
@@ -366,6 +368,7 @@ input {
   padding: 0.3rem 0.3rem;
   text-align: center;
   transition: all 0.1s linear;
+  border-bottom: 0.1rem solid black;
 }
 
 .sem input {
