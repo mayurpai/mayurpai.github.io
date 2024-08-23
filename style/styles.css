@@ -12,7 +12,7 @@
 }
 
 :root {
-    --background_color: rgb(31, 40, 47);
+    --background_color: #0a192f;
     --theme_color_blue: #09FDD9;
     --theme_color_pink: #FD0953;
 }
@@ -118,24 +118,29 @@ body {
 }
 
 .loader-container img.m_dir {
-    height: 5rem;
-    width: 5rem;
+    height: 6rem;
+    width: 6rem;
     background: transparent;
     margin-bottom: 1.3rem;
+    animation: bounce 1.2s infinite;
 }
 
 .think {
     width: 100%;
     text-align: center;
-    color: var(--theme_color_blue);
-    background: transparent;
+    background: -webkit-linear-gradient(var(--theme_color_blue), var(--theme_color_pink));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .think p {
     font-family: Coolvetica Rg;
-    font-style: normal;
-    font-size: 2rem;
-    letter-spacing: .15rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: .05rem;
+    padding: 0.5rem;
 }
 
 .loader {
@@ -145,7 +150,7 @@ body {
     color: var(--theme_color_pink);
     border-radius: 50%;
     border-top-color: transparent;
-    animation: loader 0.4s ease-in-out infinite;
+    animation: loader 0.5s ease-in-out infinite;
     margin: 1rem 0;
 }
 
@@ -165,5 +170,17 @@ body {
 
     to {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-50px);
+    }
+    60% {
+        transform: translateY(-10px);
     }
 }
