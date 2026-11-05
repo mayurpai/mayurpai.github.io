@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Keep the delay at 1s: Google treats a delayed refresh as temporary, so this URL stays the one that ranks. -->
     <meta http-equiv="refresh" content="1;https://mayurpai.github.io/portfolio/">
     <meta name="google-site-verification" content="rh1RLLiXrVeBTdNJYi9yEqzNYMHcW_ps05wOO0xfhT4" />
     <meta name="description"
@@ -13,22 +14,180 @@ content="I'm a web wizard and coding aficionado passionate about cracking comple
         content="HTML,CSS, JavaScript, Engineering, Engineering-Calculator, SGPA, CGPA, SGPA Calculator, CGPA Calculator, VTU sgpa calculator, VTU cgpa calculator, Engineering sgpa calculator, Engineering cgpa calculator, React.js, Next.js, Software Engineer II, Nike, Full Stack Engineer, Generative AI, Platform Engineering, Cloud Engineering, React.js, Next.js, JavaScript, TypeScript, Python, FastAPI, Kubernetes, Distributed Systems, Engineering Portfolio">
     <meta name="author" content="Mayur Pai">
     <link rel="icon" href="/image/m_icon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="/style/styles.css">
     <title>Mayur Pai</title>
+    <!-- The first beat of the portfolio's intro. It ends on a lone cursor, the frame mayurpai.github.io/portfolio opens on. -->
+    <style>
+        :root {
+            --slate: #8892b0;
+            --green: #64ffda;
+            --blue: #09fdd9;
+            --pink: #fd0953;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        html {
+            background: #020c1b;
+        }
+
+        body {
+            overflow: hidden;
+        }
+
+        .preloader {
+            position: fixed;
+            inset: 0;
+            display: grid;
+            place-items: center;
+            background:
+                radial-gradient(circle at 85% 90%, rgba(253, 9, 83, 0.16), transparent 45%),
+                radial-gradient(circle at 10% 10%, rgba(9, 253, 217, 0.12), transparent 40%),
+                #020c1b;
+        }
+
+        .uplink {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            padding: 0 24px;
+            text-align: center;
+            font: 14px/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+            letter-spacing: 0.04em;
+            color: var(--slate);
+            transition:
+                opacity 0.22s ease,
+                transform 0.22s ease;
+        }
+
+        .ok {
+            color: var(--green);
+        }
+
+        .dots i {
+            font-style: normal;
+            animation: dot 1s ease-in-out infinite;
+        }
+
+        .dots i:nth-child(2) {
+            animation-delay: 0.15s;
+        }
+
+        .dots i:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .bar {
+            width: 220px;
+            max-width: 70vw;
+            height: 2px;
+            overflow: hidden;
+            border-radius: 2px;
+            background: rgba(100, 255, 218, 0.1);
+        }
+
+        .bar span {
+            display: block;
+            height: 100%;
+            transform-origin: left center;
+            background: linear-gradient(90deg, var(--blue), var(--pink));
+            box-shadow: 0 0 10px var(--blue);
+        }
+
+        .play .bar span {
+            transform: scaleX(0);
+        }
+
+        .go .bar span {
+            animation: fill 0.6s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+        }
+
+        /* Same size and spot as the portfolio's first frame, which picks the cursor up after the redirect. */
+        .boot {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 12px;
+            height: 22px;
+            margin: -11px 0 0 -6px;
+            background: var(--blue);
+            box-shadow: 0 0 14px rgba(9, 253, 217, 0.7);
+            visibility: hidden;
+            transition: visibility 0s 0.22s;
+            animation: blink 1.05s steps(1) infinite;
+        }
+
+        .done .uplink {
+            opacity: 0;
+            transform: translateY(-6px);
+        }
+
+        .done .boot {
+            visibility: visible;
+        }
+
+        @keyframes dot {
+            0%, 100% { opacity: 0.2; }
+            50% { opacity: 1; }
+        }
+
+        @keyframes fill {
+            to { transform: none; }
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .dots i {
+                animation: none;
+            }
+        }
+    </style>
+    <script>
+        // Tells the portfolio this page just played, so a visitor who has seen the intro goes straight through the portal.
+        try { sessionStorage.setItem("mp-intro-handoff", String(Date.now())); } catch (e) {}
+        if (!matchMedia("(prefers-reduced-motion: reduce)").matches) document.documentElement.classList.add("play");
+    </script>
 </head>
 
 <body>
-    <div class="loader-container">
-        <img class="m_dir" src="/image/M.png" />
-        <div class="think">
-            <p>Mayur's Thoughts are Rebooting!</p>
+    <div class="preloader">
+        <div class="uplink">
+            <p id="status">✦ establishing uplink to Mayur's universe<span class="dots"><i>.</i><i>.</i><i>.</i></span></p>
+            <div class="bar"><span></span></div>
         </div>
-        <div class="loader"></div>
+        <span class="boot"></span>
     </div>
     <script>
-        $(window).on("load", function () {
-            $(".loader-container").fadeOut(1750);
-        });
+        (function () {
+            var root = document.documentElement;
+            var status = document.getElementById("status");
+            var seen = false;
+            try { seen = !!sessionStorage.getItem("mp-intro-seen"); } catch (e) {}
+            if (seen) status.firstChild.nodeValue = "✦ welcome back, traveller";
+            if (!root.classList.contains("play")) return;
+
+            // The refresh fires 1s after load: fill the bar, confirm, then leave just the cursor.
+            function run() {
+                root.classList.add("go");
+                setTimeout(function () {
+                    status.className = "ok";
+                    status.textContent = seen ? "✔ reopening the portal" : "✔ uplink established";
+                }, 600);
+                setTimeout(function () { root.classList.add("done"); }, 780);
+            }
+
+            if (document.readyState === "complete") run();
+            else addEventListener("load", run);
+        })();
     </script>
 </body>
 
